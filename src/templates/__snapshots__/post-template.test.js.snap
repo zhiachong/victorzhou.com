@@ -133,7 +133,7 @@ Array [
     >
       <form
         acceptCharset="utf-8"
-        action="https://sendy.victorzhou.com/subscribe"
+        action="https://sendy.zhiachong.com/subscribe"
         method="post"
         onFocus={[Function]}
         onSubmit={[Function]}

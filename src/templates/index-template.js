@@ -40,17 +40,16 @@ const IndexTemplate = ({ data, pageContext, location }: Props) => {
         <Helmet>
           <script type="application/ld+json">
             {`{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "${author.name}",
-  "url": "https://victorzhou.com",
-  "sameAs": [
-    "https://www.facebook.com/zhouvictor",
-    "https://twitter.com/victorczhou",
-    "https://www.instagram.com/victorczhou/",
-    "https://www.linkedin.com/in/vzhou842/"
-  ]
-}`}
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "${author.name}",
+            "url": "https://zhiachong.com",
+            "sameAs": [
+              "https://twitter.com/zhiachong",
+              "https://www.instagram.com/zhiachong/",
+              "https://www.linkedin.com/in/zhiachong/",
+            ]
+          }`}
           </script>
         </Helmet>
         <Sidebar location={location} />

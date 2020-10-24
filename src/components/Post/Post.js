@@ -82,7 +82,7 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
           <i>
             This blog is{' '}
             <a
-              href="https://github.com/vzhou842/victorzhou.com"
+              href="https://github.com/zhiachong/zhiachong.com"
               target="_blank"
               rel="noopener noreferrer"
             >

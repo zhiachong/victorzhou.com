@@ -134,13 +134,12 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
       >
         {!noDescription && (
           <p className={styles['description']}>
-            I write about <Link to="/tag/machine-learning/">ML</Link>,{' '}
-            <Link to="/tag/web-development/">Web Dev</Link>, and{' '}
+            I write about <Link to="/tag/web-development/">Web Dev</Link>, and{' '}
             <Link to="/tags/">more topics</Link>. <b>Subscribe to get new posts by email!</b>
           </p>
         )}
         <form
-          action="https://sendy.victorzhou.com/subscribe"
+          action="https://sendy.zhiachong.com/subscribe"
           method="post"
           acceptCharset="utf-8"
           target="_self"

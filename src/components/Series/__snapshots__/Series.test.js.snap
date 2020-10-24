@@ -105,7 +105,7 @@ exports[`Series renders correctly 1`] = `
       </p>
       <form
         acceptCharset="utf-8"
-        action="https://sendy.victorzhou.com/subscribe"
+        action="https://sendy.zhiachong.com/subscribe"
         method="post"
         onFocus={[Function]}
         onSubmit={[Function]}
@@ -189,7 +189,7 @@ exports[`Series renders correctly 1`] = `
         This blog is
          
         <a
-          href="https://github.com/vzhou842/victorzhou.com"
+          href="https://github.com/vzhou842/zhiachong.com"
           rel="noopener noreferrer"
           target="_blank"
         >

@@ -4,7 +4,7 @@ date: "2020-01-30T12:00:00.000Z"
 template: "post"
 guestAuthor: "Owen Leeks"
 slug: "/posts/best-languages-for-machine-learning/"
-img: "https://victorzhou.com/media/laptop-code-3.jpeg"
+img: "https://zhiachong.com/media/laptop-code-3.jpeg"
 category: "Machine Learning"
 tags:
   - "Machine Learning"
@@ -33,7 +33,7 @@ While most ML projects are published in Python, C++ comes in second. This is mai
 
 ## JavaScript
 
-The king of the web comes in at third. With a huge user base and the use of Node.js, JS now has extensive frameworks and libraries for different applications of AI and ML. Its vast and still growing [npm](https://www.npmjs.com/) ecosystem alone makes it a great choice for developing ML. [Tensorflow.js](https://www.tensorflow.org/js) is a versatile library for developing ML models in Javascript ([see a demo](https://easy-vqa-demo.victorzhou.com/)). Other libraries include [brain.js](https://brain.js.org/#/) and [Synaptic](https://caza.la/synaptic/#/) for building neural networks. Natural is becoming a popular framework for natural language processing—a branch of ML used in speech recognition. Moreover, developing ML projects in JS also means they're accessible to web and front-end developers.
+The king of the web comes in at third. With a huge user base and the use of Node.js, JS now has extensive frameworks and libraries for different applications of AI and ML. Its vast and still growing [npm](https://www.npmjs.com/) ecosystem alone makes it a great choice for developing ML. [Tensorflow.js](https://www.tensorflow.org/js) is a versatile library for developing ML models in Javascript ([see a demo](https://easy-vqa-demo.zhiachong.com/)). Other libraries include [brain.js](https://brain.js.org/#/) and [Synaptic](https://caza.la/synaptic/#/) for building neural networks. Natural is becoming a popular framework for natural language processing—a branch of ML used in speech recognition. Moreover, developing ML projects in JS also means they're accessible to web and front-end developers.
 
 ## Conclusion
 

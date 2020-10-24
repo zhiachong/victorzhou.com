@@ -5,7 +5,7 @@ template: "post"
 guestAuthor: "D. A. Rupprecht"
 guestAuthorLink: https://www.linkedin.com/in/darupprecht/
 slug: "/posts/democratizing-coding/"
-img: "https://victorzhou.com/media/laptop-code-2.jpg"
+img: "https://zhiachong.com/media/laptop-code-2.jpg"
 category: "Programming"
 tags:
   - "Programming"

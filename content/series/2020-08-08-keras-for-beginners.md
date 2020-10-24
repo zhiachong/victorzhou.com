@@ -17,7 +17,7 @@ tags:
   - "Machine Learning"
   - "Neural Networks"
   - "For Beginners"
-img: "https://victorzhou.com/media/keras-posts/keras-logo.png"
+img: "https://zhiachong.com/media/keras-posts/keras-logo.png"
 description: "A beginner-friendly series on using Keras to build, train, and evaluate Neural Networks in Python."
 descriptionLong: "A beginner-friendly series on using Keras to build, train, and evaluate Neural Networks in Python. Covers classic Neural Networks, Recurrent Neural Networks (RNNs), and Convolutional Neural Networks (CNNs)."
 ---

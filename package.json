@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "victorzhou.com",
+  "name": "zhiachong.com",
   "description": "",
   "main": "n/a",
   "scripts": {
@@ -20,8 +20,8 @@
     "test:coverage": "jest --coverage --config ./tests/jest-config.js",
     "test:watch": "jest --watch --config ./tests/jest-config.js"
   },
-  "repository": "https://github.com/vzhou842/victorzhou.com",
-  "author": "Victor Zhou <vzhou842@gmail.com>",
+  "repository": "https://bitbucket.org/zhiachong/zhia-chong",
+  "author": "Zhia Chong <zhiachong@gmail.com>",
   "license": "MIT",
   "keywords": [],
   "dependencies": {

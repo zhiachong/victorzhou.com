@@ -2,23 +2,33 @@
 title: "About Me"
 template: "page"
 slug: "/about/"
+hideSubscribe: true
+hideAd: true
 ---
 
-I studied Computer Science at Princeton University (Class of 2019), and I've been a Software Engineer (SWE) at Facebook since August 2019. I've done SWE internships at Facebook (2015 and 2018), Google (2016), and Airbnb (2017). I've been [programming since I was 12](/blog/how-i-became-a-programmer/) and love to build things.
+I studied Computer Science at Gonzaga University, and I've been a [Software Engineer (SWE) at Facebook](https://www.linkedin.com/in/zhiachong/) since August 2020. I also enjoyed a stint at Twitter (2017) building ad products. I'm a Top Author on [Medium](https://medium.com/@zhiachong) where I write about software engineering, career growth, and technical interviews. On the side, I run a Youtube channel [@ZhiaChong](https://www.youtube.com/user/TwentyFi5ToLife) where I discuss and share my experience working as a software engineer. I picked up programming and [worked my way into a software engineering career through discipline and hard work](https://medium.com/swlh/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8).
 
-Some of my more well-known projects include:
+### Why I started this blog?
+I was born and raised in Malaysia, played a lot of tennis growing up to fill in my time, and played tennis for a Division 1 college. During my college days, I spent a lot of time working in tennis youth camps and helped grow young players. This experience grew my passion for coaching and growing people around me.
 
-- [**generals.io**](http://generals.io) [[subreddit](https://reddit.com/r/generalsio), [Hacker News](https://news.ycombinator.com/item?id=13145781), [Product Hunt](https://www.producthunt.com/posts/generals-io)], a multiplayer browser strategy game with half a million monthly players and a [Bot API](http://dev.generals.io) [[Hacker News](https://news.ycombinator.com/item?id=13562866)]. Sold in January 2018.
-- [**Neural Networks From Scratch**](/series/neural-networks-from-scratch), a series of 4 of my most popular blog posts in which I provide a fundamentals-oriented approach towards understanding Neural Networks.
-- [**easy-VQA**](/blog/easy-vqa/), a "Hello World" dataset for Visual Question Answering (VQA). Listed on the official [VQA website](https://visualqa.org/external.html).
-- [**faster.js**](https://github.com/vzhou842/faster.js) [[Hacker News](https://news.ycombinator.com/item?id=16886494)], a micro-optimizing Javascript compiler. I wrote a post titled [Avoid Premature Optimization](/blog/avoid-premature-optimization/) detailing a few things I learned from this experience.
-- [**GeoArena Online**](https://geoarena.online) [[subreddit](https://reddit.com/r/geoarena), [Product Hunt](https://www.producthunt.com/posts/geoarena-online)], a fast-paced multiplayer browser game that had hundreds of thousands of monthly players. I wrote a [blog post](/blog/why-you-should-use-webpack/) about some of my experiences building GeoArena. Sold in February 2019.
-- [**example-io-game**](https://example-io-game.victorzhou.com/), open-sourced to accompany my [guide to building .io games](/blog/build-an-io-game-part-1/).
-- [**Definitely Secure Bank**](https://dsb.victorzhou.com/), built for demo purposes as an example of common security vulnerabilities for my [Web Security](/tag/security/) posts.
-- [**profanity-check**](https://github.com/vzhou842/profanity-check) [[Hacker News](https://news.ycombinator.com/item?id=18777950)], a fast, robust Python library to check for profanity in strings. [Read my blog post](/blog/better-profanity-detection-with-scikit-learn/) about this project.
+I combined two things I love – _programming_ and _coaching_, to come up with the idea for this blog. 
 
-I've spoken on a tech podcast about my experiences [building and selling games](/blog/creating-and-selling-io-games/) like generals.io and GeoArena.
+This blog aims to help other software engineers or someone who’s looking to break into the software programming industry for the very first time.
 
-You can see more of my projects on my [Github](https://github.com/vzhou842).
+### Articles you might enjoy
+Here are some of my most-popular articles:
+
+* [How I landed offers from Microsoft, Amazon, and Twitter without an Ivy League degree](https://medium.com/swlh/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8): I share my journey as I meet with various top-tier tech companies. I eventually settled with Twitter, and I wanted to share how I did it, my decision-making process and how anyone can do it too.
+* [How to write a great resume for software engineers](https://medium.com/swlh/how-to-write-a-great-resume-for-software-engineers-75d514dd8322): Resume is your digital introduction. A great resume gets you through the front door. I partnered with Twitter's senior recruiter to come up with a list of Do's and Don'ts to create a stunning resume.
+* [How I automated my job search by building a web crawler](https://medium.com/@zhiachong/how-i-built-a-web-crawler-to-automate-my-job-search-f825fb5af718): I built a web scraper to apply for jobs. This landed me multiple interviews, and finally a job with a startup. 
+
+### Videos you might like
+Here are some of my most-popular Youtube videos:
+
+* [Why I decided to quit Twitter](https://www.youtube.com/watch?v=Yu7vsY0SzBg&ab_channel=ZhiaChong)
+* [Day in the Life of a Twitter Software Engineer](https://www.youtube.com/watch?v=O8y6N6sQ-lw&ab_channel=ZhiaChong)
+* [What it's actually like working as a software engineer at a FAANG company](https://www.youtube.com/watch?v=32JTJ_Zf7b8&ab_channel=ZhiaChong)
+
+You can see more of my projects on my [Github](https://github.com/zhiachong).
 
 Want to get in touch? [Contact Me](/contact/).

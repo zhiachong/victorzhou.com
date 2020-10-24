@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'https://victorzhou.com',
-  title: 'victorzhou.com',
+  url: 'https://zhiachong.com',
+  title: 'zhiachong.com',
   subtitle:
-    "SWE @ Facebook. CS '19 @ Princeton. I blog about web development, machine learning, and more topics.",
-  copyright: '© Victor Zhou 2020',
+    'SWE @ Facebook, ex-Twitter. I blog about web development, software engineering, career growth and more topics.',
+  copyright: '© Zhia Chong 2020',
   postsPerPage: 8,
-  googleAnalyticsId: 'UA-58664433-1',
+  googleAnalyticsId: 'UA-58664433-1', //TODO: needs to be replaced
   menu: [
     {
       label: 'Blog',
@@ -18,24 +18,24 @@ module.exports = {
       path: '/about/',
     },
     {
+      label: 'Contact',
+      path: '/contact/',
+    },
+    {
       label: 'Tags',
       path: '/tags/',
     },
-    {
-      label: 'More Posts',
-      path: '/posts/',
-    },
   ],
   author: {
-    name: 'Victor Zhou',
+    name: 'Zhia Chong',
     photo: '/photo2.png',
     photoLarge: '/photo2-large.png',
     bio:
-      'SWE @ Facebook. CS \'19 @ Princeton. I blog about <a href="/tag/web-development/">web development</a>, <a href="/tag/machine-learning/">machine learning</a>, and <a href="/tags/">more topics</a>.',
+      'SWE @ Facebook, ex-Twitter. I blog about <a href="/tag/web-development/">web development</a>, <a href="/tag/software-engineering/">software engineering</a>, <a href="/tag/career-growth/">career growth</a> and <a href="/tags/">more topics</a>.',
     contacts: {
-      email: 'vzhou842@gmail.com',
-      twitter: 'victorczhou',
-      github: 'vzhou842',
+      email: 'zhiachong@gmail.com',
+      twitter: 'zhiachong',
+      github: 'zhiachong',
       rss: '/rss.xml',
     },
   },

@@ -2,11 +2,14 @@
 title: "Contact Me"
 template: "page"
 slug: "/contact/"
+hideSubscribe: true
+hideAd: true
 ---
 
 The best ways to get in touch with me are:
 
-- emailing me at [vzhou842@gmail.com](mailto:vzhou842@gmail.com)
-- tweeting [@victorczhou](https://twitter.com/victorczhou)
+- emailing me at [zhiachong@gmail.com](mailto:zhiachong@gmail.com)
+- tweeting [@zhiachong](https://twitter.com/zhiachong)
+- DM me on LinkedIn at [@zhiachong](https://www.linkedin.com/in/zhiachong/)
 
-You can also follow this blog on [Facebook](https://www.facebook.com/victorzhoucom) or sign up for my [email newsletter](/subscribe/?src=contact) to stay up-to-date with me!
+If you enjoy my content, you can sign up for my [email newsletter](/subscribe/?src=contact) to stay up-to-date with me!

@@ -5,7 +5,7 @@ template: "post"
 guestAuthor: "Courtney Rosenfeld"
 guestAuthorLink: http://www.gigspark.biz/
 slug: "/posts/working-with-freelancers/"
-img: "https://victorzhou.com/media/freelancer-guest-post/freelancers.png"
+img: "https://zhiachong.com/media/freelancer-guest-post/freelancers.png"
 category: "Best Practices"
 tags:
   - "Best Practices"
