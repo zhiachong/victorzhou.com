@@ -6,6 +6,8 @@ draft: false
 slug: '/blog/automating-my-job-search-with-python/'
 # img: "https://zhiachong.com/media/xkcd-290.png"
 isML: false
+isWeb: true
+isSeries: false
 category: 'Web Scraping'
 tags:
   - 'Web Scraping'
@@ -13,7 +15,15 @@ tags:
   - 'Python'
   - 'Job Search'
 description: 'How I used code to simplify my job search and finally landed a job at a startup.'
+guestAuthor: ''
+guestCoAuthor: ''
+guestAuthorLink: ''
 canonical: https://medium.com/@zhiachong/how-i-built-a-web-crawler-to-automate-my-job-search-f825fb5af718
+prev: '/blog/how-to-write-a-great-resume/'
+next: '/blog/how-to-write-a-great-resume/'
+discussLinkTwitter: ''
+discussLinkHN: ''
+discussLinkReddit: ''
 # prev: "/blog/intro-to-neural-networks/"
 # next: "/blog/intro-to-random-forests/"
 # discussLinkTwitter: https://twitter.com/victorczhou/status/1092487435546705921

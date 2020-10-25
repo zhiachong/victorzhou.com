@@ -28,8 +28,8 @@ module.exports = {
   ],
   author: {
     name: 'Zhia Chong',
-    photo: '/photo2.png',
-    photoLarge: '/photo2-large.png',
+    photo: '/photo.png',
+    photoLarge: '/photoLarge.png',
     bio:
       'SWE @ Facebook, ex-Twitter. I blog about <a href="/tag/web-development/">web development</a>, <a href="/tag/software-engineering/">software engineering</a>, <a href="/tag/career-growth/">career growth</a> and <a href="/tags/">more topics</a>.',
     contacts: {

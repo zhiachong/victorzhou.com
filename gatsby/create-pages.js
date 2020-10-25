@@ -53,7 +53,6 @@ const createPages = async ({ graphql, actions }) => {
           node {
             frontmatter {
               template
-              usesKatex
               prev
               next
               seriesSlugs
@@ -82,9 +81,9 @@ const createPages = async ({ graphql, actions }) => {
     const next = _.get(edge, 'node.frontmatter.next');
     const seriesSlugs = _.get(edge, 'node.frontmatter.seriesSlugs') || [];
     let template = _.get(edge, 'node.frontmatter.template');
-    if (_.get(edge, 'node.frontmatter.usesKatex')) {
-      template = 'math-post';
-    }
+    // if (_.get(edge, 'node.frontmatter.usesKatex')) {
+    //   template = 'math-post';
+    // }
     createPage({
       path: slug,
       component: path.resolve(`./src/templates/${template}-template.js`),

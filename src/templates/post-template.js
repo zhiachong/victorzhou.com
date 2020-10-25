@@ -30,7 +30,7 @@ const PostTemplate = ({ data, pageContext }: Props) => {
   );
 
   const {
-    asyncScript,
+    //asyncScript,
     canonical,
     category,
     date,
@@ -42,7 +42,7 @@ const PostTemplate = ({ data, pageContext }: Props) => {
     title: postTitle,
     description,
     descriptionLong,
-    twitterEmbed,
+    //twitterEmbed,
   } = slugNode.frontmatter;
 
   let wordCount = slugNode.fields.readingTime.words;
@@ -75,10 +75,10 @@ const PostTemplate = ({ data, pageContext }: Props) => {
           {canonical && <link rel="canonical" href={canonical} />}
           <meta property="og:type" content="article" />
           <meta property="og:image" content={imgUrl} />
-          {twitterEmbed && (
+          {/* {twitterEmbed && (
             <script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8" />
-          )}
-          {asyncScript && <script async src={asyncScript} />}
+          )} */}
+          {/* {asyncScript && <script async src={asyncScript} />} */}
           <script type="application/ld+json">
             {`{
   "@context": "https://schema.org",
@@ -159,7 +159,6 @@ export const fragment = graphql`
           }
           frontmatter {
             ...SubscribePopupFragment
-            asyncScript
             canonical
             category
             description
@@ -169,7 +168,6 @@ export const fragment = graphql`
             seriesSlugs
             tags
             title
-            twitterEmbed
           }
         }
       }
