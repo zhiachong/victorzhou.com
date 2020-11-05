@@ -13,6 +13,8 @@ type Props = {|
   +largeOnly?: boolean,
 |};
 
+const isReadyForProd = false; // needs to be set to TRUE when I have Carbon ads ready
+
 class CarbonAd extends React.PureComponent<Props> {
   ref: { current: null | HTMLDivElement };
 
@@ -37,7 +39,8 @@ class CarbonAd extends React.PureComponent<Props> {
     return (
       (!largeOnly || (largeOnly && window.innerWidth >= LARGE_THRESHOLD)) &&
       (!smallOnly || (smallOnly && window.innerWidth <= SMALL_THRESHOLD)) &&
-      window.location.hostname !== 'localhost'
+      window.location.hostname !== 'localhost' &&
+      isReadyForProd
     );
   }
 
