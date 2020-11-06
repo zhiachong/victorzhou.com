@@ -29,7 +29,7 @@ discussLinkReddit: ''
 # discussLinkTwitter: https://twitter.com/victorczhou/status/1092487435546705921
 # discussLinkHN: https://news.ycombinator.com/item?id=19086530
 # discussLinkReddit: https://www.reddit.com/r/learnmachinelearning/comments/an2o7t/building_a_better_profanity_detection_library/
-popularity: 4
+popularity: 1000
 ---
 
 It was midnight on a Friday, my friends were out having a good time, and yet I was nailed to my computer screen typing away.
@@ -46,7 +46,7 @@ I didn’t like to socialize much back then, so I decided to tackle this job-fin
 
 I was in my room, furiously building some software that would help me collect, and respond to, people who were looking for software engineers on [Craigslist](https://seattle.craigslist.org/). Craigslist is essentially the marketplace of the Internet, where you can go and find things for sale, services, community posts, and so on.
 
-![Craigslist](./media-link/craigslist.png)
+![Craigslist](./media-link/2019-02-04/craigslist.png)
 
 At that point in time, I had never built a fully fledged application. Most of the things I worked on in college were academic projects that involved building and parsing binary trees, computer graphics, and simple language processing models.
 
@@ -56,7 +56,7 @@ That said, I had always heard about this new “hot” programming language call
 
 So I put two and two together, and decided to build a small application using this new programming language.
 
-![me](./media-link/challenge-accepted.jpeg)
+![me ready for challenge](./media-link/2019-02-04/challenge-accepted.jpeg)
 
 ## The journey to build a (working) prototype that applies for jobs
 
@@ -72,7 +72,8 @@ However, I found the _next best thing._
 
 Craigslist had an [RSS feed](https://www.craigslist.org/about/rss) that was publicly available for personal use. An RSS feed is essentially a **computer-readable summary** of updates that a website sends out. In this case, the RSS feed would allow me to pick up new job listings whenever they were posted. This was **perfect** for my needs.
 
-![Example of what Craigslist’s RSS feed looks like](./media-link/craigslist-rss-feed.png)
+![Example of what Craigslist’s RSS feed looks like](./media-link/2019-02-04/craigslist-rss-feed.png)
+
 Next, I needed a way to read these RSS feeds. I didn’t want to go through the RSS feeds manually myself, because that would be a time-sink and that would be no different than browsing Craigslist.
 
 Around this time, I started to realize the power of Google. There’s a running joke that software engineers spend most of their time Googling for answers. I think there’s definitely some truth to that.
@@ -87,7 +88,9 @@ I was focused on searching for software-related jobs in Seattle. With that, I ty
 
 And voilà! It worked **beautifully**.
 
-<figure>![](https://cdn-images-1.medium.com/max/1600/1*X06SL3fTW1Xbn5d3Tg__hw.png)<figcaption>Example RSS feed for Seattle with “software” in the title</figcaption></figure>### The most beautiful soup I’ve ever tasted
+![Craigslist RSS feed](./media-link/2019-02-04/craigslist_rss.png)
+
+### The most beautiful soup I’ve ever tasted
 
 I wasn’t convinced, however, that my approach would work.
 
@@ -95,7 +98,8 @@ First, the **number of listings was limited**. My data didn’t contain **all** 
 
 Second, I realized that the RSS feed **didn’t include any contact information**. That was a bummer. I could find the listings, but I couldn’t contact the posters unless I manually filtered through these listings.
 
-<figure>![](https://cdn-images-1.medium.com/max/1600/1*Uz73WPgVsJcy6Xievjcpgg.png)<figcaption>Screenshot of the Craigslist reply link</figcaption></figure>I’m a person of many skills and interests, but doing repetitive manual work isn’t one of them. I could’ve hired someone to do it for me, but I was barely scraping by with 1-dollar ramen cup noodles. I couldn’t splurge on this side project.
+![Screenshot of Craiglist's reply link](./media-link/2019-02-04/craigslist-screenshot.png)
+I’m a person of many skills and interests, but doing repetitive manual work isn’t one of them. I could’ve hired someone to do it for me, but I was barely scraping by with 1-dollar ramen cup noodles. I couldn’t splurge on this side project.
 
 That was a dead-end. But it wasn’t **the** end.
 
@@ -111,11 +115,15 @@ With a little Googling, I found a cool little Python tool called [Beautiful Soup
 
 My needs were simple: I needed a tool that was easy to use and would let me collect data from a webpage. BeautifulSoup checked off both boxes, and rather than spending more time picking out **the best tool**, I picked a tool that worked and moved on. Here’s a [list of alternatives ](https://www.quora.com/What-are-some-good-Python-libraries-for-parsing-HTML-other-than-Beautiful-Soup)that do something similar.
 
-<figure>![](https://cdn-images-1.medium.com/max/1600/1*fiIuenHyDFq0-u29iRjSPw.png)<figcaption>BeautifulSoup’s Home page</figcaption></figure>> Side note: I found this awesome [tutorial](https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe) that talks about how to scrape websites using Python and BeautifulSoup. If you’re interested in learning how to scrape, then I recommend reading it.
+![BeautifulSoup’s Home page](./media-link/2019-02-04/beautiful-soup.png)
+
+Side note: I found this awesome [tutorial](https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe) that talks about how to scrape websites using Python and BeautifulSoup. If you’re interested in learning how to scrape, then I recommend reading it.
 
 With this new tool, my workflow was all set.
 
-<figure>![](https://cdn-images-1.medium.com/max/2400/1*YIz3i_2XwGBtdFkDVecEng.png)<figcaption>My workflow</figcaption></figure>I was now ready to tackle the next task: scraping email addresses from the actual postings.
+![Craigslist workflow](./media-link/2019-02-04/craigslist-workflow.png)
+
+I was now ready to tackle the next task: scraping email addresses from the actual postings.
 
 Now, here’s the cool thing about open-source technologies. They’re free and work great! It’s like getting free ice-cream on a hot summer day, **and** a freshly baked chocolate-chip cookie to go.
 
@@ -127,7 +135,9 @@ From then on, everything was easy. I relied on the built-in functionality Beauti
 
 Within an hour or so, I had my first MVP. I had built a web scraper that could collect email addresses and respond to people looking for software engineers within a 100-mile radius of Seattle.
 
-<figure>![](https://cdn-images-1.medium.com/max/1600/1*xzmVR8pbbBgB-f1JR9s1mg.png)<figcaption>Screenshot of the code</figcaption></figure>I added various add-ons on top of the original script to make life much easier. For example, I saved the results into a CSV and HTML page so that I could parse them quickly.
+![Code to parse the RSS feed](./media-link/2019-02-04/parser-code.png)
+
+I added various add-ons on top of the original script to make life much easier. For example, I saved the results into a CSV and HTML page so that I could parse them quickly.
 
 Of course, there were many other notable features lacking, such as:
 
@@ -139,7 +149,9 @@ Of course, there were many other notable features lacking, such as:
 
 The last one was a kicker. But I figured if a posting had been sitting for a while, then maybe the person who posted it was not even looking anymore. It was a trade-off I was OK with.
 
-The whole experience felt like a game of [Tetris](https://en.wikipedia.org/wiki/Tetris). I knew what my end goal was, and my real challenge was fitting the right pieces together to achieve that specific end goal. Each piece of the puzzle brought me on a different journey. It was challenging, but enjoyable nonetheless and I learned something new each step of the way.
+The whole experience felt like a game of [Tetris](https://en.wikipedia.org/wiki/Tetris) - I knew what my end goal was, and my real challenge was fitting the right pieces together to achieve that specific end goal. 
+
+Each piece of the puzzle brought me on a different journey. It was challenging, but enjoyable nonetheless and I learned something new each step of the way.
 
 ## Lessons learned
 
