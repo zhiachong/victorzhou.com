@@ -1,29 +1,35 @@
 ---
-title: 'Cracking the System Design interview'
-date: '2020-04-08T08:14:35-08:00'
-status: publish
-permalink: /2020/04/08/cracking-the-system-design-interview
-author: admin
-excerpt: ''
-type: post
-id: 480
-category:
-    - Uncategorized
-tag: []
-post_format: []
-ct_author_last_updated:
-    - default
-_yoast_wpseo_focuskw:
-    - 'system design interview'
-_yoast_wpseo_metadesc:
-    - 'Experienced Twitter software engineer shares his top tips on how to crack the systems design interview and distributed systems interview.'
-_yoast_wpseo_linkdex:
-    - '71'
-_yoast_wpseo_content_score:
-    - '60'
+title: Cracking the System Design interview
+date: '2020-04-08T12:00:00.000Z'
+template: 'post'
+draft: false
+slug: '/blog/cracking-the-system-design-interview/'
+# img: "https://zhiachong.com/media/xkcd-290.png"
+isML: false
+isWeb: true
+isSeries: false
+category: 'Job Search'
+tags:
+  - 'Interview Prep'
+  - 'Resume'
+  - 'Python'
+description: 'Top tips on how to crack the systems design interview and distributed systems interview.'
+guestAuthor: ''
+guestCoAuthor: ''
+guestAuthorLink: ''
+canonical: https://medium.com/@zhiachong/how-i-built-a-web-crawler-to-automate-my-job-search-f825fb5af718
+prev: '/blog/how-to-write-a-great-resume/'
+next: '/blog/how-to-write-a-great-resume/'
+discussLinkTwitter: ''
+discussLinkHN: ''
+discussLinkReddit: ''
+# discussLinkTwitter: https://twitter.com/victorczhou/status/1092487435546705921
+# discussLinkHN: https://news.ycombinator.com/item?id=19086530
+# discussLinkReddit: https://www.reddit.com/r/learnmachinelearning/comments/an2o7t/building_a_better_profanity_detection_library/
+popularity: 1001
 ---
-My Background
--------------
+
+## My Background
 
 I recently wrote about [how I landed offers from multiple top-tier tech companies](https://zhiachong.com/2018/12/19/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree/). During my interview preparation process, I read up on a lot of material and prepared a set of notes on how to tackle system design interviews.
 
@@ -40,8 +46,7 @@ If you like this article, consider subscribing to my [newsletter](http://eepurl.
 - **Tackle a problem systematically**
 - **Keep your own notes**
 
-Ask clarification questions
----------------------------
+## Ask clarification questions
 
 A core aim of a system design interview is to **give the candidate an opportunity to demonstrate their knowledge.**
 
@@ -80,12 +85,11 @@ For example, if I were to ask you to design Twitter right now, how would you do 
 
 If you haven’t realized it yet, the end result of the exercise above would yield significantly different results.
 
-For my own specific background, I might delve *really deeply into API design and backend infrastructure*. I’d probably explore iPhone-specific problems as well, due to my experience. I’ll talk about how the client interacts with the middle-tier endpoints, how logging would work, how I’d design the backend to ensure uptime, and so on.
+For my own specific background, I might delve _really deeply into API design and backend infrastructure_. I’d probably explore iPhone-specific problems as well, due to my experience. I’ll talk about how the client interacts with the middle-tier endpoints, how logging would work, how I’d design the backend to ensure uptime, and so on.
 
 These are quite interesting discussions that you can have with a colleague, and that is a very strong signal an interviewer is looking for.
 
-Use your background to your advantage
--------------------------------------
+## Use your background to your advantage
 
 Often times I see engineers trying to figure out what the interviewer is trying to ask in a system design interview, and then catering their responses to fit the expectations.
 
@@ -98,8 +102,7 @@ I enjoy getting my hands dirty and that has given me exposure to a wide range of
 
 Your experience and background can vary widely from the next candidate in a system design interview. You bring a set of values and expertise to the table that no one else can. **That is what makes you valuable and irreplaceable.** Regardless of what field you’re in, people care about what **you** can bring to the table.
 
-Tackle the problem systematically
----------------------------------
+## Tackle the problem systematically
 
 Now, with my expertise in mind, there are several things that I think about when I’m tackling a new system. I highly recommend that you formulate a set of criteria or steps for yourself as well.
 
@@ -131,8 +134,8 @@ My mind started going in various directions:
 
 My coffee-ordering service is a software as a service ([SAAS](https://en.wikipedia.org/wiki/Software_as_a_service)). It offers an interface for various partners to plug into.
 
-- It has an API, called *addCoffeeForMerchant*, that inserts coffee name, coffee price, and coffee ingredients.
-- It has a GET API, called *getCoffeesForMerchant*, that returns a list of coffees for a given merchant ID.
+- It has an API, called _addCoffeeForMerchant_, that inserts coffee name, coffee price, and coffee ingredients.
+- It has a GET API, called _getCoffeesForMerchant_, that returns a list of coffees for a given merchant ID.
 - The merchant ID is a unique identifier (UUID) that is generated using some hashing mechanism, which can be further clarified with the customer.
 - The software is optimized for read-only operations, because most of my customers create their menu once and read it multiple times throughout the day.
 - It has a caching mechanism that uses [Least-Recently-Used (LRU) ](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_%28LRU%29)eviction strategy, because if the menu item hasn’t been ordered in a while, my customer doesn’t care if it’s slightly slower in showing up on the menu.
@@ -140,8 +143,7 @@ My coffee-ordering service is a software as a service ([SAAS](https://en.wikiped
 
 Alternatively, any other coffee-ordering service that you can think of would be highly probable as well. It’s just a matter of what you’re optimizing for. I think these are very interesting problems, and it’s a great mental exercise to keep your mind engaged.
 
-Keep your own notes
--------------------
+## Keep your own notes
 
 As a software engineer, it’s a never-ending process of learning. I highly recommend that you use either Evernote or a [Moleskin](https://amzn.to/2IuEiPw) to keep notes for anything programming or system design related tips.
 
@@ -168,8 +170,7 @@ As anyone who knows me on a personal level, I’m not a very organized person. T
 
 Knowledge and practice go hand-in-hand in getting better at systems designs. If you feel that your current work doesn’t afford you the opportunity to do systems designs, then you should either find one that does, or try to design one small part of an existing architecture such that it’s either faster, cheaper, more robust, or easier to modify in the future.
 
-Resources I recommend
----------------------
+## Resources I recommend
 
 [Intro to: Architecture and Systems Designs](https://www.youtube.com/watch?v=ZgdS0EUmn70) – Great Youtube tutorial from an ex-Facebook-engineer about how to approach systems design problems.
 
@@ -185,9 +186,9 @@ Mock Interviews – A simulated environment that mimics the actual interview is 
 
 [Pilot G2 (Black)](https://amzn.to/2Gwb9qj) – Easily the best pens I’ve ever used, and the only pens I’ll use. I buy them in bulk from Amazon and keep them around everywhere I go. I have one in my backpack, one in the office, and one in my home office so that I always have a pen around. It writes great, the ink flows smoothly, and I just love the feel of writing with it. Coupled with the Moleskin, sometimes I just want to pick up the G2 to jot random things on there because these two are so perfect together.
 
-[Grokking the System Design Interview](https://www.educative.io/collection/5668639101419520/5649050225344512) — This one comes as a recommendation from friends. It’s an online course that teaches how to design distributed system in detail. It’s a $79 course, however. There’s a team-pricing. If there’s any interest, I’ll check with them to see if it’s possible to form a group for group-discount.
+[Grokking the System Design Interview](https://www.educative.io/collection/5668639101419520/5649050225344512) — This one comes as a recommendation from friends. It’s an online course that teaches how to design distributed system in detail. It’s a \$79 course, however. There’s a team-pricing. If there’s any interest, I’ll check with them to see if it’s possible to form a group for group-discount.
 
-*Follow me on* [*Twitter*](https://twitter.com/zhiachong)*,* [*Facebook*](https://www.facebook.com/zhiachong.tech)*, and* [*LinkedIn*](https://www.linkedin.com/in/zhiachong/)*. Sign up for* [*my mailing list*](http://eepurl.com/dnt9Sf) *where I regularly send tips, tricks and industry learnings.*
+_Follow me on_ [_Twitter_](https://twitter.com/zhiachong)_,_ [_Facebook_](https://www.facebook.com/zhiachong.tech)_, and_ [_LinkedIn_](https://www.linkedin.com/in/zhiachong/)_. Sign up for_ [_my mailing list_](http://eepurl.com/dnt9Sf) _where I regularly send tips, tricks and industry learnings._
 
 This post was also cross-posted to [Medium](https://medium.com/@zhiachong/how-to-system-design-dda63ed27e26), where Zhia is a frequent contributor.
 
