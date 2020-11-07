@@ -83,6 +83,7 @@ export const query = graphql`
         subtitle
       }
     }
+
     allMarkdownRemark(filter: { frontmatter: { slug: { in: $postSlugs } } }) {
       edges {
         node {

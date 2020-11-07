@@ -88,7 +88,7 @@ I was focused on searching for software-related jobs in Seattle. With that, I ty
 
 And voilà! It worked **beautifully**.
 
-![Craigslist RSS feed](./media-link/2019-02-04/craigslist_rss.png)
+![Craigslist RSS feed](./media-link/2019-02-04/craigslist-rss.png)
 
 ### The most beautiful soup I’ve ever tasted
 
@@ -99,6 +99,7 @@ First, the **number of listings was limited**. My data didn’t contain **all** 
 Second, I realized that the RSS feed **didn’t include any contact information**. That was a bummer. I could find the listings, but I couldn’t contact the posters unless I manually filtered through these listings.
 
 ![Screenshot of Craiglist's reply link](./media-link/2019-02-04/craigslist-screenshot.png)
+
 I’m a person of many skills and interests, but doing repetitive manual work isn’t one of them. I could’ve hired someone to do it for me, but I was barely scraping by with 1-dollar ramen cup noodles. I couldn’t splurge on this side project.
 
 That was a dead-end. But it wasn’t **the** end.
@@ -149,7 +150,7 @@ Of course, there were many other notable features lacking, such as:
 
 The last one was a kicker. But I figured if a posting had been sitting for a while, then maybe the person who posted it was not even looking anymore. It was a trade-off I was OK with.
 
-The whole experience felt like a game of [Tetris](https://en.wikipedia.org/wiki/Tetris) - I knew what my end goal was, and my real challenge was fitting the right pieces together to achieve that specific end goal. 
+The whole experience felt like a game of [Tetris](https://en.wikipedia.org/wiki/Tetris) - I knew what my end goal was, and my real challenge was fitting the right pieces together to achieve that specific end goal.
 
 Each piece of the puzzle brought me on a different journey. It was challenging, but enjoyable nonetheless and I learned something new each step of the way.
 

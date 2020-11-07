@@ -19,7 +19,12 @@ const Feed = ({ edges, shortened }: Props) => (
   <div className={styles['feed']}>
     {edges.map(edge => {
       const {
-        fields: { categorySlug, slug, dateFormatted },
+        fields: {
+          categorySlug,
+          slug,
+          dateFormatted,
+          readingTime: { text },
+        },
         frontmatter: {
           date,
           title,
@@ -41,7 +46,7 @@ const Feed = ({ edges, shortened }: Props) => (
           </h2>
           <div className={styles['feed__item-meta']}>
             <time className={styles['feed__item-meta-time']} dateTime={date}>
-              {dateFormatted}
+              {dateFormatted}, {text}
             </time>
             <span className={styles['feed__item-meta-divider']} />
             <span className={styles['feed__item-meta-category']}>
@@ -72,6 +77,9 @@ export const fragment = graphql`
         categorySlug
         slug
         dateFormatted
+        readingTime {
+          text
+        }
       }
       frontmatter {
         date

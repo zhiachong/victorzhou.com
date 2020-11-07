@@ -1,9 +1,9 @@
 ---
-title: Cracking the System Design interview
+title: Cracking the System Design Interview
 date: '2020-04-08T12:00:00.000Z'
 template: 'post'
 draft: false
-slug: '/blog/cracking-the-system-design-interview/'
+slug: '/blog/how-to-system-design/'
 # img: "https://zhiachong.com/media/xkcd-290.png"
 isML: false
 isWeb: true
@@ -13,11 +13,12 @@ tags:
   - 'Interview Prep'
   - 'Resume'
   - 'Python'
-description: 'Top tips on how to crack the systems design interview and distributed systems interview.'
+  - 'System Design'
+description: 'System design intervews aren't easy. You can ace it with these simple tips.'
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
-canonical: https://medium.com/@zhiachong/how-i-built-a-web-crawler-to-automate-my-job-search-f825fb5af718
+canonical: https://medium.com/@zhiachong/how-to-system-design-dda63ed27e26
 prev: '/blog/how-to-write-a-great-resume/'
 next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''
@@ -26,41 +27,51 @@ discussLinkReddit: ''
 # discussLinkTwitter: https://twitter.com/victorczhou/status/1092487435546705921
 # discussLinkHN: https://news.ycombinator.com/item?id=19086530
 # discussLinkReddit: https://www.reddit.com/r/learnmachinelearning/comments/an2o7t/building_a_better_profanity_detection_library/
-popularity: 1001
+popularity: 1002
 ---
 
 ## My Background
 
-I recently wrote about [how I landed offers from multiple top-tier tech companies](https://zhiachong.com/2018/12/19/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree/). During my interview preparation process, I read up on a lot of material and prepared a set of notes on how to tackle system design interviews.
+I recently wrote about [how I landed offers from multiple top-tier tech companies](/blog/how-i-landed-offers). During my interview preparation process, I read up on a lot of material and prepared a set of notes on how to tackle system design interviews.
 
 In this article, I’d like to share my learnings and tips with you all on how to crack the system design interview.
 
-If you like this article, consider subscribing to my [newsletter](http://eepurl.com/dnt9Sf) where I share my journey as a software engineer.
+![](./media-link/2020-04-08/how-to-system-design.png)
 
-**Update (3/24/2020)**: If you’d like to join a group of students to learn more about system design, I’m organizing a small class together! You can go to this [link](http://bit.ly/interviewcourses) to learn more.
+This article is broken down into the following four sections:
 
-<figure class="wp-block-image">![](https://cdn-images-1.medium.com/max/1600/1*BP4Kem7C3Sxd7xWWXkbypA.png)<figcaption>How to System Design: Tips from a Twitter software engineer</figcaption></figure>This article is broken down into the following four sections:
+- [**Ask clarification questions**](#clarifying-question)
+- [**Use your background**](#use-your-bg)
+- [**Tackle a problem systematically**](#systematic)
+- [**Keep your own notes**](#keep-notes)
 
-- **Ask clarification questions**
-- **Use your background**
-- **Tackle a problem systematically**
-- **Keep your own notes**
-
-## Ask clarification questions
+## <a name="clarifying-question"></a>Ask clarification questions
 
 A core aim of a system design interview is to **give the candidate an opportunity to demonstrate their knowledge.**
 
-There are no strictly right or wrong answers. A good system design question usually sounds very ambiguous, and the reason for that is it’s supposed to give you a chance to demonstrate the following:
+There are no _strictly right or wrong answers_ in a system design interview.
+
+A great system design question usually sounds ambiguous, and the reason for that is it’s supposed to give you a chance to demonstrate the following:
 
 - How you would think about the problem space
 - How you think about bottlenecks
-- What you can do to remove these bottlenecks.
+- What you can do to remove these bottlenecks
 
-<figure class="wp-block-image">![](https://cdn-images-1.medium.com/max/1600/1*QC4epiS4zYnZu4VxAMlNQg.png)<figcaption>How to design this black box</figcaption></figure>Imagine that you’re being asked to design a black box. How would you tackle the problem? There are no clear directions on what you need to build here, aside from the box being able to hold some items within it.
+Let's try to tackle a sample problem:
+
+![Black box design](./media-link/2020-04-08/design-x.png)
+
+##Requirements##
+
+Imagine that you’re being asked to design a black box. How would you tackle the problem? There are no clear directions on what you need to build here, aside from the box being able to hold some items within it.
 
 ### Strategies for clarifying questions
 
-One of the most useful strategies I personally employ during a system design interview is **to ask clarification questions.** What are “good” clarification questions, you ask?
+One of the most useful strategies I personally employ during a system design interview is **to ask clarification questions.** I want to make sure what we are building, what we're not, and any limitations/constraints to be aware of.
+
+What are “good” clarification questions, you ask?
+
+> Clarifying questions help you figure out what you need to build and what you can avoid.
 
 A good clarification question helps you achieve one, or more, of several things:
 
@@ -69,17 +80,17 @@ A good clarification question helps you achieve one, or more, of several things:
 3. Gives you direction about where to proceed
 4. Informs you of possible bottlenecks/problem areas
 
-In the black box example, you might ask, “well, what does the box hold? How many items does it hold? And who is the intended user?”
+In the previous black box example, you might ask, “well, what does the box hold? How many items does it hold? And who is the intended user?”
+
+#### Clarified requirements
 
 To that I might say, let’s build a yellow box with a smiley on it that should hold at most 1 tennis ball. This is not an ordinary tennis ball, however. It will be at least 0.5m in radius and weighs about 1kg. It is meant to be hugged, not held, so I don’t want any handle on it.
 
-There you go, this is the box.
+**System design interview is meant to gauge how you interpret a problem and how you go about solving that problem.**
 
-**System design interview is meant to gauge how you interpret a problem** **and how you go about solving that problem.**
+![Design a yellow box](./media-link/2020-04-08/yellow-box.png)
 
-<figure class="wp-block-image">![](https://cdn-images-1.medium.com/max/1600/1*c27cLjwKB1VJZYtsT_kAYw.png)<figcaption>My ideal box with a smiley face</figcaption></figure>### **Always Ask Clarifying Questions**
-
-**Always ask clarification questions.** You are not being judged on whether or not you asked a specific question during the interview, but you are judged on how you think about the problem space.
+**Always ask clarification questions**. You are not being judged on whether or not you asked a specific question during the interview, but you are judged on how you think about the problem space.
 
 For example, if I were to ask you to design Twitter right now, how would you do it? Take a few minutes to think about it, and maybe even sketch it out on a piece of paper. Go as deeply and widely as you can, and then come back to this article. Better yet, you can **leave your notes in the comments below** and we can discuss further.
 
@@ -89,20 +100,20 @@ For my own specific background, I might delve _really deeply into API design and
 
 These are quite interesting discussions that you can have with a colleague, and that is a very strong signal an interviewer is looking for.
 
-## Use your background to your advantage
+## <a name="use-your-bg"></a>Use your background to your advantage
 
 Often times I see engineers trying to figure out what the interviewer is trying to ask in a system design interview, and then catering their responses to fit the expectations.
 
-I actually highly discourage anyone from doing this for several reasons:
+I actually **highly discourage** anyone from doing this for several reasons:
 
 1. Everyone has a unique background. In a systems design interview, it’s an opportunity for you to demonstrate what your strengths are. Don’t waste the opporunity trying to figure out what someone else might expect of you.
 2. The interviewer might have been nodding along to your answers, but they might’ve known that you’re just bluffing your way through and not actually thinking about the problem.
 
-I enjoy getting my hands dirty and that has given me exposure to a wide range of topics like web crawling, distributed databases, iPhone development and so on. An example: [how I built a web crawler ](https://zhiachong.com/2018/05/24/how-i-automated-my-job-search-by-building-a-web-crawler/)to solve my job search problem.
+I enjoy getting my hands dirty and that has given me exposure to a wide range of topics like web crawling, distributed databases, iPhone development and so on. An example: [how I built a web crawler ](/blog/how-to-write-a-great-resume/)to solve my job search problem.
 
 Your experience and background can vary widely from the next candidate in a system design interview. You bring a set of values and expertise to the table that no one else can. **That is what makes you valuable and irreplaceable.** Regardless of what field you’re in, people care about what **you** can bring to the table.
 
-## Tackle the problem systematically
+## <a name="systematic"></a>Tackle the problem systematically
 
 Now, with my expertise in mind, there are several things that I think about when I’m tackling a new system. I highly recommend that you formulate a set of criteria or steps for yourself as well.
 
@@ -123,6 +134,8 @@ A good exercise I like to do is **how to design a coffee-ordering system** for s
 
 I thought of this while I was sitting at Starbucks one day, and realized that it would be nice if I could order a smoothie on my phone and pick it up at my local Starbucks.
 
+![Design a coffee-ordering system](./media-link/2020-04-08/design-coffee.png)
+
 My mind started going in various directions:
 
 - What does this coffee-ordering machine do?
@@ -130,7 +143,7 @@ My mind started going in various directions:
 - How many users do I need to support if I sell it to Starbucks?
 - Alternatively, if I white-label it, can I sell the interface to my coffee-ordering service, and then help the customers build out a backend so that they can store the orders on their local machines?
 
-<figure class="wp-block-image">![](https://cdn-images-1.medium.com/max/1600/1*znYqOI_0aRoTtPYb3ElD9A.png)<figcaption>How to approach this problem</figcaption></figure>Once I get answers to these questions, I can finally form a full picture of what my coffee-ordering service does. Here’s what **my version** of the coffee-ordering service would look like:
+Once I get answers to these questions, I can finally form a full picture of what my coffee-ordering service does. Here’s what **my version** of the coffee-ordering service would look like:
 
 My coffee-ordering service is a software as a service ([SAAS](https://en.wikipedia.org/wiki/Software_as_a_service)). It offers an interface for various partners to plug into.
 
@@ -141,21 +154,34 @@ My coffee-ordering service is a software as a service ([SAAS](https://en.wikiped
 - It has a caching mechanism that uses [Least-Recently-Used (LRU) ](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_%28LRU%29)eviction strategy, because if the menu item hasn’t been ordered in a while, my customer doesn’t care if it’s slightly slower in showing up on the menu.
 - In case one of the data stores self-erupts, my coffee-ordering service will replicate data across different clusters across US west and US east coast because I am targeting the US market only for now.
 
+```java
+public interface CoffeeSystem() {
+	public void addCoffeeForMerchant(String coffeeName, Int coffeePrice, Ingredients ingredients) {}
+
+    // Returns a map of coffee name to price
+	public Map<String, Int> getCoffeesForMerchant(Long merchantId) {}
+}
+```
+
 Alternatively, any other coffee-ordering service that you can think of would be highly probable as well. It’s just a matter of what you’re optimizing for. I think these are very interesting problems, and it’s a great mental exercise to keep your mind engaged.
 
-## Keep your own notes
+## <a name="keep-notes"></a>Keep your own notes
 
 As a software engineer, it’s a never-ending process of learning. I highly recommend that you use either Evernote or a [Moleskin](https://amzn.to/2IuEiPw) to keep notes for anything programming or system design related tips.
 
 I personally carry a small notebook for quick ideas I need to jot down, and I keep various other things on Evernote whenever I can.
 
-I have a section named “Programming” in my Evernote. Whenever I run into something new, or something interesting, I jot it down within my notebook for further reference.
+I have a section named `Programming` in my Evernote. Whenever I run into something new, or something interesting, I jot it down within my notebook for further reference.
 
-I go through and assign labels to these new notes on a monthly or quarterly basis to make sure the notes are organized. For example, I have a “Design” label for anything that has to do with system design. It could be something like a link to a YouTube video that I found interesting, or an interesting argument my coworker put forth that I hadn’t thought about.
+I go through and assign labels to these new notes on a monthly or quarterly basis to make sure the notes are organized. For example, I have a `Design` label for anything that has to do with system design.
+
+It could be something like a link to a YouTube video that I found interesting, or an interesting argument my coworker put forth that I hadn’t thought about.
 
 This is a sample of what one of my notes looks like:
 
-<figure class="wp-block-image">![](https://cdn-images-1.medium.com/max/1600/1*eyukklMJSTLFKkZWg7H_2w.png)<figcaption>Sorry for the bad grammar and typos :p</figcaption></figure>One of the things I learned recently from a coworker is that NoSQL is great for prototyping, because there’s no need to undergo schema discussions with other teams. If I wanted to change the schema, I can do that really quickly with a NoSQL database. That was a key learning from work that I inserted into my “Programming” notebook.
+![One of my notes](./media-link/2020-04-08/design-questions.png)
+
+One of the things I learned recently from a coworker is that NoSQL is great for prototyping, because there’s no need to undergo schema discussions with other teams. If I wanted to change the schema, I can do that really quickly with a NoSQL database. That was a key learning from work that I inserted into my `Programming` notebook.
 
 I break down my notes into:
 
@@ -164,7 +190,7 @@ I break down my notes into:
 3. **Random tid-bits**, CS good-to-know, like useful bash scripts or command-line tricks
 4. **Readings / YouTube videos**
 
-All of the notes above go under “Programming”. Over time, I find that I have a pseudo-organized collection of things I’ve either read or explored in the past.
+All of the notes above go under `Programming`. Over time, I find that I have a pseudo-organized collection of things I’ve either read or explored in the past.
 
 As anyone who knows me on a personal level, I’m not a very organized person. Thus, I’ve only collected maybe 10 – 15% of things, so there’s much more left to do there.
 
@@ -188,30 +214,4 @@ Mock Interviews – A simulated environment that mimics the actual interview is 
 
 [Grokking the System Design Interview](https://www.educative.io/collection/5668639101419520/5649050225344512) — This one comes as a recommendation from friends. It’s an online course that teaches how to design distributed system in detail. It’s a \$79 course, however. There’s a team-pricing. If there’s any interest, I’ll check with them to see if it’s possible to form a group for group-discount.
 
-_Follow me on_ [_Twitter_](https://twitter.com/zhiachong)_,_ [_Facebook_](https://www.facebook.com/zhiachong.tech)_, and_ [_LinkedIn_](https://www.linkedin.com/in/zhiachong/)_. Sign up for_ [_my mailing list_](http://eepurl.com/dnt9Sf) _where I regularly send tips, tricks and industry learnings._
-
 This post was also cross-posted to [Medium](https://medium.com/@zhiachong/how-to-system-design-dda63ed27e26), where Zhia is a frequent contributor.
-
-<div class="feed_dynamic_classycdacppzrs_twitter fts-twitter-div 
-									 " id="twitter-feed-zhiachong"><div class="fts-tweeter-wrap "><div class="tweeter-info"><div class="fts-twitter-image"> [![Zhia Chong](https://pbs.twimg.com/profile_images/1212506711451324417/U-JbA6gv_normal.jpg)](https://twitter.com/zhiachong) </div><div class="
-																		fts-right"><div class="fts-uppercase fts-bold"> [Zhia Chong](https://twitter.com/zhiachong) [@zhiachong](https://twitter.com/zhiachong) </div> <span class="time">[ ](https://twitter.com/zhiachong/status/1317136167830130688 " ")</span>  
- <span class="fts-twitter-text"> Meet Uno, having his first Puppucino Starbucks.   
-  
-Happy Friday! <https://t.co/infUaTVFuF><div class="fts-twitter-caption"> [View on Twitter](https://twitter.com/zhiachong) </div> </span> </div><div class="fts-twitter-reply-wrap
-																		fts-twitter-no-margin-left"><div class="fts-share-wrap">[](javascript:;)<div class="ft-gallery-share-wrap">[](https://www.facebook.com/sharer/sharer.php?u=https://twitter.com/zhiachong/status/1317136167830130688 "Share this post on Facebook")[](https://twitter.com/intent/tweet?text=https://twitter.com/zhiachong/status/1317136167830130688+Meet%20Uno,%20having%20his%20first%20Puppucino%20Starbucks.%20%0A%0AHappy%20Friday!%20%20https://t.co/infUaTVFuF "Share this post on Twitter")[](https://plus.google.com/share?url=https://twitter.com/zhiachong/status/1317136167830130688 "Share this post on Google")[](https://www.linkedin.com/shareArticle?mini=true&url=https://twitter.com/zhiachong/status/1317136167830130688 "Share this post on Linkedin")[](mailto:?subject=Shared%20Link&body=https://twitter.com/zhiachong/status/1317136167830130688%20-%20Meet%20Uno,%20having%20his%20first%20Puppucino%20Starbucks.%20%0A%0AHappy%20Friday!%20%20https://t.co/infUaTVFuF "Share this post in your email")</div></div> </div><div class="fts-twitter-reply-wrap-left"><div class="fts-tweet-reply-left">[<div class="fts-twitter-reply"></div>](https://twitter.com/zhiachong/status/1317136167830130688 "Reply")</div><div class="fts-tweet-others-right">[<div class="fts-twitter-retweet">0</div>](https://twitter.com/intent/retweet?tweet_id=1317136167830130688&related=zhiachong "Retweet")[<div class="fts-twitter-favorites">18</div>](https://twitter.com/intent/like?tweet_id=1317136167830130688&related=zhiachong "Favorite")</div> </div><div class="fts-clear"></div> </div> </div><div class="fts-tweeter-wrap "><div class="tweeter-info"><div class="fts-twitter-image"> [![Zhia Chong](https://pbs.twimg.com/profile_images/1212506711451324417/U-JbA6gv_normal.jpg)](https://twitter.com/zhiachong) </div><div class="
-																		fts-right"><div class="fts-uppercase fts-bold"> [In reply toDwarak Nath B S ](https://twitter.com/dwarakbakshi) </div> <span class="time">[ ](https://twitter.com/zhiachong/status/1316494092663103488 " ")</span>  
- <span class="fts-twitter-text"> [@dwarakbakshi](https://twitter.com/dwarakbakshi) <https://t.co/dGEZxWagWK><div class="fts-twitter-caption"> [View on Twitter](https://twitter.com/zhiachong) </div> </span> [![zhiachong photo](https://pbs.twimg.com/tweet_video_thumb/EkUgZa-UwAAPhaa.jpg)](https://twitter.com/zhiachong/status/1316494092663103488) </div><div class="fts-twitter-reply-wrap
-																		fts-twitter-no-margin-left"><div class="fts-share-wrap">[](javascript:;)<div class="ft-gallery-share-wrap">[](https://www.facebook.com/sharer/sharer.php?u=https://twitter.com/zhiachong/status/1316494092663103488 "Share this post on Facebook")[](https://twitter.com/intent/tweet?text=https://twitter.com/zhiachong/status/1316494092663103488+@dwarakbakshi%20%20https://t.co/dGEZxWagWK "Share this post on Twitter")[](https://plus.google.com/share?url=https://twitter.com/zhiachong/status/1316494092663103488 "Share this post on Google")[](https://www.linkedin.com/shareArticle?mini=true&url=https://twitter.com/zhiachong/status/1316494092663103488 "Share this post on Linkedin")[](mailto:?subject=Shared%20Link&body=https://twitter.com/zhiachong/status/1316494092663103488%20-%20@dwarakbakshi%20%20https://t.co/dGEZxWagWK "Share this post in your email")</div></div> </div><div class="fts-twitter-reply-wrap-left"><div class="fts-tweet-reply-left">[<div class="fts-twitter-reply"></div>](https://twitter.com/zhiachong/status/1316494092663103488 "Reply")</div><div class="fts-tweet-others-right">[<div class="fts-twitter-retweet">0</div>](https://twitter.com/intent/retweet?tweet_id=1316494092663103488&related=zhiachong "Retweet")[<div class="fts-twitter-favorites">2</div>](https://twitter.com/intent/like?tweet_id=1316494092663103488&related=zhiachong "Favorite")</div> </div><div class="fts-clear"></div> </div> </div><div class="fts-tweeter-wrap "><div class="tweeter-info"><div class="fts-twitter-image"> [![Zhia Chong](https://pbs.twimg.com/profile_images/1212506711451324417/U-JbA6gv_normal.jpg)](https://twitter.com/zhiachong) </div><div class="
-																		fts-right"><div class="fts-uppercase fts-bold"> [In reply topradip ](https://twitter.com/PradipOnEarth) </div> <span class="time">[ ](https://twitter.com/zhiachong/status/1315095206119710720 " ")</span>  
- <span class="fts-twitter-text"> [@PradipOnEarth](https://twitter.com/PradipOnEarth) [@BhavdeepSethi](https://twitter.com/BhavdeepSethi) Loved it. Great overview of many things I often took for granted like LSM, steaming processing etc. <div class="fts-twitter-caption"> [View on Twitter](https://twitter.com/zhiachong) </div> </span> </div><div class="fts-twitter-reply-wrap
-																		fts-twitter-no-margin-left"><div class="fts-share-wrap">[](javascript:;)<div class="ft-gallery-share-wrap">[](https://www.facebook.com/sharer/sharer.php?u=https://twitter.com/zhiachong/status/1315095206119710720 "Share this post on Facebook")[](https://twitter.com/intent/tweet?text=https://twitter.com/zhiachong/status/1315095206119710720+@PradipOnEarth%20%20@BhavdeepSethi%20Loved%20it.%20Great%20overview%20of%20many%20things%20I%20often%20took%20for%20granted%20like%20LSM,%20steaming%20processing%20etc. "Share this post on Twitter")[](https://plus.google.com/share?url=https://twitter.com/zhiachong/status/1315095206119710720 "Share this post on Google")[](https://www.linkedin.com/shareArticle?mini=true&url=https://twitter.com/zhiachong/status/1315095206119710720 "Share this post on Linkedin")[](mailto:?subject=Shared%20Link&body=https://twitter.com/zhiachong/status/1315095206119710720%20-%20@PradipOnEarth%20%20@BhavdeepSethi%20Loved%20it.%20Great%20overview%20of%20many%20things%20I%20often%20took%20for%20granted%20like%20LSM,%20steaming%20processing%20etc. "Share this post in your email")</div></div> </div><div class="fts-twitter-reply-wrap-left"><div class="fts-tweet-reply-left">[<div class="fts-twitter-reply"></div>](https://twitter.com/zhiachong/status/1315095206119710720 "Reply")</div><div class="fts-tweet-others-right">[<div class="fts-twitter-retweet">0</div>](https://twitter.com/intent/retweet?tweet_id=1315095206119710720&related=zhiachong "Retweet")[<div class="fts-twitter-favorites">0</div>](https://twitter.com/intent/like?tweet_id=1315095206119710720&related=zhiachong "Favorite")</div> </div><div class="fts-clear"></div> </div> </div> </div><div class="twitter-social-btn-bottom">[ Follow @zhiachong](https://twitter.com/zhiachong%20)</div> <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}<br />
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.<br />
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */<br />
-</style>
-
-<form action="https://twitter.us12.list-manage.com/subscribe/post?u=262c24df721ffeaf01457ee4d&id=8344d30ec7" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank"><label for="mce-EMAIL">Join over 2000+ subscribers in my mailing list. I promise no spams, only the good stuff.</label>  
-<input id="mce-EMAIL" name="EMAIL" placeholder="email address" required="" type="email" value=""></input>  
-  
-<input name="b_262c24df721ffeaf01457ee4d_8344d30ec7" tabindex="-1" type="text" value=""></input>  
-<input id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe"></input></form>

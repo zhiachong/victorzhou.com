@@ -28,10 +28,11 @@ discussLinkReddit: ''
 # discussLinkTwitter: https://twitter.com/victorczhou/status/1092487435546705921
 # discussLinkHN: https://news.ycombinator.com/item?id=19086530
 # discussLinkReddit: https://www.reddit.com/r/learnmachinelearning/comments/an2o7t/building_a_better_profanity_detection_library/
-popularity: 5
+popularity: 500
 ---
 
 ![How to write a great resume](./media-link/how-to-write-a-resume.png)
+
 For those of you who are starting out on your job search, and have questions about how to prepare a great résumé that can get your foot in the door, then this article is for you.
 
 I recently wrote an [article](https://medium.freecodecamp.org/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8) about how I prepared for my job interviews and finally landed my dream job at Twitter. And many people reached out to learn more, and a majority of them wanted to know how to write a great résumé.
@@ -79,10 +80,6 @@ That means:
 - **Use PDF.** Any other file format, like .docx, might cause your résumé to render differently.
 - **Pick two to three projects you know really well.**You should know these from top to bottom, front to back. Knowing two to three projects really well shows dedication and ability to ship things, two desirable traits any company needs.
 
-Consider the following résumé:
-
-<div class="wp-block-image">![](../../../../uploads/2018/12/Test.png)</div>This résumé is written in a .docx and it’s extremely difficult to get the formatting correct. You’re leaving it up to chance, hoping that the recruiter somehow has a Microsoft Word app installed and is able to read it properly.
-
 **Just save it as PDF. It’ll save you a lot of trouble.**
 
 A short résumé goes a long way. The reason for this is that a recruiter, especially at a top-tier company, receives hundreds, if not thousands, of résumés per day. Imagine if they spend 1 minute per day on a résumé, and they go through 300 résumés a day. That’s 300 minutes or **five** **hours of work per day, 25 hours per week.**
@@ -100,6 +97,8 @@ That means:
 - **Do not list every single buzzword you’ve heard of**. Some examples include “big-data,” “real-time,” “machine learning,” “docker,” and “batch streaming.” Use them with care. You’ll probably be asked to demonstrate your knowledge of these technologies during the interview.
 - **Do not go in-depth without explaining how it’s relevant.** Most candidates have done something cool, but they fail to make recruiters see how it’s relevant.
 - **do not list irrelevant skills.** Microsoft Excel, Word, and so on are basic computer skills most people know, so you can leave those out.
+
+---
 
 ### Extra Tips
 
@@ -129,9 +128,7 @@ I then work backwards from there and expand on the things I’ve done in order t
 
 An example would be:
 
-```
-<pre class="wp-block-verse">“I’m a backend software engineer who is highly driven and well-versed in RESTful architecture. I built highly scalable web apps that scaled to over millions of users and drove the product vision for my company.”
-```
+> I’m a backend software engineer who is highly driven and well-versed in RESTful architecture. I built highly scalable web apps that scaled to over millions of users and drove the product vision for my company
 
 The points I want to drive home here are:
 
@@ -142,7 +139,9 @@ The points I want to drive home here are:
 
 I would then curate my résumé to center around those four pillars. What are some of the things I’ve done in the past that show my passion in product, my skills as a backend engineer, my design experience around RESTful architecture, and what metrics I can show to demonstrate the products are scalable?
 
-### Advice for new graduates
+---
+
+# Advice for new graduates
 
 For fresh graduates and people who are switching from a non-tech career, this is the section you should pay attention to.
 
@@ -174,7 +173,9 @@ Show the recruiter what you’re capable of. Use those 60 seconds appropriately,
 
 Once you get your foot in the door, use that opportunity to get your dream job. To read more about how to prepare for an interview, I wrote an article about how I prepared for my job interviews and finally landed my dream job at Twitter.
 
-### Tools I Recommend
+---
+
+# Tools / Resources You Might Enjoy
 
 - [Cracking the Coding Interview](http://amzn.to/2Hj91OH) — a great starter book on coding in general, and some résumé writing tips in there. I used this to prepare my first draft of my résumé.
 - [The Google Résumé](http://amzn.to/2DsXTMO) — great starter book, for new grads in particular. Talks about majors/minors to pick, how to write résumés, and sort of a step-by-step guide for getting the dream job.
@@ -183,14 +184,3 @@ Once you get your foot in the door, use that opportunity to get your dream job. 
 - [Evernote](http://evernote.com/): For everything else
 - [CodePath](https://codepath.com/): A non-profit org that helps people prepare for a career in tech. Nathan and Tim are great people and I have learned a lot from them. The community is very helpful and everyone is willing to give a hand.
 - [Fine-point markers](http://amzn.to/2oTWeeS): Bring these to your interview. I highly recommend them!
-- Subscribe [here](http://eepurl.com/dnt9Sf) for a copy of a great sample résumé and more job search tips.
-
----
-
-**UPDATE 7/15/2018:**
-
-I’ve been overwhelmed by the love and support of everyone who reached out to say thanks for this article. Thank you and it means a lot to me as it motivates me to create more content and share my thoughts and journey as a software engineer.
-
-Many have requested personal coaching to help them with their career search — I have decided to launch my **[online mentoring course](https://zhiachong.com/courses/)** to help students **prepare and land jobs at top-tier tech companies, prepare a resume that will wow recruiters, soft skills during an interview and much more.**
-
-If you’re interested to join, [contact me TODAY](https://zhiachong.com/contact/). This will be a paid course and only 5 students per session.
