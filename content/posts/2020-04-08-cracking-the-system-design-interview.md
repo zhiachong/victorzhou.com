@@ -13,8 +13,8 @@ tags:
   - 'Interview Prep'
   - 'Resume'
   - 'Python'
-  - 'System Design'
-description: 'System design intervews aren't easy. You can ace it with these simple tips.'
+  - 'Job Search'
+description: 'System design intervews made easy. You can ace it with these simple tips.'
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
@@ -24,10 +24,7 @@ next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-# discussLinkTwitter: https://twitter.com/victorczhou/status/1092487435546705921
-# discussLinkHN: https://news.ycombinator.com/item?id=19086530
-# discussLinkReddit: https://www.reddit.com/r/learnmachinelearning/comments/an2o7t/building_a_better_profanity_detection_library/
-popularity: 1002
+popularity: 1003
 ---
 
 ## My Background
