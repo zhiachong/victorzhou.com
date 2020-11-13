@@ -28,13 +28,11 @@ discussLinkReddit: ''
 popularity: 5000
 ---
 
-[![Zhia Chong](https://miro.medium.com/fit/c/96/96/0*EZPINFjFIrRRp-9G.jpg)](https://medium.com/@zhiachong?source=post_page-----d62cfe286eb8--------------------------------)[Zhia Chong](https://medium.com/@zhiachong?source=post_page-----d62cfe286eb8--------------------------------)Follow[Feb 28, 2018](https://medium.com/swlh/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8?source=post_page-----d62cfe286eb8--------------------------------) · 18 min read
+<figure>![](https://cdn-images-1.medium.com/max/2600/1*QuyFfwka5D5j7Z2IR4mcCQ.png)</figure>This is for those of you out there who are about to start your job search and who may be worried that you can’t land a top-tier tech job without a Stanford CS degree. Someone told you that you’re not good enough to get a job at Microsoft or Facebook. But I’m here to tell you that you can get that job. Here’s how I did it, and landed my dream job at Twitter.
 
-<img alt="Image for post" class="t u v gw aj" src="https://miro.medium.com/max/2584/1\*QuyFfwka5D5j7Z2IR4mcCQ.png" width="1292" height="1220" srcSet="https://miro.medium.com/max/552/1\*QuyFfwka5D5j7Z2IR4mcCQ.png 276w, https://miro.medium.com/max/1104/1\*QuyFfwka5D5j7Z2IR4mcCQ.png 552w, https://miro.medium.com/max/1280/1\*QuyFfwka5D5j7Z2IR4mcCQ.png 640w, https://miro.medium.com/max/1456/1\*QuyFfwka5D5j7Z2IR4mcCQ.png 728w, https://miro.medium.com/max/1632/1\*QuyFfwka5D5j7Z2IR4mcCQ.png 816w, https://miro.medium.com/max/1808/1\*QuyFfwka5D5j7Z2IR4mcCQ.png 904w, https://miro.medium.com/max/1984/1\*QuyFfwka5D5j7Z2IR4mcCQ.png 992w, https://miro.medium.com/max/2160/1\*QuyFfwka5D5j7Z2IR4mcCQ.png 1080w, https://miro.medium.com/max/2584/1\*QuyFfwka5D5j7Z2IR4mcCQ.png 1292w" sizes="1292px"/>
+**10/11/2020**: Read more about my courses [here](https://docs.google.com/document/d/1PeK69h4H82rwKjhactiE_sAIorCcZgXgXTY7k-nXpnE/edit?usp=sharing) to learn how I prepared.
 
-This is for those of you out there who are about to start your job search and who may be worried that you can’t land a top-tier tech job without a Stanford CS degree. Someone told you that you’re not good enough to get a job at Microsoft or Facebook. But I’m here to tell you that you can get that job. Here’s how I did it, and landed my dream job at Twitter.
-
-# What this article covers:
+### What this article covers:
 
 - My background
 - How I landed interviews with top tech companies in the world: Facebook Google, Amazon, LinkedIn, Microsoft, Twitter, Pinterest, Snapchat, and others.
@@ -42,9 +40,9 @@ This is for those of you out there who are about to start your job search and wh
 - Learnings from my interview experience
 - Subscribe [here](http://eepurl.com/dnt9Sf) for more article updates from me
 
-If you prefer to watch my story instead, I made a video here:
+This will be about ~30 minute read, so grab a coffee/tea and enjoy.
 
-# Background
+# My Background
 
 I did not graduate from an Ivy league school. I went to a community college in Idaho for two years, and then finished my CS degree in a small Catholic university.
 
@@ -62,13 +60,17 @@ I **didn’t pass** any of those interviews.
 
 I didn’t delve too much into whether I was good. I knew that I could learn things fast. I just needed an opportunity.
 
-As the saying goes, cast your net far and wide. So that’s what I did.
+As the saying goes, **cast your net far and wide**. So that’s what I did.
 
-What I did next is something I’m particularly proud of. I wrote a simple Python script that scraped job listings on Craigslist with titles containing a list of keywords, and collected the emails in a spreadsheet. For the actual war story, you can read my latest article [here](https://medium.freecodecamp.org/how-i-built-a-web-crawler-to-automate-my-job-search-f825fb5af718).
+## Hacking my way to a job
+
+What I did next is something I’m particularly proud of. I wrote a simple Python script that scraped job listings on Craigslist with titles containing a list of keywords, and collected the emails in a spreadsheet. For the actual war story, you can read my latest article [here](https://zhiachong.com/2018/05/24/how-i-automated-my-job-search-by-building-a-web-crawler/).
 
 It wasn’t the smartest solution, but people who post on Craigslist are surprisingly accurate with their titles.
 
 Craigslist, however, didn’t like people scraping their website. To work around this, I ran my script through a VPN and had a timer that would pause the script every few minutes or so. It wasn’t perfect, but it worked well enough.
+
+## The Results?
 
 At the end of it, I collected about 500 emails from around San Francisco, Portland, Spokane, and Seattle. I filtered the results by how specific and recent they were, and kept improving it by adding more and more features.
 
@@ -78,17 +80,23 @@ One of my workarounds was that I crafted emails that used keywords from their li
 
 Out of the 500 or so emails, I received about 50 replies, and landed phone screens with a small percentage of those. I stopped at 500 because I was short on time and needed to finalize a job as soon as possible. I was optimizing for results rather than reach at that point.
 
+# The Startup Journey
+
 As luck would have it, I finally landed a job at a startup in Seattle as a junior software engineer. The startup was located in Kirkland at the time, so I had to take a 45-min bus ride to make it in time for the interview.
 
 I then stayed there for the next 3.5 years, where I learned a great deal of stuff like Amazon AWS, EC2, DynamoDB, SQS, and Docker. I grew a lot during this period. I learned how to write modular, maintainable code. I learned how to reason about software design. And I learned how to handle people problems.
 
 I was working next to a group of smart people who held jobs at Microsoft, Amazon, and LinkedIn, and I tried to be the “sponge” in the group. I absorbed anything and everything they threw at me. I believe this made a huge impact in my career.
 
-# Startup Days
+# What I learned
 
-During my stint at the startup, I worked almost exclusively on backend development, with some dev-ops in between. I started out writing some functions to add/modify a feature that were mostly small in scope. But it was a great opportunity to understand the codebase and get some code reviews.
+###
 
-A year into it, I started owning parts of the codebase, and then I was tasked with turning a set of features into a service. That was the start of the SOA phase for the startup. We started turning various components of the site into services, and that’s how I started learning more about RESTful services, authentication, AWS services, pub-sub, distributed systems and so forth.
+### During my stint at the startup, I worked almost exclusively on backend development, with some dev-ops in between. I started out writing some functions to add/modify a feature that were mostly small in scope. But it was a great opportunity to understand the codebase and get some code reviews.
+
+A year into it, I started owning parts of the codebase, and then I was tasked with turning a set of features into a service.
+
+That was the start of the SOA phase for the startup. We started turning various components of the site into services, and that’s how I started learning more about RESTful services, authentication, AWS services, pub-sub, distributed systems and so forth.
 
 The interesting part here is that _I didn’t learn about any of these through books or formal education._ Rather, I needed to get that set of features done and there were the bottlenecks.
 
@@ -106,7 +114,7 @@ I started preparing for interviews by charting out an overview of what I was goo
 
 Having worked in PHP for most of my professional career, and C++ in college, I wanted to try something a little simpler and less verbose for interviewing.
 
-For this reason, I picked Python. It is a great language to learn, easy to pick up, supports many data structures out of the box, and can be written quickly on the whiteboard. I learned Python by going through Youtube tutorials like [these](https://www.youtube.com/watch?v=Z1Yd7upQsXY), and also reading their documentation. I prefer Python 2.x, but you can go for either 2.x or 3.
+For this reason, I picked Python. It is a great language to learn, easy to pick up, supports many data structures out of the box, and can be written quickly on the whiteboard. I learned Python by going through Youtube tutorials like [these](https://www.youtube.com/watch?v=Z1Yd7upQsXY), and also reading their documentation. I recommend using Python 3 instead of 2.
 
 Also, another reason why I picked Python is that it’s highly readable and easy to write on a whiteboard. Here’s a trivial comparison between C++ and Python.
 
@@ -114,35 +122,31 @@ A C++ program to sort in descending order:
 
 ```
 #include <bits/stdc++.h>
-using namespace std; int main()
-{
-   int arr\[\] = {1,10,0,4,5}
-   int n = size(arr)/sizeof(arr\[0\]);
-   sort(arr, arr + n, greater<int>()); for (int i = 0; i < n; i++) {
-      cout << arr\[i\] << " ";
-   }   return 0;}
+using namespace std;
+int main() { int arr[] = {1,10,0,4,5} int n = size(arr)/sizeof(arr[0]); sort(arr, arr + n, greater()); for (int i = 0; i < n; i++) { cout << arr[i] << " "; } return 0; }
 ```
 
 Compare that with Python’s version:
 
 ```
-
-a = \[1,2,4,5,1000\]
-a.sort(reverse=True)
-print a
+a = [1,2,4,5,1000]<br></br>a.sort(reverse=True)<br></br>print a
 ```
+
+Much cleaner.
 
 I’ve received feedback from interviewers to **err on the side of brevity** in an interview. In a 45-minute interview, you want to use most of your time solving the actual problem.
 
-Pro tip: pick a language that’s less verbose so that you can write the code more quickly on the whiteboard
+**Pro tip:** pick a language that’s less verbose so that you can write the code more quickly on the whiteboard
 
 # Preparation mode
 
 I spent about a week going through simple challenges on LeetCode, HackerRank, and Project Euler to familiarize myself with their interfaces, and to get used to writing code in Python.
 
-The first week gave me insights into my competence level at certain programming languages. I spent another week going through some design challenges like “design X” and went as wide and deep as I could.
+The first week gave me insights into my competence level at certain programming languages. I spent another week going through some design challenges like “design X” and **went as wide and deep as I could.**
 
-This was a lot of fun for me, because I often looked at iOS apps and tried to figure out how they did it. For example, how would you build Instagram from scratch? (I was asked this at Facebook).
+## Prepare for System Design
+
+This was a lot of fun for me, because I often looked at iOS apps and tried to figure out how they did it. For example, how would you build Instagram from scratch?
 
 My background is in API designs and service-oriented architecture. So I took this opportunity to show how I would design my own version of Instagram. And because I have some iOS programming experience from my side-projects, I could talk a little bit about callbacks and push/long-polls here.
 
@@ -158,17 +162,21 @@ There are many areas you can explore here, so typically a one-hour session is no
 
 Take it like a typical brainstorming session with a coworker, so explore _as widely and as deeply_ as you can.
 
+## Understanding Your Strengths and Flaws
+
 It’s crucial to know that these design interviews are meant to explore how much you know and how well you know it, and it’s **an opportunity for you to shine.** I watched this Youtube [video](https://www.youtube.com/watch?v=ZgdS0EUmn70) from an ex-Facebook engineer about how to solve design problems, and it gave me insights that helped me tremendously with my design interviews. My two main learnings from it: **drive the design conversation,** and **show what you know**.
 
 I listed out my competency level for: **data structures** (linked list, hash map, binary tree, binary search tree, heap, array), **algorithms** (binary search, hashing, dynamic programming, sorting), and **language-specific syntax and libraries** (like sort, lambda for Python, appending, indexing).
 
 I picked the area I was worst at, and started working on it: **algorithms**.
 
+## Preparing for Algorithms
+
 Algorithms have never been my forte. It’s been a while since my college days, and I didn’t spend much time doing binary search in my day-to-day career. I had an inkling of how each algorithm would perform, and in what scenarios to use them. But I wasn’t 100% comfortable with writing a binary search in under 10 mins. On a whiteboard. In front of an interviewer.
 
-I also picked up a bunch of fine-point markers from [Amazon](https://www.amazon.com/86601-Low-Odor-Markers-Assorted-8-Count/dp/B000Z88D2E/ref=sr_1_3?ie=UTF8&qid=1518801079&sr=8-3&keywords=white+board+pens), which work amazingly well. Perhaps it’s just me, but the fine-point markers in interviewing rooms usually don’t work at all. I’d usually scramble for 2–3 mins looking for a working pen, and that’s 2–3 mins you can’t afford to waste. Plus, fine-point markers allow you to write 5–8 lines of code on a typical whiteboard vs thicker ones. :)
+I also picked up a bunch of fine-point markers from [Amazon](https://www.amazon.com/86601-Low-Odor-Markers-Assorted-8-Count/dp/B000Z88D2E/ref=sr_1_3?ie=UTF8&qid=1518801079&sr=8-3&keywords=white+board+pens), which work amazingly well. Perhaps it’s just me, but the fine-point markers in interviewing rooms usually don’t work at all. I’d usually scramble for 2–3 mins looking for a working pen, and that’s 2–3 mins you can’t afford to waste. Plus, fine-point markers allow you to write 5–8 lines of code on a typical whiteboard vs thicker ones. 🙂
 
-Pro tip: Get your own set of fine-point markers
+**Pro tip: Get your own set of fine-point markers**
 
 I got a whiteboard from Costco for \$50, some books from Amazon (listed in the tools I recommend section below), and started my coding practice. I made sure I ramped up on binary search, recursion, dynamic programming, BFS and DFS. A lot of interviewing questions revolved around recursion and binary search or some variations of it.
 
@@ -176,15 +184,17 @@ The best interviewing questions I’ve seen had many different solutions to them
 
 One Google question I had was related to file-system directories, and how to traverse them (hint: recursion). I solved that relatively quickly, and the interviewer asked how to identify a missing file in that directory. That was a little more difficult, but I got through it. And we then moved into how to rebuild the directory, how to serialize/deserialize it, and we spent a good chunk of time debating how file directories work underneath the hood. It was a very enjoyable session for me.
 
-# Thank you
+### Thank you
 
-Thank you for reading thus far :) If you enjoyed this article, please consider buying me a coffee here (coffee helps me write): [https://www.buymeacoffee.com/zhiachong](https://www.buymeacoffee.com/zhiachong)
+Thank you for reading thus far 🙂 If you enjoyed this article, please consider buying me a coffee here (coffee helps me write): <https://www.buymeacoffee.com/zhiachong>
 
 # Interviewing at top-tier companies
 
 It was a nerve-wrecking experience, to say the least. And what a roller-coaster ride.
 
-I allocated my time in the following manner: 20% resume, 20% research and 60% interview preparation.
+I allocated my time in the following manner: **20% resume, 20% research and 60% interview preparation.**
+
+## Resume Preparation
 
 I spent 20% of my time fixing up my resume, which hadn’t been updated in at least three years. I took a hard look at the stuff I’ve done in the past, and picked projects I handled end-to-end, **regardless of complexity.**
 
@@ -192,17 +202,15 @@ The reason for doing this is two-fold. Taking a project from start to completion
 
 Secondly, ownership of a project end-to-end means I can talk about each aspect of the project **at length and in depth.** This proved critical in helping me navigate my design round at Twitter, where they grilled me hard on not only the designs of my projects, but also the decisions behind them.
 
+## Research on companies
+
 20% of my time was used for research. Research in this case meant doing due diligence on companies I was interested in and reaching out for referrals. Having referrals helps with return calls.
 
 From my experience, I sent out 20 or so cold messages to startups and mid-stage companies, and only heard back from a handful. But, almost all the companies I was referred to by an existing employee sent me a message within a week. This is anecdotal, but there’s value to be had there.
 
 I am not that sociable, and I didn’t know many people who’d be able to refer me to a company I was interested in. To solve that problem, I went on LinkedIn. They have a search functionality that I used to search for 1st and 2nd-level connections. 2nd-level connections are people who’re one hop away from your immediate circle. In other words, we have mutual friends who can **vouch for my credibility**.
 
-<img alt="Image for post" class="t u v gw aj" src="https://miro.medium.com/max/3776/1\*hJo9WP-\_7tCpETM-\_uMLcQ.png" width="1888" height="540" srcSet="https://miro.medium.com/max/552/1\*hJo9WP-\_7tCpETM-\_uMLcQ.png 276w, https://miro.medium.com/max/1104/1\*hJo9WP-\_7tCpETM-\_uMLcQ.png 552w, https://miro.medium.com/max/1280/1\*hJo9WP-\_7tCpETM-\_uMLcQ.png 640w, https://miro.medium.com/max/1456/1\*hJo9WP-\_7tCpETM-\_uMLcQ.png 728w, https://miro.medium.com/max/1632/1\*hJo9WP-\_7tCpETM-\_uMLcQ.png 816w, https://miro.medium.com/max/1808/1\*hJo9WP-\_7tCpETM-\_uMLcQ.png 904w, https://miro.medium.com/max/1984/1\*hJo9WP-\_7tCpETM-\_uMLcQ.png 992w, https://miro.medium.com/max/2000/1\*hJo9WP-\_7tCpETM-\_uMLcQ.png 1000w" sizes="1000px"/>
-
-LinkedIn Search
-
-This is incredibly important, because cold-calling someone for a job is very, very hard, especially in today’s market. People tend to err on the side of caution when it comes to cold-callers. Using LinkedIn was super helpful for my research phase.
+<figure>![](https://cdn-images-1.medium.com/max/2400/1*hJo9WP-_7tCpETM-_uMLcQ.png)<figcaption>LinkedIn Search</figcaption></figure>This is incredibly important, because cold-calling someone for a job is very, very hard, especially in today’s market. People tend to err on the side of caution when it comes to cold-callers. Using LinkedIn was super helpful for my research phase.
 
 Looking back at all the companies I interviewed at, here are my thoughts on each of them:
 
@@ -214,7 +222,7 @@ Looking back at all the companies I interviewed at, here are my thoughts on each
 - **Snapchat** — cool office in LA, great bunch of people who decided to jump on the startup bandwagon. Felt like things were shrouded under a cloud of secrecy.
 - **Lyft** — near to where I live, nice office, standard interviewing process. No strong feelings about it.
 
-# Let’s talk about my favorite
+# Let’s talk about my favorite: Twitter
 
 In many ways, I’d say Twitter’s interviewing style was hard. But at the same time, it was more interesting and personable than other companies I’ve interviewed at.
 
@@ -226,7 +234,7 @@ The onsite rounds, however, are much more conversational and feel much less inti
 
 I never felt any pressure to magically come up with a fully working solution, and it felt highly collaborative.
 
-# The others (Facebook, Google)
+## The others (Facebook, Google, Pinterest)
 
 In comparison, interviewing at Facebook and Google felt much more mechanical. They have one or two technical phone screens, and five to six onsite coding rounds. Each round involves some coding on a whiteboard, and you’re expected to come up with a near-perfect solution in a reasonable amount of time.
 
@@ -251,68 +259,44 @@ I won’t delve into specifics of the questions I was asked during all the inter
 # What I learned:
 
 - Be **honest** on your resume. Most companies _will_ ask you questions about your resume, and they can tell if you made it up. It’s better to be able to know **100% about one project than to know 10% about 10 different projects.**
-- One-page resumes are **recommended**. This is especially true for tech companies, and it seems that the wisdom within the tech sphere is that you should reserve two pages and longer for post-doctoral work, or if you’ve done a lot of projects that you know and care deeply about. A friend of mine runs a [company called Jobscan](https://www.jobscan.co/) that scans resumes and makes _specific, actionable_ improvements on them. They’re pretty awesome, so try them out :)
+- **Preparing for interviews is hard, especially during COVID. Use discount code [(zhia) to get 30% my course](https://gumroad.com/l/overcome-faang/zhia) on technical interviews virtually.**
+- One-page resumes are **recommended**. This is especially true for tech companies, and it seems that the wisdom within the tech sphere is that you should reserve two pages and longer for post-doctoral work, or if you’ve done a lot of projects that you know and care deeply about.
 - **Socialize and establish a network**. There’s a lot of competition for software engineering jobs, and these top tech companies are filtering through thousands of resumes a day. Having a referral will help you get some eyes on your resume.
 - **Nail** your pitch. Every company that’s interested in you wants to know why you’re interested in them. **A bad answer**: I just need a job right now to pay bills. **A less-bad answer**: I was browsing online and found you guys. Sounds like you’re working on interesting things. **A good answer**: I know you’re doing some interesting work in X to achieve Y. I’ve done some work in the past and here’s what I learned about A, B, C that might be related to X. I am passionate about Y because blah. (_Don’t_ use this as a template. Instead, you should see the pattern here — do your research, use your background, and show the company why both of you would fit well together)
 
-# Some more advice
+## Some more advice
 
 Technical interviews are incredibly difficult, and sometimes it’s a hit-or-miss. The best opportunities, however, are reserved for those _who are prepared._
 
 - **Prepare early, prepare _well_**. Everyone knows that they should prepare for an interview, but most don’t know how to do it _well_. As with anything worth doing, it takes deliberate practice to do well at something. And deliberate practice means you need to have a system.
-- **Build a system** to practice technical skills. I started by rating myself from 1–10 on how good I was, and worked on the ones I was worst at. I spent days on different types of questions until I fully mastered each concept. And I **wrote notes daily on Evernote**. I had a note that serves as a brain dump for all things programming. It is full of programming tips & tricks, common errors and misconceptions, frameworks for solving specific types of questions, and much more.
+- **Build a system** to practice technical skills. I started by rating myself from 1–10 on how good I was, and worked on the ones I was worst at. I spent days on different types of questions until I fully mastered each concept. And I **wrote notes daily on Evernote**. I had a note that serves as a brain dump for all things programming. It is full of programming tips &amp; tricks, common errors and misconceptions, frameworks for solving specific types of questions, and much more.
 
-<img alt="Image for post" class="t u v gw aj" src="https://miro.medium.com/max/3912/1\*D34E4dmN6y-Bg8ZrB6YMDg.png" width="1956" height="1508" srcSet="https://miro.medium.com/max/552/1\*D34E4dmN6y-Bg8ZrB6YMDg.png 276w, https://miro.medium.com/max/1104/1\*D34E4dmN6y-Bg8ZrB6YMDg.png 552w, https://miro.medium.com/max/1280/1\*D34E4dmN6y-Bg8ZrB6YMDg.png 640w, https://miro.medium.com/max/1456/1\*D34E4dmN6y-Bg8ZrB6YMDg.png 728w, https://miro.medium.com/max/1632/1\*D34E4dmN6y-Bg8ZrB6YMDg.png 816w, https://miro.medium.com/max/1808/1\*D34E4dmN6y-Bg8ZrB6YMDg.png 904w, https://miro.medium.com/max/1984/1\*D34E4dmN6y-Bg8ZrB6YMDg.png 992w, https://miro.medium.com/max/2000/1\*D34E4dmN6y-Bg8ZrB6YMDg.png 1000w" sizes="1000px"/>
+<figure>![](https://cdn-images-1.medium.com/max/2400/1*D34E4dmN6y-Bg8ZrB6YMDg.png)<figcaption>My Notebook</figcaption></figure>- **Keep a notebook** of things you’ve learned. I use both [Evernote](http://evernote.com) and [OneNote](http://onenote.com) to keep track of things. OneNote for technical stuff/code, because I like that I can easily format the note any way I like. I use Evernote for essays/thoughts. The image above shows a note I keep on architecture and system designs.
 
-My Notebook
-
-- **Keep a notebook** of things you’ve learned. I use both [Evernote](http://evernote.com) and [OneNote](http://onenote.com) to keep track of things. OneNote for technical stuff/code, because I like that I can easily format the note any way I like. I use Evernote for essays/thoughts. The image above shows a note I keep on architecture and system designs.
-
-<img alt="Image for post" class="t u v gw aj" src="https://miro.medium.com/max/4956/1\*8jIzBtK4RajWQMmopfdvJQ.png" width="2478" height="1500" srcSet="https://miro.medium.com/max/552/1\*8jIzBtK4RajWQMmopfdvJQ.png 276w, https://miro.medium.com/max/1104/1\*8jIzBtK4RajWQMmopfdvJQ.png 552w, https://miro.medium.com/max/1280/1\*8jIzBtK4RajWQMmopfdvJQ.png 640w, https://miro.medium.com/max/1456/1\*8jIzBtK4RajWQMmopfdvJQ.png 728w, https://miro.medium.com/max/1632/1\*8jIzBtK4RajWQMmopfdvJQ.png 816w, https://miro.medium.com/max/1808/1\*8jIzBtK4RajWQMmopfdvJQ.png 904w, https://miro.medium.com/max/1984/1\*8jIzBtK4RajWQMmopfdvJQ.png 992w, https://miro.medium.com/max/2000/1\*8jIzBtK4RajWQMmopfdvJQ.png 1000w" sizes="1000px"/>
-
-Evernote for thoughts/tips
-
-- **Jot everything down**, even if you don’t think you’ll use it. I tend to forget very easily, so anything that I learn I write it down, including shell commands. I read technical blogs from time-to-time, and if I find anything interesting I jot it down on Evernote right away. I’ll revise it every week or month and reorganize accordingly. This has helped me tremendously over my career.
-- **Get mock interviews**. This was definitely very valuable and I highly advise it. I had mock interviews with friends and tried to practice as much as I could. If you can’t find friends to practice with, then I recommend Refdash, which is an Interview-As-A-Service. They have a group of interviewers who work at big tech companies like Google, Facebook, and Microsoft. These interviewers will assess you on your coding and design skills. The best part of it is they’ll give you a score at the end of it with specific actionable items on how to improve.
-- It’s **OK to fail. I failed multiple interviews during this whole process.** Sometimes you just have a bad day. It’s not the end of the world if you fail. Companies are biased towards saying no because it’s a lower risk for them. A false positive costs more than a false negative in the long run. The first few rejections definitely stung the most. I failed multiple phone screens when I first started interviewing, and my confidence level sunk. I had doubts in my mind about my abilities and started fearing that my skills weren’t relevant in today’s job market. However, I gave myself a tip: If you fail 10 times, then try 10 times more. _All you need is one success._ That reassurance gave me a lot of confidence to keep pushing through and when my first offer came through, the other offers came much more easily.
+<figure>![](https://cdn-images-1.medium.com/max/2400/1*8jIzBtK4RajWQMmopfdvJQ.png)<figcaption>Evernote for thoughts/tips</figcaption></figure>- **Jot everything down**, even if you don’t think you’ll use it. I tend to forget very easily, so anything that I learn I write it down, including shell commands. I read technical blogs from time-to-time, and if I find anything interesting I jot it down on Evernote right away. I’ll revise it every week or month and reorganize accordingly. This has helped me tremendously over my career.
+- **Get mock interviews**. This was definitely very valuable and I highly advise it. I had mock interviews with friends and tried to practice as much as I could. If you can’t find friends to practice with, then I recommend scheduling 1 with me. I will assess you on your coding and design skills. The best part of it is I’ll give you a score at the end of it with specific actionable items on how to improve.
+- It’s **OK to fail. I failed multiple interviews during this whole process.** Sometimes you just have a bad day. It’s not the end of the world if you fail. Companies are biased towards saying no because it’s a lower risk for them. A false positive costs more than a false negative in the long run. The first few rejections definitely stung the most. I failed multiple phone screens when I first started interviewing, and my confidence level sunk. I had doubts in my mind about my abilities and started fearing that my skills weren’t relevant in today’s job market. However, I gave myself a tip: If you fail 10 times, then try 10 times more. *All you need is one success.* That reassurance gave me a lot of confidence to keep pushing through and when my first offer came through, the other offers came much more easily.
 
 It took me about **2 months** of deliberate practice and preparation for my interviews. I spent about **20 hours/week, or 80 hours/month,** learning and writing notes on top of a full time job.
 
 To build up my resume, it took 3.5 years of focused, deliberate work. I intentionally picked things that were tough and icky so that I could learn more than anyone else. Even though I don’t have a brand name university or top-tier tech company on my resume, I made up for it with a clear, thorough understanding of the projects I worked on. And this was possible because I researched and wrote down notes of everything I learned, and have a system to review them.
 
-Remember: the strong survives, the tough thrives.
+**Remember: the strong survives, the tough thrives.**
 
 TL;DR: Don’t give up, set yourself up for opportunities, practice a lot, and stay hopeful. Focus on the process, and take a disciplined, dedicated approach to the process.
 
 # Tools I Recommend
 
 - [Designing Data-Intensive Applications](https://amzn.to/2I80wup): Awesome book for learning about scaling distributed systems! Highly recommended.
+- My [mentorship program](https://zhiachong.com/courses/) to help you succeed as a software engineer.
 - [Elements of Programming Interviews](http://amzn.to/2Dcs6Qd): Great for solving coding problems.
 - [Cracking The Coding Interview](http://amzn.to/2Hj91OH): Great for covering foundational CS coding problems.
 - [Daily Coding Problem.com](https://www.dailycodingproblem.com/zhiachong): This is a free-to-try website that offers free daily coding problems. You can sign up for interesting daily coding challenges, and you can pay for solutions if you want.
-- [Dropbox](https://db.tt/tdUSP79S): I keep all my files, pictures, resume here. Easy access, installed once and available everywhere. Love it ❤️ (If you sign up thru this link, both of us will get free 500MB!
-- [CodeRunner](https://coderunnerapp.com/): I love this Mac app! I used this multiple times to run ad-hoc Python scripts/functions and it just works amazingly well. 🔥
+- [Dropbox](https://db.tt/tdUSP79S): I keep all my files, pictures, resume here. Easy access, installed once and available everywhere. Love it (If you sign up thru this link, both of us will get free 500MB!
+- [CodeRunner](https://coderunnerapp.com/): I love this Mac app! I used this multiple times to run ad-hoc Python scripts/functions and it just works amazingly well.
 - [Kafka the Guide](https://amzn.to/2D8FUxS): I used this book as a reference guide, and enjoyed it for the high-level description.
-- [AlgoExpert](http://algoexpert.io/zhiachong): This website offers a ton of coding practice problems that go in-depth and explain how the solutions work. For the price, I think it’s worth trying.
-
-(I share more resources I personally have used and recommend on [zhiachong.com](http://zhiachong.com/resources), if you’re interested in learning more)
+- [Overcoming FAANG](https://gumroad.com/l/overcome-faang/zhia): I believe virtual-interviews are the future. You need to prepare for it to survive and to thrive. Use discount code (zhia) to get 30% today.
 
 # Thank you
 
-Thank you for reading thus far :) If you enjoyed this article, please consider buying me a coffee here (coffee helps me write): [https://www.buymeacoffee.com/zhiachong](https://www.buymeacoffee.com/zhiachong)
-
-**10/19/2020**: I’m sharing all my techniques and preparation tips in a new course [here](https://gumroad.com/l/overcome-faang/ZhiaChong). Get 30% off for the first 100 customers using code _Zhia-Chong_.
-
-**10/12/2020**: I left Twitter after 3 years. Read [here](https://zhiachong.com/2020/10/11/why-i-quit-my-350k-job-as-a-twitter-software-engineer/) to find out why.
-
-**10/19/2018**: Read more about my courses [here](https://docs.google.com/document/d/1PeK69h4H82rwKjhactiE_sAIorCcZgXgXTY7k-nXpnE/edit?usp=sharing) to learn how I prepared.
-
-**8/25/2018**: Read here for my [experience after a year at Twitter](https://medium.freecodecamp.org/what-ive-learned-in-1-year-at-twitter-65150f5d4af2).
-
-Thanks for reading my story! You can find me on [Twitter](https://twitter.com/zhiachong) and [LinkedIn](https://www.linkedin.com/in/zhiachong/). Would love to connect and talk more about tech, startups, travel :D
-
-**Credits:**
-
-[Brandon O’brien](https://twitter.com/hakczar), my mentor and good friend, for proof-reading and providing valuable feedback on how to improve this article.
-
-[YK Sugishita](https://medium.com/@yksugi), an up-and-coming Youtube star who left his job at Google to pursue his dreams, for proof-reading and giving critical feedback.
+Thank you for reading thus far 🙂 If you enjoyed this article, please consider buying me a coffee here (coffee helps me write): <https://www.buymeacoffee.com/zhiachong>
