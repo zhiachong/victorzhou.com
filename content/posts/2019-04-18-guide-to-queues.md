@@ -17,7 +17,7 @@ description: Distributed queues, explained like I'm five.
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
-canonical: https://medium.com/@zhiachong/how-to-become-a-rockstar-engineer-e785b09cc104
+canonical: https://medium.com/@zhiachong/a-dummys-guide-to-distributed-queues-2cd358d83780
 prev: '/blog/how-to-write-a-great-resume/'
 next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''

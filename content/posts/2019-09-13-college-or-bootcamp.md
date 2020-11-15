@@ -19,7 +19,7 @@ description: Which path is the best for you?
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
-canonical: https://medium.com/@zhiachong/how-to-become-a-rockstar-engineer-e785b09cc104
+canonical: https://medium.com/swlh/should-you-go-to-college-or-coding-bootcamp-to-be-a-software-engineer-612e676f9440
 prev: '/blog/how-to-write-a-great-resume/'
 next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''

@@ -19,7 +19,7 @@ description: How I 10x my productivity with these simple tips.
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
-canonical: https://medium.com/@zhiachong/how-to-become-a-rockstar-engineer-e785b09cc104
+canonical: https://medium.com/effai-me/my-secret-to-productivity-8d4d461d1fea
 prev: '/blog/how-to-write-a-great-resume/'
 next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''

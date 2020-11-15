@@ -17,7 +17,7 @@ description: 'Things you need to know to catch the eyes of hiring managers.'
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
-canonical: https://medium.com/@zhiachong/how-i-built-a-web-crawler-to-automate-my-job-search-f825fb5af718
+canonical: https://medium.com/swlh/how-to-write-a-great-resume-for-software-engineers-75d514dd8322
 prev: '/blog/automating-my-job-search-with-python/'
 next: '/blog/automating-my-job-search-with-python/'
 discussLinkTwitter: ''

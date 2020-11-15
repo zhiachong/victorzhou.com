@@ -19,7 +19,7 @@ description: 'Simple tips to ace your technical interview.'
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
-canonical: https://medium.com/@zhiachong/how-to-become-a-rockstar-engineer-e785b09cc104
+canonical: https://medium.com/swlh/the-most-important-things-you-need-to-know-for-a-programming-interview-3429ac2454b
 prev: '/blog/how-to-write-a-great-resume/'
 next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''
@@ -29,8 +29,6 @@ popularity: 1004
 ---
 
 # **5 things you need to know in a programming interview**
-
-[![Zhia Chong](https://miro.medium.com/fit/c/96/96/0*EZPINFjFIrRRp-9G.jpg)](https://medium.com/@zhiachong?source=post_page-----3429ac2454b--------------------------------)[Zhia Chong](https://medium.com/@zhiachong?source=post_page-----3429ac2454b--------------------------------)Follow[Jun 19, 2018](https://medium.com/swlh/the-most-important-things-you-need-to-know-for-a-programming-interview-3429ac2454b?source=post_page-----3429ac2454b--------------------------------) · 7 min read
 
 <img alt="Image for post" class="t u v hc aj" src="https://miro.medium.com/max/8480/1\*RijhIwu\_gn98\_W\_QnYcGAA.jpeg" width="4240" height="2832" srcSet="https://miro.medium.com/max/552/1\*RijhIwu\_gn98\_W\_QnYcGAA.jpeg 276w, https://miro.medium.com/max/1104/1\*RijhIwu\_gn98\_W\_QnYcGAA.jpeg 552w, https://miro.medium.com/max/1280/1\*RijhIwu\_gn98\_W\_QnYcGAA.jpeg 640w, https://miro.medium.com/max/1400/1\*RijhIwu\_gn98\_W\_QnYcGAA.jpeg 700w" sizes="700px"/>
 

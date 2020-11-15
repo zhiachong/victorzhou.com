@@ -17,7 +17,7 @@ description: What went well, didn't go well and how I learned from my experience
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
-canonical: https://medium.com/@zhiachong/how-to-become-a-rockstar-engineer-e785b09cc104
+canonical: https://medium.com/@zhiachong/what-ive-learned-in-1-year-at-twitter-65150f5d4af2
 prev: '/blog/how-to-write-a-great-resume/'
 next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''

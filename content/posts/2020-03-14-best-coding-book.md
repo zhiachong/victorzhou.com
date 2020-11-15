@@ -19,7 +19,7 @@ description: 'Is this the best book for coding interview prep? I say...'
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
-canonical: https://medium.com/@zhiachong/how-to-become-a-rockstar-engineer-e785b09cc104
+canonical: https://medium.com/@zhiachong/is-this-the-best-book-for-coding-interview-preparation-33264fa82b72
 prev: '/blog/how-to-write-a-great-resume/'
 next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''

@@ -19,7 +19,7 @@ description: 'Simple tips you can follow to be a rockstar engineer.'
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
-canonical: https://medium.com/@zhiachong/how-to-become-a-rockstar-engineer-e785b09cc104
+canonical: https://medium.com/@zhiachong/how-to-get-an-interview-with-top-tech-companies-c27f18e9d157
 prev: '/blog/how-to-write-a-great-resume/'
 next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''

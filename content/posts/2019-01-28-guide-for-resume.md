@@ -19,7 +19,7 @@ description: Don't leave your resume to chance. These tips will help you craft a
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
-canonical: https://medium.com/@zhiachong/how-to-become-a-rockstar-engineer-e785b09cc104
+canonical: https://medium.com/@zhiachong/a-simple-guide-to-building-an-amazing-technical-r%C3%A9sum%C3%A9-39cba7420fd5
 prev: '/blog/how-to-write-a-great-resume/'
 next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''
@@ -29,16 +29,6 @@ popularity: 1004
 ---
 
 # A simple guide to building an amazing technical résumé
-
-[![Zhia Chong](https://miro.medium.com/fit/c/56/56/0*EZPINFjFIrRRp-9G.jpg)](https://medium.com/@zhiachong?source=post_page-----39cba7420fd5--------------------------------)[
-
-#### Zhia Chong
-
-](https://medium.com/@zhiachong?source=post_page-----39cba7420fd5--------------------------------)[
-
-#### Jan 28, 2019·7 min read
-
-](https://medium.com/@zhiachong/a-simple-guide-to-building-an-amazing-technical-résumé-39cba7420fd5?source=post_page-----39cba7420fd5--------------------------------)
 
 <img alt="Image for post" class="dv gu dw gv w" src="https://miro.medium.com/max/3468/1\*2aUtfrz1DH8Lsd9nHv78ZA.png" width="1734" height="1250" srcSet="https://miro.medium.com/max/552/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 276w, https://miro.medium.com/max/1104/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 552w, https://miro.medium.com/max/1280/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 640w, https://miro.medium.com/max/1456/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 728w, https://miro.medium.com/max/1632/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 816w, https://miro.medium.com/max/1808/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 904w, https://miro.medium.com/max/1984/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 992w, https://miro.medium.com/max/2000/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 1000w" sizes="1000px"/>
 
