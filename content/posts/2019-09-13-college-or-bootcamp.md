@@ -1,10 +1,10 @@
 ---
-title: College or Coding Bootcamp?
+title: Should You Go to College or Coding Bootcamp?
 date: '2019-09-23T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/coding-or-bootcamp/'
-img: './media-link/2020-01-01/how-to-be-successful.png'
+img: './media-link/should-you-go-for-college.jpeg'
 isML: false
 isWeb: true
 isSeries: false
@@ -15,7 +15,7 @@ tags:
   - 'Resume'
   - 'Python'
   - 'Job Search'
-description: Which path is the best for you?
+description: Coding bootcamps have risen in popularity. Is this a viable option for you?
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
@@ -25,26 +25,18 @@ next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 1004
+popularity: 400
 ---
 
-# Should You Go to College or Coding Bootcamp to Be a Software Engineer?
-
-[![Zhia Chong](https://miro.medium.com/fit/c/96/96/0*EZPINFjFIrRRp-9G.jpg)](https://medium.com/@zhiachong?source=post_page-----612e676f9440--------------------------------)[Zhia Chong](https://medium.com/@zhiachong?source=post_page-----612e676f9440--------------------------------)Follow[Sep 13, 2019](https://medium.com/swlh/should-you-go-to-college-or-coding-bootcamp-to-be-a-software-engineer-612e676f9440?source=post_page-----612e676f9440--------------------------------) · 5 min read
-
-<img alt="Image for post" class="t u v hc aj" src="https://miro.medium.com/max/10368/1\*73oXq1pNNQoEUd9pOq4jXA.jpeg" width="5184" height="3456" srcSet="https://miro.medium.com/max/552/1\*73oXq1pNNQoEUd9pOq4jXA.jpeg 276w, https://miro.medium.com/max/1104/1\*73oXq1pNNQoEUd9pOq4jXA.jpeg 552w, https://miro.medium.com/max/1280/1\*73oXq1pNNQoEUd9pOq4jXA.jpeg 640w, https://miro.medium.com/max/1400/1\*73oXq1pNNQoEUd9pOq4jXA.jpeg 700w" sizes="700px"/>
+![](./media-link/should-you-go-for-college.jpeg)
 
 I graduated with a major in Computer Science from a small private university (Go Zags!), but I felt I was ill-prepared for a software engineering job when I graduated. I thought of joining a coding bootcamp after graduation to better prepare myself. This article condenses my insights, research and findings during that time.
 
 We will dive into 3 things today:
 
-- What are the different approaches to being a software engineer today
-- Pros and cons of each approach
-- My recommendation
-
-## Tl;dr:
-
-If you are not in a hurry to specialize or ready to commit to a lifelong pursuit of a software engineer, then college makes a lot of sense. If, on the other hand, you have an existing non-tech job and you’re trying to make the switch into software engineering, then coding bootcamp would be my recommendation.
+- **What are the different approaches to being a software engineer today**
+- **Pros and cons of each approach**
+- **and finally, My recommendation**
 
 # Approach 1: Go to college and get your degree in Computer Science
 
@@ -54,9 +46,13 @@ Going to college is the “safe” choice for many people — it’s what people
 
 While not all of the classes will prepare you for a software engineering job, they do provide you an avenue to explore and learn about other industries.
 
-Most of the interesting startups today are built on the intersections of many disjoint industries. Robinhood, for example, combines tech with finance. Uber combines tech with transportation. And the list goes on.
+Most of the interesting startups today are built on the intersections of many disjoint industries. Robinhood, for example, combines tech with finance. Uber combines tech with transportation. And the list goes on. Going to college encourages you to explore different areas.
 
-Another major benefit of going to college is that there are many networking events catered specifically to students. Colleges like MIT, Stanford and University of Washington are top recruit schools for many tech companies. They host hiring events, information sessions, career fairs to attract the cream of the crop. As a student, you get access to all these opportunities before anyone else does. The network you build, the people you meet, the companies you interact with — these are the intangibles that make college an attractive proposition.
+Another major benefit of going to college is that there are many networking events catered specifically to students.
+
+Colleges like MIT, Stanford and University of Washington are top recruit schools for many tech companies. They host hiring events, information sessions, career fairs to attract the cream of the crop. As a student, you get access to all these opportunities before anyone else does.
+
+> The network you build, the people you meet, the companies you interact with — these are the intangibles that make college an attractive proposition.
 
 ## Downsides
 
@@ -99,6 +95,8 @@ Software engineering is not a career for everyone — some might think it’s a 
 > It is a lifelong pursuit of improvement and learning in order to be a great software engineer.
 
 I hope you’ve learned a thing or two from this article, and my experience of choosing between going back to school for more education or coding bootcamp to polish my skills.
+
+---
 
 # Resources I Recommend
 

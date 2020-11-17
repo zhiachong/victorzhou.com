@@ -4,7 +4,7 @@ date: '2019-05-03T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/how-to-write-a-great-resume/'
-# img: "https://zhiachong.com/media/xkcd-290.png"
+img: './media-link/how-to-write-a-resume.png'
 isML: false
 isWeb: true
 isSeries: false
@@ -18,16 +18,11 @@ guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/swlh/how-to-write-a-great-resume-for-software-engineers-75d514dd8322
-prev: '/blog/automating-my-job-search-with-python/'
-next: '/blog/automating-my-job-search-with-python/'
+prev: '/blog/how-i-landed-offers/'
+next: '/blog/how-i-landed-offers/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-# prev: "/blog/intro-to-neural-networks/"
-# next: "/blog/intro-to-random-forests/"
-# discussLinkTwitter: https://twitter.com/victorczhou/status/1092487435546705921
-# discussLinkHN: https://news.ycombinator.com/item?id=19086530
-# discussLinkReddit: https://www.reddit.com/r/learnmachinelearning/comments/an2o7t/building_a_better_profanity_detection_library/
 popularity: 500
 ---
 

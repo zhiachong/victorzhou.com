@@ -4,7 +4,7 @@ date: '2018-07-01T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/secret-to-productivity/'
-img: './media-link/2020-01-01/how-to-be-successful.png'
+img: './media-link/my-secrets-to-productivity.png'
 isML: false
 isWeb: true
 isSeries: false
@@ -29,12 +29,6 @@ popularity: 1001
 ---
 
 # My Secret to Productivity 🤫
-
-[![Zhia Chong](https://miro.medium.com/fit/c/96/96/0*EZPINFjFIrRRp-9G.jpg)](https://medium.com/@zhiachong?source=post_page-----8d4d461d1fea--------------------------------)[Zhia Chong](https://medium.com/@zhiachong?source=post_page-----8d4d461d1fea--------------------------------)Follow[Jul 1, 2018](https://medium.com/effai-me/my-secret-to-productivity-8d4d461d1fea?source=post_page-----8d4d461d1fea--------------------------------) · 4 min read
-
-<img alt="Image for post" class="t u v hm aj" src="https://miro.medium.com/max/2820/1\*ip8\_37nFRmWOGqBYkVJwSQ.png" width="1410" height="776" srcSet="https://miro.medium.com/max/552/1\*ip8\_37nFRmWOGqBYkVJwSQ.png 276w, https://miro.medium.com/max/1104/1\*ip8\_37nFRmWOGqBYkVJwSQ.png 552w, https://miro.medium.com/max/1280/1\*ip8\_37nFRmWOGqBYkVJwSQ.png 640w, https://miro.medium.com/max/1456/1\*ip8\_37nFRmWOGqBYkVJwSQ.png 728w, https://miro.medium.com/max/1632/1\*ip8\_37nFRmWOGqBYkVJwSQ.png 816w, https://miro.medium.com/max/1808/1\*ip8\_37nFRmWOGqBYkVJwSQ.png 904w, https://miro.medium.com/max/1984/1\*ip8\_37nFRmWOGqBYkVJwSQ.png 992w, https://miro.medium.com/max/2000/1\*ip8\_37nFRmWOGqBYkVJwSQ.png 1000w" sizes="1000px"/>
-
-Secret for Productivity
 
 Everyone has a secret move or a special technique they use to keep themselves pumped up to complete a task. Amidst all the distraction from the likes of Youtube, Facebook, Instagram and Twitter, one may ask how is it possible to stay productive at all?
 

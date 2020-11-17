@@ -4,7 +4,7 @@ date: '2018-01-28T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/guide-to-amazing-resume/'
-img: './media-link/2020-01-01/how-to-be-successful.png'
+img: './media-link/simple-guide-to-build-resume.png'
 isML: false
 isWeb: true
 isSeries: false
@@ -28,11 +28,7 @@ discussLinkReddit: ''
 popularity: 1004
 ---
 
-# A simple guide to building an amazing technical résumé
-
-<img alt="Image for post" class="dv gu dw gv w" src="https://miro.medium.com/max/3468/1\*2aUtfrz1DH8Lsd9nHv78ZA.png" width="1734" height="1250" srcSet="https://miro.medium.com/max/552/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 276w, https://miro.medium.com/max/1104/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 552w, https://miro.medium.com/max/1280/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 640w, https://miro.medium.com/max/1456/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 728w, https://miro.medium.com/max/1632/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 816w, https://miro.medium.com/max/1808/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 904w, https://miro.medium.com/max/1984/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 992w, https://miro.medium.com/max/2000/1\*2aUtfrz1DH8Lsd9nHv78ZA.png 1000w" sizes="1000px"/>
-
-A Simple Guide to Building an Amazing Technical Resume 🚀
+![](./media-link/simple-guide-to-build-resume.png)
 
 Whether you’re an aspiring software engineer or a seasoned developer, there are times when you need to give your résumé a boost to make it much more appealing.
 
@@ -77,9 +73,7 @@ Here are some ideas about what to build:
 
 # Gain experience with a start-up
 
-<img alt="Image for post" class="dv gu dw gv w" src="https://miro.medium.com/max/1000/1\*s89KUrELohZ0OB4H1QCLAA.jpeg" width="500" height="515" srcSet="https://miro.medium.com/max/552/1\*s89KUrELohZ0OB4H1QCLAA.jpeg 276w, https://miro.medium.com/max/1000/1\*s89KUrELohZ0OB4H1QCLAA.jpeg 500w" sizes="500px"/>
-
-Image courtesy of startupjournal.com
+![Image courtesy of startupjournal.com](./media-link/gain-experience.jpeg)
 
 While I was working a day job over summer in college, I had some spare time at night and wondered if there were any startups in the area looking to hire a college student for cheap. I was young, hungry, and ready to learn.
 

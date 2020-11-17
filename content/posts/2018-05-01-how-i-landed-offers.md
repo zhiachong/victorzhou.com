@@ -4,7 +4,7 @@ date: '2018-05-01T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/how-i-landed-offers/'
-img: './media-link/2020-01-01/how-to-be-successful.png'
+img: './media-link/microsoft-google-amazon.png'
 isML: false
 isWeb: true
 isSeries: false
@@ -28,7 +28,9 @@ discussLinkReddit: ''
 popularity: 5000
 ---
 
-<figure>![](https://cdn-images-1.medium.com/max/2600/1*QuyFfwka5D5j7Z2IR4mcCQ.png)</figure>This is for those of you out there who are about to start your job search and who may be worried that you can’t land a top-tier tech job without a Stanford CS degree. Someone told you that you’re not good enough to get a job at Microsoft or Facebook. But I’m here to tell you that you can get that job. Here’s how I did it, and landed my dream job at Twitter.
+![](./media-link/microsoft-google-amazon.png)
+
+This is for those of you out there who are about to start your job search and who may be worried that you can’t land a top-tier tech job without a Stanford CS degree. Someone told you that you’re not good enough to get a job at Microsoft or Facebook. But I’m here to tell you that you can get that job. Here’s how I did it, and landed my dream job at Twitter.
 
 **10/11/2020**: Read more about my courses [here](https://docs.google.com/document/d/1PeK69h4H82rwKjhactiE_sAIorCcZgXgXTY7k-nXpnE/edit?usp=sharing) to learn how I prepared.
 
@@ -210,7 +212,9 @@ From my experience, I sent out 20 or so cold messages to startups and mid-stage 
 
 I am not that sociable, and I didn’t know many people who’d be able to refer me to a company I was interested in. To solve that problem, I went on LinkedIn. They have a search functionality that I used to search for 1st and 2nd-level connections. 2nd-level connections are people who’re one hop away from your immediate circle. In other words, we have mutual friends who can **vouch for my credibility**.
 
-<figure>![](https://cdn-images-1.medium.com/max/2400/1*hJo9WP-_7tCpETM-_uMLcQ.png)<figcaption>LinkedIn Search</figcaption></figure>This is incredibly important, because cold-calling someone for a job is very, very hard, especially in today’s market. People tend to err on the side of caution when it comes to cold-callers. Using LinkedIn was super helpful for my research phase.
+![LinkedIn Search feature](https://cdn-images-1.medium.com/max/2400/1*hJo9WP-_7tCpETM-_uMLcQ.png)
+
+This is incredibly important, because cold-calling someone for a job is very, very hard, especially in today’s market. People tend to err on the side of caution when it comes to cold-callers. Using LinkedIn was super helpful for my research phase.
 
 Looking back at all the companies I interviewed at, here are my thoughts on each of them:
 
@@ -271,11 +275,15 @@ Technical interviews are incredibly difficult, and sometimes it’s a hit-or-mis
 - **Prepare early, prepare _well_**. Everyone knows that they should prepare for an interview, but most don’t know how to do it _well_. As with anything worth doing, it takes deliberate practice to do well at something. And deliberate practice means you need to have a system.
 - **Build a system** to practice technical skills. I started by rating myself from 1–10 on how good I was, and worked on the ones I was worst at. I spent days on different types of questions until I fully mastered each concept. And I **wrote notes daily on Evernote**. I had a note that serves as a brain dump for all things programming. It is full of programming tips &amp; tricks, common errors and misconceptions, frameworks for solving specific types of questions, and much more.
 
-<figure>![](https://cdn-images-1.medium.com/max/2400/1*D34E4dmN6y-Bg8ZrB6YMDg.png)<figcaption>My Notebook</figcaption></figure>- **Keep a notebook** of things you’ve learned. I use both [Evernote](http://evernote.com) and [OneNote](http://onenote.com) to keep track of things. OneNote for technical stuff/code, because I like that I can easily format the note any way I like. I use Evernote for essays/thoughts. The image above shows a note I keep on architecture and system designs.
+![Screenshot of my notebook](https://cdn-images-1.medium.com/max/2400/1*D34E4dmN6y-Bg8ZrB6YMDg.png)
 
-<figure>![](https://cdn-images-1.medium.com/max/2400/1*8jIzBtK4RajWQMmopfdvJQ.png)<figcaption>Evernote for thoughts/tips</figcaption></figure>- **Jot everything down**, even if you don’t think you’ll use it. I tend to forget very easily, so anything that I learn I write it down, including shell commands. I read technical blogs from time-to-time, and if I find anything interesting I jot it down on Evernote right away. I’ll revise it every week or month and reorganize accordingly. This has helped me tremendously over my career.
+- **Keep a notebook** of things you’ve learned. I use both [Evernote](http://evernote.com) and [OneNote](http://onenote.com) to keep track of things. OneNote for technical stuff/code, because I like that I can easily format the note any way I like. I use Evernote for essays/thoughts. The image above shows a note I keep on architecture and system designs.
+
+![Evernote](https://cdn-images-1.medium.com/max/2400/1*8jIzBtK4RajWQMmopfdvJQ.png)
+
+- **Jot everything down**, even if you don’t think you’ll use it. I tend to forget very easily, so anything that I learn I write it down, including shell commands. I read technical blogs from time-to-time, and if I find anything interesting I jot it down on Evernote right away. I’ll revise it every week or month and reorganize accordingly. This has helped me tremendously over my career.
 - **Get mock interviews**. This was definitely very valuable and I highly advise it. I had mock interviews with friends and tried to practice as much as I could. If you can’t find friends to practice with, then I recommend scheduling 1 with me. I will assess you on your coding and design skills. The best part of it is I’ll give you a score at the end of it with specific actionable items on how to improve.
-- It’s **OK to fail. I failed multiple interviews during this whole process.** Sometimes you just have a bad day. It’s not the end of the world if you fail. Companies are biased towards saying no because it’s a lower risk for them. A false positive costs more than a false negative in the long run. The first few rejections definitely stung the most. I failed multiple phone screens when I first started interviewing, and my confidence level sunk. I had doubts in my mind about my abilities and started fearing that my skills weren’t relevant in today’s job market. However, I gave myself a tip: If you fail 10 times, then try 10 times more. *All you need is one success.* That reassurance gave me a lot of confidence to keep pushing through and when my first offer came through, the other offers came much more easily.
+- It’s **OK to fail. I failed multiple interviews during this whole process.** Sometimes you just have a bad day. It’s not the end of the world if you fail. Companies are biased towards saying no because it’s a lower risk for them. A false positive costs more than a false negative in the long run. The first few rejections definitely stung the most. I failed multiple phone screens when I first started interviewing, and my confidence level sunk. I had doubts in my mind about my abilities and started fearing that my skills weren’t relevant in today’s job market. However, I gave myself a tip: If you fail 10 times, then try 10 times more. _All you need is one success._ That reassurance gave me a lot of confidence to keep pushing through and when my first offer came through, the other offers came much more easily.
 
 It took me about **2 months** of deliberate practice and preparation for my interviews. I spent about **20 hours/week, or 80 hours/month,** learning and writing notes on top of a full time job.
 

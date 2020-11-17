@@ -4,7 +4,7 @@ date: '2020-03-14T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/best-book-for-coding/'
-img: './media-link/2020-01-01/how-to-be-successful.png'
+img: './media-link/book-for-coding.png'
 isML: false
 isWeb: true
 isSeries: false
@@ -30,7 +30,9 @@ popularity: 1004
 
 # Is This The Best Book for Coding Interview Preparation?
 
-## <figure class="wp-block-image">![](https://cdn-images-1.medium.com/max/1200/1*aEcUKEZzN7l6D6W9HnMeOw.png)</figure>Who is this for?
+![](./media-link/book-for-coding.png)
+
+## Who is this for?
 
 Technical coding interviews are notoriously difficult — almost borderline quiz-like for those unprepared. It can sometimes be a daunting task to navigate all the technical coding preparation resources available online, and one might ask: _is there a single book/resource that best prepares for technical coding interviews?_
 
@@ -38,7 +40,9 @@ _Best_, is relative of course in this case. If you’re looking for a book that 
 
 In today’s book review, I go over in _detail_ the **good** and the **bad** of one of the top-selling books on Amazon for technical coding interviews: [Elements of Programming Interviews ](https://amzn.to/2Q6m9xB)(a.k.a _EPI_, and it’ll be referred to as such in the rest of this article).
 
-## <figure class="wp-block-image">![](https://cdn-images-1.medium.com/max/1600/1*HrabnKvr0v48ijl-_Z1n1Q.png)<figcaption>Elements of Programming Interviews</figcaption></figure>What is this book about?
+## What is this book about?
+
+![](./media-link/EPI.png)
 
 EPI is a book that focuses on preparing for technical software engineering interviews that are commonly asked at tech companies. If you’re looking for a position as a software engineer, this book will have something for you.
 
@@ -72,6 +76,8 @@ EPI has its downsides as well. Being a highly technical book, this means the boo
 
 This, inadvertently, means that the book falls short in terms of other aspects of the technical interview process which are, arguably, just as important — offer negotiation, how to write a persuasive resume, what to do when you get an offer, how to handle behavioral questions etc.
 
+> This, inadvertently, means that the book falls short in terms of other aspects of the technical interview process which are, arguably, just as important.
+
 In addition, the book goes into deep detail with data structures and algorithms, but only provides a high-level overview, to the point of being confusing due to lack of context, of various other important concepts like SQL, NoSQL, how to design a proper schema for a simple application and more. The book sort of covers SQL design by explaining how to structure tables to capture entity relationships, but it does not explain more about JOINs or how to query the tables properly. I think understanding the _what_ (SQL tables) is just as important as the _how_ (queries).
 
 EPI also has a chapter on systems designs, but the chapter does not cover distributed designs. I would’ve liked it better if the book had described in more details what distributed systems are or where to find more information about these.
@@ -84,7 +90,7 @@ The book sells for \$36 on average (there are 3 versions). This book is highly r
 
 On [Amazon.com](https://amzn.to/2Q6m9xB):
 
-<figure class="wp-block-image">![](https://cdn-images-1.medium.com/max/1600/1*hcA7BERAhmwNL-Z9tll1dQ.png)<figcaption>Versions of EPI on Amazon.com</figcaption></figure>3 versions (as of March 12):
+![](./media-link/amazon-prime.png)L
 
 - Python: 169 ratings 4.3 ave
 - Java: 203 ratings 4.6 ave
@@ -106,7 +112,9 @@ I think that **EPI is one of the best resources to prepare for technical coding 
 
 If you want all the data structures, algorithms you need to know in a single, easy-to-read book, then EPI is the book for you.
 
-<figure class="wp-block-image">![](https://cdn-images-1.medium.com/max/1200/1*9foCcsPPFO9AiOlnTKpvOw.png)<figcaption>Designing Data Intensive Applications</figcaption></figure>For distributed systems designs, I recommend looking elsewhere. A good start is [Designing Data Intensive Applications](https://amzn.to/2Q6m9xB).
+![Designing Data Intensive Applications](./media-link/dda.png)
+
+For distributed systems designs, I recommend looking elsewhere. A good start is [Designing Data Intensive Applications](https://amzn.to/2Q6m9xB).
 
 I love it for the depth and insights, and I recommend it to many students who are taking my [courses](http://bit.ly/interviewcourses) as well.
 

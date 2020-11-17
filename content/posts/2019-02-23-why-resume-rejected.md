@@ -4,7 +4,7 @@ date: '2019-02-23T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/why-resume-rejected/'
-img: './media-link/2020-01-01/how-to-be-successful.png'
+img: './media-link/resume-rejected.png'
 isML: false
 isWeb: true
 isSeries: false
@@ -15,7 +15,7 @@ tags:
   - 'Resume'
   - 'Python'
   - 'Job Search'
-description: Your resume is your business card. Use it well.
+description: Your resume is your business card. Don't leave it to chance.
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
@@ -28,27 +28,15 @@ discussLinkReddit: ''
 popularity: 1004
 ---
 
-# Why Your Resume Is Being Rejected
-
-[![Zhia Chong](https://miro.medium.com/fit/c/56/56/0*EZPINFjFIrRRp-9G.jpg)](https://medium.com/@zhiachong?source=post_page-----240f36a7476b--------------------------------)[
-
-#### Zhia Chong
-
-](https://medium.com/@zhiachong?source=post_page-----240f36a7476b--------------------------------)[
-
-#### Feb 23·6 min read
-
-](https://medium.com/@zhiachong/why-your-resume-is-being-rejected-240f36a7476b?source=post_page-----240f36a7476b--------------------------------)
-
-<img alt="Image for post" class="dv gk dw gl w" src="https://miro.medium.com/max/1766/1\*jfAq5ACuXagtOgeT\_GKGmA.png" width="883" height="416" srcSet="https://miro.medium.com/max/552/1\*jfAq5ACuXagtOgeT\_GKGmA.png 276w, https://miro.medium.com/max/1104/1\*jfAq5ACuXagtOgeT\_GKGmA.png 552w, https://miro.medium.com/max/1280/1\*jfAq5ACuXagtOgeT\_GKGmA.png 640w, https://miro.medium.com/max/1400/1\*jfAq5ACuXagtOgeT\_GKGmA.png 700w" sizes="700px"/>
-
 If you are a new grad looking for an internship or full-time position at a top-tier tech company, or you know someone who’s currently in the process of looking for a new job, then this article is for you. I summarize some of the top mistakes I see as a career coach and as someone who’s been on both sides of the metaphorical interviewing “table”.
 
 Avoiding these mistakes is critical because if you are making any of these mistakes today, the chances are your resume is not getting picked up by the right people, and worse, you’re **not getting the opportunity that you deserve**.
 
-If you prefer to watch this article instead, I made a whole video about it here:
+Here's a video I made on this same topic, if you prefer kick back and watch it:
 
-## Mistake 1: Too much fluff, not enough stuff
+https://www.youtube.com/watch?v=7l4WyLzj0V4&feature=emb_logo
+
+# Mistake 1: Too much fluff, not enough stuff
 
 Many first-time candidates spend too much time on their resume! What I mean specifically is that they focus on the formatting, the color, the fonts, the layout, of the resume.
 
@@ -60,7 +48,7 @@ Therefore, in a competitive, red-hot market, the thing you need to do to stand o
 
 Strong technical skills/experience makes you a much stronger and attractive candidate. Many fresh grads try to pad up their resume with non-tech related experience like social clubs. I don’t think those are unnecessary, so to speak. These experiences are valuable insights into your character, but if you’re trying to apply as a software engineer, what’s most important here is the technical content. Companies want to see your technical skills, can you write code, can you deliver a given assignment, can you get stuff done.
 
-## Mistake 2: Tutorial Hogs
+# Mistake 2: Tutorial Hogs
 
 Second most common mistake I see is that many people spend too much time on tutorials with no clear goals in mind. They’re the typical Udemy/Coursera/<insert-any-online-academy-here> warriors who sign up for every Android, Swift, Javascript, React course available and work through them diligently. They know every syntax of every programming language out there. They can chat religiously about MVC vs MVVC. They know what’s the “in” and what’s “out”.
 
@@ -74,7 +62,7 @@ There’s something that we call in the industry as “applied intelligence” �
 
 If you can do so, then you’re presenting yourself as a holistic, technical-oriented problem solver. And that’s what a lot of companies are looking for.
 
-## Mistake 3: Missing the forest for the trees
+# Mistake 3: Missing the forest for the trees
 
 Why limit your job search to only San Francisco or Seattle? Or even the US for that matter?
 
@@ -86,9 +74,11 @@ The truth is you have very limited set of openings, being competed away by a lar
 
 My recommendation is **expand your horizons and search beyond just the companies you’ve heard of.** Instead of just focusing on those top tech companies, open up your eyes and look across startups, midsize companies, non-tech companies because those are the best opportunities right now.
 
+> **Starting somewhere small and building your experience along the way is a great way to bootstrap your career.**
+
 Starting somewhere small and building your experience along the way is a great way to bootstrap your career. It doesn’t really matter how much you get paid initially or what the title of the position really is, because once you get your foot in the door, you can learn and improve yourself to prepare for the job you _want_. That’s exactly what I did when I graduated from college — I didn’t have any job lined up. I then wrote a script that helped me apply to different companies, and finally a startup took a gamble on me and gave me a job. You can read more about my story [here](https://medium.com/swlh/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8) and how I finally landed at Twitter.
 
-## Mistake 4: Right Credentials, Wrong Job
+#Mistake 4: Right Credentials, Wrong Job
 
 My best analogy for this is: would you buy a shovel to build a door? Most likely no, but why would you apply for a machine learning specialist if you are a front-end engineer?
 
@@ -99,6 +89,8 @@ Some of my friends shyly confided in me that they’re hoping that the HR depart
 I’m sorry, but they won’t.
 
 If you’re a software engineer and you’re trying to apply for a machine-learning positioned, ideally you should have on your resume here some relevant experience related to machine learning. Either you have taken some internship projects or you have done some of machine learning related experience in your current job.
+
+---
 
 # Recommendation
 
@@ -112,19 +104,3 @@ If you don’t have a friend (sad but OK), then ping me [here](https://zhiachong
 # Thank you
 
 Thank you for reading thus far :) If you enjoyed this article, please consider buying me a coffee here (coffee helps me write): [https://www.buymeacoffee.com/zhiachong](https://www.buymeacoffee.com/zhiachong)
-
-If you found this article useful, join my newsletter where I write monthly about software engineering, technical interviews and technologies [here](https://twitter.us12.list-manage.com/subscribe/post?u=262c24df721ffeaf01457ee4d&id=8344d30ec7). Here are some of my other articles that you might enjoy:
-
-[
-
-## How I landed offers from Microsoft, Amazon, and Twitter without an Ivy League degree
-
-### This is for those of you out there who are about to start your job search and who may be worried that you can’t land a…
-
-#### medium.com
-
-](https://medium.com/swlh/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8)
-
-How to be a successful software engineer: [https://medium.com/@zhiachong/how-to-be-a-successful-software-engineer-6f82a5b1a82e](https://medium.com/@zhiachong/how-to-be-a-successful-software-engineer-6f82a5b1a82e)
-
-How to crack the system design interview: [https://medium.com/@zhiachong/how-to-system-design-dda63ed27e26](https://medium.com/@zhiachong/how-to-system-design-dda63ed27e26)

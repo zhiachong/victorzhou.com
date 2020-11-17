@@ -4,7 +4,7 @@ date: '2018-06-08T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/things-you-must-know-in-interview/'
-img: './media-link/2020-01-01/how-to-be-successful.png'
+img: './media-link/5-things-you-need-to-know.png'
 isML: false
 isWeb: true
 isSeries: false
@@ -28,11 +28,7 @@ discussLinkReddit: ''
 popularity: 1004
 ---
 
-# **5 things you need to know in a programming interview**
-
-<img alt="Image for post" class="t u v hc aj" src="https://miro.medium.com/max/8480/1\*RijhIwu\_gn98\_W\_QnYcGAA.jpeg" width="4240" height="2832" srcSet="https://miro.medium.com/max/552/1\*RijhIwu\_gn98\_W\_QnYcGAA.jpeg 276w, https://miro.medium.com/max/1104/1\*RijhIwu\_gn98\_W\_QnYcGAA.jpeg 552w, https://miro.medium.com/max/1280/1\*RijhIwu\_gn98\_W\_QnYcGAA.jpeg 640w, https://miro.medium.com/max/1400/1\*RijhIwu\_gn98\_W\_QnYcGAA.jpeg 700w" sizes="700px"/>
-
-Photo by [Tyler Franta](https://unsplash.com/photos/iusJ25iYu1c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/technology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+![](./media-link/5-things-you-need-to-know.png)
 
 This article is intended for those who are trying to start their programming career, or are preparing to interview for their dream job. As someone who’s been on [both sides of the interviewing table](https://medium.freecodecamp.org/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8), I understand how it feels to be the the interviewee.
 
@@ -52,10 +48,6 @@ You’re interviewing for your dream job, something you’ve dreamed of since yo
 
 The struggle is real.
 
-<img alt="Image for post" class="t u v hc aj" src="https://miro.medium.com/max/1920/1\*8csA-fy8rMONaEVeOjVP4A.png" width="960" height="720" srcSet="https://miro.medium.com/max/552/1\*8csA-fy8rMONaEVeOjVP4A.png 276w, https://miro.medium.com/max/1104/1\*8csA-fy8rMONaEVeOjVP4A.png 552w, https://miro.medium.com/max/1280/1\*8csA-fy8rMONaEVeOjVP4A.png 640w, https://miro.medium.com/max/1400/1\*8csA-fy8rMONaEVeOjVP4A.png 700w" sizes="700px"/>
-
-5 Things You Need To Know In A Programming Interview
-
 # 1\. Always think ahead
 
 Often, you’ll hear an interviewer ask this: “OK, I think that looks good. Now, how would you improve this code?”
@@ -72,7 +64,9 @@ For example, when you look at this piece of code below, what does it do? How wou
 
 Let me know in the comments below. I’d love to hear your thoughts.
 
-<img alt="Image for post" class="t u v hc aj" src="https://miro.medium.com/max/2212/1\*3JlfDbUahHmbqdMPNz3qrQ.png" width="1106" height="1010" srcSet="https://miro.medium.com/max/552/1\*3JlfDbUahHmbqdMPNz3qrQ.png 276w, https://miro.medium.com/max/1104/1\*3JlfDbUahHmbqdMPNz3qrQ.png 552w, https://miro.medium.com/max/1280/1\*3JlfDbUahHmbqdMPNz3qrQ.png 640w, https://miro.medium.com/max/1400/1\*3JlfDbUahHmbqdMPNz3qrQ.png 700w" sizes="700px"/>
+<img alt="Image for post" class="t u v hc aj" src="./media-link/Python-code-to-do-X
+.png" width="1106" height="1010" srcSet="./media-link/Python-code-to-do-X.png 276w, ./media-link/Python-code-to-do-X.png 552w, ./media-link/Python-code-to-do-X
+.png 640w, ./media-link/Python-code-to-do-X.png 700w" sizes="700px"/>
 
 Python code to do X
 
@@ -113,7 +107,7 @@ Writing code for computers to understand is easy. Writing code for humans is har
 
 Imagine you’re heading to prom night with the person of your dreams, and you show up at their doorstep in flip flops and a sleeveless t-shirt.
 
-<img alt="Image for post" class="t u v hc aj" src="https://miro.medium.com/max/1104/1\*M08c0hGX86bR0TlkZqUFGA.jpeg" width="552" height="414" srcSet="https://miro.medium.com/max/552/1\*M08c0hGX86bR0TlkZqUFGA.jpeg 276w, https://miro.medium.com/max/1104/1\*M08c0hGX86bR0TlkZqUFGA.jpeg 552w" sizes="552px"/>
+<img alt="Image for post" class="t u v hc aj" src="./media-link/craft-for-your-resume.jpeg" width="552" height="414" srcSet="./media-link/craft-for-your-resume.jpeg 276w, ./media-link/craft-for-your-resume.jpeg 552w" sizes="552px"/>
 
 Credits to Futurama and Imgflip.com
 
@@ -149,7 +143,7 @@ Using abstraction to hide the complicated implementation details doesn’t mean 
 
 Let’s compare and contrast these two pieces of code:
 
-<img alt="Image for post" class="t u v hc aj" src="https://miro.medium.com/max/1920/1\*sn8hGuTn-DU-FSThejgDGQ.png" width="960" height="720" srcSet="https://miro.medium.com/max/552/1\*sn8hGuTn-DU-FSThejgDGQ.png 276w, https://miro.medium.com/max/1104/1\*sn8hGuTn-DU-FSThejgDGQ.png 552w, https://miro.medium.com/max/1280/1\*sn8hGuTn-DU-FSThejgDGQ.png 640w, https://miro.medium.com/max/1400/1\*sn8hGuTn-DU-FSThejgDGQ.png 700w" sizes="700px"/>
+<img alt="Image for post" class="t u v hc aj" src=" ./media-link/traverse-of-matrix.png" width="960" height="720" srcSet="./media-link/traverse-of-matrix.png 276w, ./media-link/traverse-of-matrix.png 552w, ./media-link/traverse-of-matrix.png 640w, ./media-link/traverse-of-matrix.png 700w" sizes="700px"/>
 
 Traverse a matrix
 

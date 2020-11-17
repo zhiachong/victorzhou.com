@@ -4,7 +4,7 @@ date: '2020-04-08T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/how-to-system-design/'
-# img: "https://zhiachong.com/media/xkcd-290.png"
+img: './media-link/2020-04-08/how-to-system-design.png'
 isML: false
 isWeb: true
 isSeries: false
@@ -40,7 +40,7 @@ This article is broken down into the following four sections:
 - [**Ask clarification questions**](#clarifying-question)
 - [**Use your background**](#use-your-bg)
 - [**Tackle a problem systematically**](#systematic)
-- [**Keep your own notes**](#keep-notes)
+- [**Keep your notes**](#keep-notes)
 
 ## <a name="clarifying-question"></a>Ask clarification questions
 

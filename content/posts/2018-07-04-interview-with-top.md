@@ -4,7 +4,7 @@ date: '2018-07-04T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/how-to-get-an-interview/'
-img: './media-link/2020-01-01/how-to-be-successful.png'
+img: './media-link/interview-with-top.png'
 isML: false
 isWeb: true
 isSeries: false
@@ -28,21 +28,7 @@ discussLinkReddit: ''
 popularity: 1004
 ---
 
-# How To Get An Interview With Top Tech Companies
-
-[![Zhia Chong](https://miro.medium.com/fit/c/56/56/0*EZPINFjFIrRRp-9G.jpg)](https://medium.com/@zhiachong?source=post_page-----c27f18e9d157--------------------------------)[
-
-#### Zhia Chong
-
-](https://medium.com/@zhiachong?source=post_page-----c27f18e9d157--------------------------------)[
-
-#### Jul 4, 2018·8 min read
-
-](https://medium.com/@zhiachong/how-to-get-an-interview-with-top-tech-companies-c27f18e9d157?source=post_page-----c27f18e9d157--------------------------------)
-
-<img alt="Image for post" class="dv gu dw gv w" src="https://miro.medium.com/max/2912/1\*DxFUOcRM5UUblxaNIkoYLQ.png" width="1456" height="830" srcSet="https://miro.medium.com/max/552/1\*DxFUOcRM5UUblxaNIkoYLQ.png 276w, https://miro.medium.com/max/1104/1\*DxFUOcRM5UUblxaNIkoYLQ.png 552w, https://miro.medium.com/max/1280/1\*DxFUOcRM5UUblxaNIkoYLQ.png 640w, https://miro.medium.com/max/1456/1\*DxFUOcRM5UUblxaNIkoYLQ.png 728w, https://miro.medium.com/max/1632/1\*DxFUOcRM5UUblxaNIkoYLQ.png 816w, https://miro.medium.com/max/1808/1\*DxFUOcRM5UUblxaNIkoYLQ.png 904w, https://miro.medium.com/max/1984/1\*DxFUOcRM5UUblxaNIkoYLQ.png 992w, https://miro.medium.com/max/2000/1\*DxFUOcRM5UUblxaNIkoYLQ.png 1000w" sizes="1000px"/>
-
-How To Get An Interview With Top Tech Companies
+![](./media-link/interview-with-top.png)
 
 If you’ve ever wondered how to land an interview with top tech companies or know someone who’s been struggling to get an interview with one, then this article is for you.
 
@@ -131,8 +117,6 @@ She notes that **compensation information is very transparent in the industry.**
 
 I wrote an [article](https://medium.freecodecamp.org/how-to-write-a-great-resume-for-software-engineers-75d514dd8322) on how to write a great resume for software engineers. So I won’t be spending a lot of time on that. 😆
 
-# How to land an interview
-
 ## Software Engineer says
 
 In general, there are three ways of doing it:
@@ -174,9 +158,3 @@ When a recruiter goes through hundreds of resumes in a day, everyone looks the s
 # Credits
 
 Thanks to [Open source portfolio](https://medium.com/u/e68c5c9127bb?source=post_page-----c27f18e9d157--------------------------------) for proof-reading and providing invaluable suggestions on how to improve this article. They are a contributor on [effai](https://medium.com/effai-me), a publication that writes about intentional living, mindfulness, and financial independence.
-
-<img alt="Image for post" class="dv gu dw gv w" src="https://miro.medium.com/max/6048/1\*IV-dgbMTj\_IINauMcglZyA.jpeg" width="3024" height="4032" srcSet="https://miro.medium.com/max/552/1\*IV-dgbMTj\_IINauMcglZyA.jpeg 276w, https://miro.medium.com/max/1104/1\*IV-dgbMTj\_IINauMcglZyA.jpeg 552w, https://miro.medium.com/max/1280/1\*IV-dgbMTj\_IINauMcglZyA.jpeg 640w, https://miro.medium.com/max/1400/1\*IV-dgbMTj\_IINauMcglZyA.jpeg 700w" sizes="700px"/>
-
-_Zhia Chong is a software engineer at Twitter. He works on the Ads Measurement team in Seattle, measuring ads impact and ROI for advertisers. Twitter is hiring!_
-
-_You can find him on_ [_Twitter_](https://twitter.com/zhiachong) _and_ [_LinkedIn_](https://www.linkedin.com/in/zhiachong/)_. Subscribe to his_ [_newsletter_](https://twitter.us12.list-manage.com/subscribe?u=262c24df721ffeaf01457ee4d&id=8344d30ec7) _to find out his code snippets, tricks and daily life!_

@@ -4,7 +4,7 @@ date: '2019-04-18T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/guide-to-distributed-queues/'
-img: './media-link/2020-01-01/how-to-be-successful.png'
+img: './media-link/queue.jpeg'
 isML: false
 isWeb: true
 isSeries: false
@@ -26,39 +26,23 @@ discussLinkReddit: ''
 popularity: 1004
 ---
 
-# A Dummy’s Guide to Distributed Queues
-
-[![Zhia Chong](https://miro.medium.com/fit/c/56/56/0*EZPINFjFIrRRp-9G.jpg)](https://medium.com/@zhiachong?source=post_page-----2cd358d83780--------------------------------)[
-
-#### Zhia Chong
-
-](https://medium.com/@zhiachong?source=post_page-----2cd358d83780--------------------------------)[
-
-#### Apr 18, 2019·8 min read
-
-](https://medium.com/@zhiachong/a-dummys-guide-to-distributed-queues-2cd358d83780?source=post_page-----2cd358d83780--------------------------------)
-
 If you’ve ever wondered what _Kafka, Heron, real-time streaming, SQS or RabbitMQ_ are all about, then this article is for you. I’ll discuss in detail why we need a queue for today’s modern software architecture, what are some common technologies used, and how queues are commonly used in the industry. If you enjoy this article, I have [a course](https://docs.google.com/document/d/1PeK69h4H82rwKjhactiE_sAIorCcZgXgXTY7k-nXpnE/edit#heading=h.hs0b333nsxch) on scaling distributed systems where I discuss these topics in more detail.
 
 OK, let’s get into it!
 
-<img alt="Image for post" class="dv hz dw ia w" src="https://miro.medium.com/max/3484/1\*Zocw-AFNgC0VDbNWp8dD\_g.png" width="1742" height="762" srcSet="https://miro.medium.com/max/552/1\*Zocw-AFNgC0VDbNWp8dD\_g.png 276w, https://miro.medium.com/max/1104/1\*Zocw-AFNgC0VDbNWp8dD\_g.png 552w, https://miro.medium.com/max/1280/1\*Zocw-AFNgC0VDbNWp8dD\_g.png 640w, https://miro.medium.com/max/1456/1\*Zocw-AFNgC0VDbNWp8dD\_g.png 728w, https://miro.medium.com/max/1632/1\*Zocw-AFNgC0VDbNWp8dD\_g.png 816w, https://miro.medium.com/max/1808/1\*Zocw-AFNgC0VDbNWp8dD\_g.png 904w, https://miro.medium.com/max/1984/1\*Zocw-AFNgC0VDbNWp8dD\_g.png 992w, https://miro.medium.com/max/2000/1\*Zocw-AFNgC0VDbNWp8dD\_g.png 1000w" sizes="1000px"/>
+![](./media-link/dummy-guide.png)
 
-A Dummy’s Guide to Queues
+---
 
-# First and foremost, why do you need a queue/message broker?
-
-## The story of how a queue saved the lemonade stands
+# Why do you need a queue/message broker?
 
 Imagine that you are running a lemonade 🍋 stand, and you built out a nifty little web-app that **keeps track of how often your clients return to your lemonade stand.**
 
-Your web-app has an endpoint, say _yourlemonade.com/traffic,_ and every time you click on a button, the traffic count goes up by 1. Beautiful.
+Your web-app has an endpoint, say `yourlemonade.com/traffic` and every time you click on a button, the traffic count goes up by 1. _Beautiful._
 
 As the traffic to your lemonade stand increases, you click the button more and more. Well, since you’re living in a relatively small neighborhood, you only get 10–20 people per day. Your sales proceed as usual, the web-app handles the traffic just fine, and everything is fine and dandy. Perfect.
 
-<img alt="Image for post" class="dv hz dw ia w" src="https://miro.medium.com/max/3708/1\*lT8OJwtr2F\_97Esx2q8\_Fg.png" width="1854" height="934" srcSet="https://miro.medium.com/max/552/1\*lT8OJwtr2F\_97Esx2q8\_Fg.png 276w, https://miro.medium.com/max/1104/1\*lT8OJwtr2F\_97Esx2q8\_Fg.png 552w, https://miro.medium.com/max/1280/1\*lT8OJwtr2F\_97Esx2q8\_Fg.png 640w, https://miro.medium.com/max/1456/1\*lT8OJwtr2F\_97Esx2q8\_Fg.png 728w, https://miro.medium.com/max/1632/1\*lT8OJwtr2F\_97Esx2q8\_Fg.png 816w, https://miro.medium.com/max/1808/1\*lT8OJwtr2F\_97Esx2q8\_Fg.png 904w, https://miro.medium.com/max/1984/1\*lT8OJwtr2F\_97Esx2q8\_Fg.png 992w, https://miro.medium.com/max/2000/1\*lT8OJwtr2F\_97Esx2q8\_Fg.png 1000w" sizes="1000px"/>
-
-Your lemonade stand web-app
+![Your lemonade stand web-app](./media-link/lemonade-stand-db.png)
 
 ## The nightmare of a booming business
 
@@ -66,9 +50,7 @@ Now that your lemonade stand has made a name for itself, people from across the 
 
 As you can imagine, the traffic to your lemonade stand increases from 10–20 people per day to 10,000 per day. You’re tapping the traffic button furiously, which in turns triggers a call to _yourlemonade.com/traffic,_ and your web app keeps incrementing the amount of traffic.
 
-<img alt="Image for post" class="dv hz dw ia w" src="https://miro.medium.com/max/4752/1\*nacr9h\_sBppvyGxFhpPfTg.png" width="2376" height="992" srcSet="https://miro.medium.com/max/552/1\*nacr9h\_sBppvyGxFhpPfTg.png 276w, https://miro.medium.com/max/1104/1\*nacr9h\_sBppvyGxFhpPfTg.png 552w, https://miro.medium.com/max/1280/1\*nacr9h\_sBppvyGxFhpPfTg.png 640w, https://miro.medium.com/max/1456/1\*nacr9h\_sBppvyGxFhpPfTg.png 728w, https://miro.medium.com/max/1632/1\*nacr9h\_sBppvyGxFhpPfTg.png 816w, https://miro.medium.com/max/1808/1\*nacr9h\_sBppvyGxFhpPfTg.png 904w, https://miro.medium.com/max/1984/1\*nacr9h\_sBppvyGxFhpPfTg.png 992w, https://miro.medium.com/max/2000/1\*nacr9h\_sBppvyGxFhpPfTg.png 1000w" sizes="1000px"/>
-
-Lemonade stand business runs into bottleneck
+![Your business runs into bottleneck](./media-link/nightmare-db.png)
 
 Unfortunately, your web-app is hosted on an 8-bit, 128MB RAM server in your house garage. With the booming business and increased traffic, your web-app cannot handle the scale of traffic any longer.
 
@@ -76,13 +58,11 @@ Eventually, your server dies. ☠️
 
 With that, your entire web app is brought down. You can’t keep track of traffic anymore. People are rushing in, orders are piling up, yet your web-app is down and you can’t handle any transactions until you can start logging the traffic again.
 
-<img alt="Image for post" class="dv hz dw ia w" src="https://miro.medium.com/max/4720/1\*iPZCgxsnRkrSveSQVhAWkw.png" width="2360" height="968" srcSet="https://miro.medium.com/max/552/1\*iPZCgxsnRkrSveSQVhAWkw.png 276w, https://miro.medium.com/max/1104/1\*iPZCgxsnRkrSveSQVhAWkw.png 552w, https://miro.medium.com/max/1280/1\*iPZCgxsnRkrSveSQVhAWkw.png 640w, https://miro.medium.com/max/1456/1\*iPZCgxsnRkrSveSQVhAWkw.png 728w, https://miro.medium.com/max/1632/1\*iPZCgxsnRkrSveSQVhAWkw.png 816w, https://miro.medium.com/max/1808/1\*iPZCgxsnRkrSveSQVhAWkw.png 904w, https://miro.medium.com/max/1984/1\*iPZCgxsnRkrSveSQVhAWkw.png 992w, https://miro.medium.com/max/2000/1\*iPZCgxsnRkrSveSQVhAWkw.png 1000w" sizes="1000px"/>
+![Traffic brought down your web-app, and business too.](./media-link/server-died.png)
 
-Traffic brought down your web-app, and business too.
+**What do you do?**
 
-What do you do?
-
-## Queue to the rescue
+# Queue to the rescue
 
 A moment of brilliance strikes you, _what if I place a box in front of the counter where each client can just drop a note saying they were there?_
 
@@ -90,9 +70,7 @@ Every time a client walks through the door and places an order, you ask them pol
 
 This is what we call [_asynchronous processing_](https://stackoverflow.com/questions/748175/asynchronous-vs-synchronous-execution-what-does-it-really-mean), and, _welcome to the world of queues_. 👋
 
-<img alt="Image for post" class="dv hz dw ia w" src="https://miro.medium.com/max/5144/1\*3wQ0h7nS4isDTx3weV1yyg.png" width="2572" height="1120" srcSet="https://miro.medium.com/max/552/1\*3wQ0h7nS4isDTx3weV1yyg.png 276w, https://miro.medium.com/max/1104/1\*3wQ0h7nS4isDTx3weV1yyg.png 552w, https://miro.medium.com/max/1280/1\*3wQ0h7nS4isDTx3weV1yyg.png 640w, https://miro.medium.com/max/1456/1\*3wQ0h7nS4isDTx3weV1yyg.png 728w, https://miro.medium.com/max/1632/1\*3wQ0h7nS4isDTx3weV1yyg.png 816w, https://miro.medium.com/max/1808/1\*3wQ0h7nS4isDTx3weV1yyg.png 904w, https://miro.medium.com/max/1984/1\*3wQ0h7nS4isDTx3weV1yyg.png 992w, https://miro.medium.com/max/2000/1\*3wQ0h7nS4isDTx3weV1yyg.png 1000w" sizes="1000px"/>
-
-Hero to the rescue!
+![Hero!](./media-link/server-healthy.png)
 
 When you start out building software, much like the lemonade stand I mentioned above, it is common for a task to
 
@@ -102,11 +80,9 @@ When you start out building software, much like the lemonade stand I mentioned a
 
 This is what’s called _synchronous processing. Asynchronous processing_, on the other hand, allows a task to call a service, and _move on to the next task_ while the service processes the request at its own pace. That’s why a queue is a beautiful, elegant way to unblock your systems because it puts a layer in front of your services and allows them to tackle the tasks at their own pace.
 
-## If a queue is so powerful, why don’t we just put it in front of everything?
+# If a queue is so powerful, why don’t we just put it in front of everything?
 
-<img alt="Image for post" class="dv hz dw ia w" src="https://miro.medium.com/max/1186/1\*zKMUY-dufGQIhveqF1Ed7w.jpeg" width="593" height="421" srcSet="https://miro.medium.com/max/552/1\*zKMUY-dufGQIhveqF1Ed7w.jpeg 276w, https://miro.medium.com/max/1104/1\*zKMUY-dufGQIhveqF1Ed7w.jpeg 552w, https://miro.medium.com/max/1186/1\*zKMUY-dufGQIhveqF1Ed7w.jpeg 593w" sizes="593px"/>
-
-Image courtesy of [imgflip.com](https://imgflip.com/i/2xylc5)
+![Queue to the rescue!](./media-link/queue.png)
 
 As anyone who has dabbled in distributed systems can attest to, scaling a distributed system is extremely tricky and complicated. There are a few things to know about queues that might make a queue an unattractive proposition for your system.
 
@@ -160,9 +136,11 @@ When a microservice fails unexpectedly, a queue is still able to accept messages
 
 Think of it as your mailbox. While you’re out on vacation in Hawaii, the mailperson will still deliver your mail into the mailbox. Once you return from vacation, you can pick up the mail and process them at your leisure.
 
-Thank you for reading! I hope you’ve learned a thing or two about distributed queues from my article. If you enjoyed reading this, please leave a clap, and feel free to join my newsletter [here](http://eepurl.com/dnt9Sf) where I write about software and technical interviews!
+Thank you for reading! I hope you’ve learned a thing or two about distributed queues from my article. If you enjoyed reading this, please leave a clap, and feel free to join my newsletter. _No spams, I promise._
 
-## Resources I Recommend
+---
+
+# Resources I Recommend
 
 To further your understanding of queues and various topics mentioned above, I would highly recommend these resources below. Or [**join my course**](https://docs.google.com/document/d/1PeK69h4H82rwKjhactiE_sAIorCcZgXgXTY7k-nXpnE/edit#heading=h.hs0b333nsxch) on scaling distributed systems to learn more about queues :)
 
@@ -172,7 +150,3 @@ To further your understanding of queues and various topics mentioned above, I wo
 - [Elements of Programming Interviews](http://amzn.to/2Dcs6Qd): Great for solving coding problems.
 - [Cracking The Coding Interview](http://amzn.to/2Hj91OH): Great for covering foundational CS coding problems.
 - [Daily Coding Problem.com](https://www.dailycodingproblem.com/zhiachong): This is a free-to-try website that offers free daily coding problems. You can sign up for interesting daily coding challenges, and you can pay for solutions if you’d like. If you use my referral link ([dailycodingproblem.com/zhiachong](http://www.dailycodingproblem.com/zhiachong)), you get \$10 off!
-
-(FYI, I share more resources on my website: [zhiachong.com](http://www.zhiachong.com/resources) where I’ve personally tried and tested, and recommend for software engineers of all levels.)
-
-Cheers!

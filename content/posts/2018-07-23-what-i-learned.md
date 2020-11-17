@@ -4,7 +4,7 @@ date: '2018-07-23T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/what-i-learned-at-twitter/'
-img: './media-link/2020-01-01/how-to-be-successful.png'
+img: './media-link/zhiachong-with-team.jpeg'
 isML: false
 isWeb: true
 isSeries: false
@@ -12,8 +12,7 @@ category: 'Experience'
 tags:
   - 'How To'
   - 'Journey'
-  - 'Experience'
-description: What went well, didn't go well and how I learned from my experience.
+description: "What went well, didn't go well and how I learned from my experience."
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
@@ -26,9 +25,11 @@ discussLinkReddit: ''
 popularity: 1004
 ---
 
-# Wha<figure>![](https://cdn-images-1.medium.com/max/2400/1*BmmtORkzrp38gDbveFJdYg.jpeg)<figcaption>First week @ Twitter with Jack Dorsey, CEO of Twitter</figcaption></figure>A year ago, I joined Twitter as a software engineer in the Ads Measurement team after interviewing with many top tech companies in the Seattle region. You can read more about my story [here](https://medium.freecodecamp.org/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8).
+![First week @ Twitter with Jack Dorsey, CEO of Twitter](./media-link/zhiachong-with-team.jpeg)
 
-</section><section>- - - - - -
+A year ago, I joined Twitter as a software engineer in the Ads Measurement team after interviewing with many top tech companies in the Seattle region. You can read more about my story [here](https://medium.freecodecamp.org/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8).
+
+---
 
 In my mind, I had a checklist of what I was looking for. It was organized in descending priority:
 
@@ -42,13 +43,25 @@ I had the privilege of choosing from many top-tier tech companies at the time. A
 
 This article is a condensation of my thoughts after a year at Twitter, what I learned as a software engineer, how I spent my time, and much more. More than anything, this is a self-reflection to keep myself accountable for my own career and decisions.
 
-<figure style="width: 36.006%;">![](https://cdn-images-1.medium.com/max/1200/1*Ey22pB4lWp_GEWV1MBhGwQ.jpeg)</figure><figure style="width: 63.994%;">![](https://cdn-images-1.medium.com/max/1600/1*vOR1Gw-6nSu2IEv_ag2mwg.jpeg)</figure><figure style="width: 50%;">![](https://cdn-images-1.medium.com/max/1200/1*goNgENb4I3S01urKqXgrAw.jpeg)</figure><figure style="width: 50%;">![](https://cdn-images-1.medium.com/max/1200/1*7F_o3kPhBi_3Qfn-OP0djw.jpeg)</figure><figure style="width: 49.981%;">![](https://cdn-images-1.medium.com/max/1200/1*q576WNqNm6Caqrwx6DeKUQ.jpeg)</figure><figure style="width: 50.019%;">![](https://cdn-images-1.medium.com/max/1200/1*kppUa_2_JRDfI3EVn0sKwQ.jpeg)</figure><figure style="width: 39.011%;">![](https://cdn-images-1.medium.com/max/1200/1*WckIj3CRjZXXXV0EEujd-A.jpeg)</figure><figure style="width: 21.978%;">![](https://cdn-images-1.medium.com/max/800/1*9xuZszUvqFyMoj_JSiWecg.jpeg)</figure><figure style="width: 39.011%;">![](https://cdn-images-1.medium.com/max/1200/1*6jcn5HQEPu7WvHCXvyfp7w.jpeg)</figure><figure style="width: 26.492%;">![](https://cdn-images-1.medium.com/max/800/1*2iz_aFw11V2Mmocsn7BvZA.jpeg)</figure><figure style="width: 26.492%;">![](https://cdn-images-1.medium.com/max/800/1*5bIzQTXIRuwEH0RuHmJ25w.jpeg)</figure><figure style="width: 47.015%;">![](https://cdn-images-1.medium.com/max/1200/1*TgP5dc00CJFIGYxChk4fCw.jpeg)</figure>### What I’ve learned in the past year
+![](./media-link/zhiachong-with-friends-on-beech.jpeg)
+![](./media-link/zhiachong-in-office.jpeg)
+![](./media-link/zhiachong-painting-in-office.jpeg)
+![](./media-link/notes.jpeg)
+![](./media-link/zhiachong-team-doing-work.jpeg)
+![](./media-link/zhiachong-twitter-office.jpeg)
+
+### What I’ve learned in the past year
 
 #### Strong engineering culture ensures excellence
 
 As an engineer, I’ve witnessed first-hand that Twitter has a strong engineering culture that pushes engineers to settle for nothing less than excellence. Twitter is intensely focused on promoting a growth mindset — so much so that they send over a book called [**Mindset**](https://amzn.to/2uKEiq1) on a new hire’s first day of work. And since we’re a Scala-heavy team, there’s also a copy of [**Scala for the Impatient**](https://amzn.to/2mBS4qn) 🙂
 
-<figure style="width: 50%;">![](https://cdn-images-1.medium.com/max/1200/1*PhACUEr1__fv2Y6qFNiH2w.jpeg)</figure><figure style="width: 50%;">![](https://cdn-images-1.medium.com/max/1200/1*MXTBxZUPhW_O8wAa-5E41Q.jpeg)<figcaption style="width: 200%; left: -100%;">Recommended reading for new hires</figcaption></figure>Other than that, I’ve also observed some key areas where Twitter places emphasis on excellent engineering culture.
+#### Recommended Reading for new hires
+
+![Scala for the impatient](./media-link/scala-for-impatient.jpeg)
+![](./media-link/mindset-the-psychology.jpeg)
+
+Other than that, I’ve also observed some key areas where Twitter places emphasis on excellent engineering culture.
 
 # **Move fast, break things.**
 
@@ -66,7 +79,9 @@ Process helps build consistency, and enables new engineers to onboard quickly. I
 
 There’s a lot of talk about process as “bureaucracy”, “low productivity”, “necessary evil” and so forth. In some ways, that is true. On the flip side, I’ve seen first-hand how processes build consistency, reduce complexity, and increase productivity. **Processes are guidelines — not rules —** and can be updated as the team/company grows.
 
-<figure>![](https://cdn-images-1.medium.com/max/1600/1*qBFHkbLJKroK9l-_t_0Q_A.png)<figcaption>A typical technical design doc</figcaption></figure>For example, every new project is accompanied by a technical design document that outlines the goal(s), non-goal(s), possible solutions, success criteria, and potential risk factors.
+![A typical technical design doc](./media-link/technical-design-doc.png)
+
+For example, every new project is accompanied by a technical design document that outlines the goal(s), non-goal(s), possible solutions, success criteria, and potential risk factors.
 
 Internally, we wrote a template for our technical design doc to standardize the design process. The template itself forces the lead engineer to think about entire end-to-end scenarios, from deriving requirements, considering pros and cons of various alternatives, picking a solution, and then tying back the solution into success criteria.
 
@@ -100,7 +115,9 @@ We recently started this hashtag, #CoreQuality, (we have a culture of making has
 
 Along with #CoreQuality, we identified that spreading knowledge around the team is a critical step towards long-term stability. The way we thought about it was building up a T-shaped knowledge graph:
 
-<figure>![](https://cdn-images-1.medium.com/max/1600/1*I28gC9omRrDwGgIK623vOw.png)<figcaption>T-shaped knowledge</figcaption></figure>A T-shaped knowledge has 2 components:
+![T-shaped Knowledge](./media-link/breadth-dept.png)
+
+A T-shaped knowledge has 2 components:
 
 - Breadth, or “what do you know?”
 - Depth, or “how well do you know it?”
@@ -109,7 +126,9 @@ We had realized at some point that some team members had deep expertise in a spe
 
 This is so common that there’s a term for it — [bus factor](https://en.wikipedia.org/wiki/Bus_factor). It’s the risk factor of the number of team members that need to disappear before the project halts due to lack of expertise. A bus factor of 1 can also be loosely understood as [a single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure), meaning that if this one key expert disappears, then the project will fail.
 
-<figure>![](https://cdn-images-1.medium.com/max/1600/1*WAMdKgKNJTOPY7onSHQu_g.png)<figcaption>My idea of bus factor</figcaption></figure>Our goal is to eliminate a bus factor of 1 across the team. To that end, we had started multiple initiatives:
+![What is Bus Factor](./media-link/bus-factor.png)
+
+Our goal is to eliminate a bus factor of 1 across the team. To that end, we had started multiple initiatives:
 
 1. **Invest 30 minutes every day** on documentation (thanks to [Open source portfolio](https://medium.com/u/e68c5c9127bb)). Our teammate, Lenny, suggested that we build up a habit of writing things we learn throughout the day, 30 minutes at a time.
 2. **Encourage tech brown bags**. A brown bag is essentially a lunch presentation where a team member shares their expertise with the rest of the team. We have had talks on [Scalding](https://github.com/twitter/scalding), [Summingbird](https://github.com/twitter/summingbird), and Hadoop Map-Reduce during lunch from our local experts. It’s also a great opportunity to learn tech stacks that you might not have known otherwise.
@@ -125,7 +144,15 @@ Projects come and go, but teams stay together even after a project is dissolved 
 
 In my past year, being able to work together with a team of rockstars has been fun, challenging, exciting, and refreshing all at the same time. When everyone in your team is a rockstar, they motivate you to succeed just as much as you motivate them. We push and hold each other to a high bar. We work hard, and we play just as hard.
 
-# <figure>![](https://cdn-images-1.medium.com/max/2400/1*Aypjn4niJOvNxkDKZ1IIgg.jpeg)<figcaption>Dinner with the international Twitter Singapore + Japan team!</figcaption></figure><figure>![](https://cdn-images-1.medium.com/max/2400/1*qpQV16DBgdYAIQk3p0-MkA.jpeg)<figcaption>My first day at Twitter</figcaption></figure><figure>![](https://cdn-images-1.medium.com/max/1600/1*y7k2KjVxXusFWdtPeW-M2g.jpeg)<figcaption>Jack on stage for my first tea-time</figcaption></figure><figure style="width: 50%;">![](https://cdn-images-1.medium.com/max/1200/1*q32btis1V6Ev0f1kDflaqA.jpeg)</figure><figure style="width: 50%;">![](https://cdn-images-1.medium.com/max/1200/1*uViJWpAV9DouE9DUnQhjwA.jpeg)<figcaption style="width: 200%; left: -100%;">Twitter swag and events</figcaption></figure>The best people own problems
+---
+
+![Dinner with my Twitter teammates](./media-link/zhiachong-meal.jpeg)
+
+![My 1st day at Twitter](./media-link/zhiachong-screen.jpeg)
+
+---
+
+## The best people own problems
 
 Opportunities arise in dangerous situations, and that’s when you see the best people step up to the moment and seize it. Being at Twitter in the midst of the the turnaround has given me a rare opportunity to take a glimpse at some of the many problems within the organization.
 

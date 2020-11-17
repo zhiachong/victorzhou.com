@@ -1,10 +1,10 @@
 ---
-title: Automating my job search with Python
+title: Automating My Job Search with Python
 date: '2019-02-04T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/automating-my-job-search-with-python/'
-# img: "https://zhiachong.com/media/xkcd-290.png"
+#img: "https://zhiachong.com/media/xkcd-290.png"
 isML: false
 isWeb: true
 isSeries: false
@@ -24,13 +24,10 @@ next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-# prev: "/blog/intro-to-neural-networks/"
-# next: "/blog/intro-to-random-forests/"
-# discussLinkTwitter: https://twitter.com/victorczhou/status/1092487435546705921
-# discussLinkHN: https://news.ycombinator.com/item?id=19086530
-# discussLinkReddit: https://www.reddit.com/r/learnmachinelearning/comments/an2o7t/building_a_better_profanity_detection_library/
 popularity: 1000
 ---
+
+# How it all started
 
 It was midnight on a Friday, my friends were out having a good time, and yet I was nailed to my computer screen typing away.
 
@@ -42,7 +39,9 @@ I was right out of college, and I needed a job. When I left for Seattle, I had a
 
 I didn’t like to socialize much back then, so I decided to tackle this job-finding problem the best way I knew how. I tried to build an app to do it for me, and this article is about how I did it. 😃
 
-## Getting started with Craigslist to find jobs
+---
+
+# Getting started with Craigslist to find jobs
 
 I was in my room, furiously building some software that would help me collect, and respond to, people who were looking for software engineers on [Craigslist](https://seattle.craigslist.org/). Craigslist is essentially the marketplace of the Internet, where you can go and find things for sale, services, community posts, and so on.
 
@@ -90,7 +89,7 @@ And voilà! It worked **beautifully**.
 
 ![Craigslist RSS feed](./media-link/2019-02-04/craigslist-rss.png)
 
-### The most beautiful soup I’ve ever tasted
+## The most beautiful soup I’ve ever tasted
 
 I wasn’t convinced, however, that my approach would work.
 
@@ -107,6 +106,8 @@ That was a dead-end. But it wasn’t **the** end.
 ### Continuous Iteration to build an automated job search bot
 
 From my first failed attempt, I learned that Craigslist had an RSS feed that I could filter on, and each posting had a link to the actual posting itself.
+
+> I learned that Craigslist had an RSS feed that I could filter on, and each posting had a link to the actual posting itself.
 
 Well, if I could access the actual posting, then maybe I could scrape the email address off of it? 🧐 That meant I needed to find a way to grab email addresses from the original postings.
 
@@ -132,7 +133,7 @@ BeautifulSoup lets you search for specific HTML tags, or markers, on a web page.
 
 From then on, everything was easy. I relied on the built-in functionality BeautifulSoup provided, and with just some simple manipulation, I was able to pick out email addresses from Craigslist posts quite easily.
 
-### Putting things together
+## Putting things together
 
 Within an hour or so, I had my first MVP. I had built a web scraper that could collect email addresses and respond to people looking for software engineers within a 100-mile radius of Seattle.
 
@@ -154,7 +155,9 @@ The whole experience felt like a game of [Tetris](https://en.wikipedia.org/wiki/
 
 Each piece of the puzzle brought me on a different journey. It was challenging, but enjoyable nonetheless and I learned something new each step of the way.
 
-## Lessons learned
+---
+
+# Lessons learned
 
 It was an eye-opening experience, and I ended up learning a little bit more about how the Internet (and Craigslist) works, how various different tools can work together to solve a problem, plus I got a cool little story I can share with friends.
 
@@ -168,7 +171,7 @@ Looking back, my problem was this: **how can I use this awesome directory on the
 
 That’s all there was to it. **Technology merely acted as a means to the end**. If I could’ve use an Excel spreadsheet to do it for me, I would’ve opted for that instead. However, I’m no Excel guru, and so I went with the approach that made most sense to me at the time.
 
-### Areas of Improvement
+## Areas of Improvement
 
 There were many areas in which I could improve:
 
@@ -176,7 +179,9 @@ There were many areas in which I could improve:
 - **Relying too heavily on open-source technologies. Open source software has it’s own set of problems,** too. There were multiple libraries I used that were no longer in active development, so I ran into issues early on. I could not import a library, or the library would fail for seemingly innocuous reasons.
 - **Tackling a project by yourself can be fun, but can also cause a lot of stress**. You’d need a lot of momentum to ship something. This project was quick and easy, but it did take me a few weekends to add in the improvements. As the project went on, I started to lose motivation and momentum. After I found a job, I completely ditched the project.
 
-## Resources and Tools I used
+---
+
+# Resources and Tools I used
 
 [The Hitchhiker’s Guide to Python](https://amzn.to/2J73RtJ) — Great book for learning Python in general. I recommend Python as a beginner’s first programming language, and I talk about how I used it to land offers from multiple top-tier top companies in my article [here](https://medium.freecodecamp.org/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8).
 

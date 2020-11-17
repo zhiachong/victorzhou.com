@@ -4,7 +4,7 @@ date: '2020-02-04T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/how-to-i-landed-a-job/'
-# img: "https://zhiachong.com/media/xkcd-290.png"
+img: './media-link/2020-02-04/how-i-got-a-job.png'
 isML: false
 isWeb: true
 isSeries: false
