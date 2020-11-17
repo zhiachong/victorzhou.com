@@ -22,7 +22,9 @@ type PostType = {
     +guestAuthor?: ?string,
     +guestCoAuthor?: ?boolean,
     +guestAuthorLink?: ?string,
-    +img: string,
+    +img: {
+      publicURL: string,
+    },
     +isML: boolean,
     +isWeb: boolean,
     +slug: string,

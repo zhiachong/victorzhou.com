@@ -12,7 +12,7 @@ type PostType = {
   },
   +frontmatter: {
     +description: string,
-    +img: string,
+    +img: Object,
     +slug: string,
     +title: string,
   },
@@ -32,30 +32,37 @@ const ReadMoreLink = ({
     fields: { dateFormatted, dateModifiedFormatted },
     frontmatter: { description, img, slug, title },
   },
-}: LinkProps) => (
-  <div>
-    <Link
-      to={slug}
-      onClick={() => {
-        logEvent('ReadMore', 'click');
-      }}
-    >
-      <img className={styles['readmore-thumbnail']} loading="lazy" src={img} alt={title} />
-    </Link>
-    <Link
-      to={slug}
-      onClick={() => {
-        logEvent('ReadMore', 'click');
-      }}
-    >
-      <b>{title}</b>
-    </Link>
-    <p>
-      <b>{dateModifiedFormatted || dateFormatted}</b>
-    </p>
-    <p>{description}</p>
-  </div>
-);
+}: LinkProps) => {
+  return (
+    <div>
+      <Link
+        to={slug}
+        onClick={() => {
+          logEvent('ReadMore', 'click');
+        }}
+      >
+        <img
+          className={styles['readmore-thumbnail']}
+          loading="lazy"
+          src={img.publicURL}
+          alt={title}
+        />
+      </Link>
+      <Link
+        to={slug}
+        onClick={() => {
+          logEvent('ReadMore', 'click');
+        }}
+      >
+        <b>{title}</b>
+      </Link>
+      <p>
+        <b>{dateModifiedFormatted || dateFormatted}</b>
+      </p>
+      <p>{description}</p>
+    </div>
+  );
+};
 
 const ReadMore = ({ prevPost, nextPost }: Props) => (
   <div className={styles['readmore']}>
