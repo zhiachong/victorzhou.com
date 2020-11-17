@@ -4,7 +4,7 @@ date: '2019-02-04T12:00:00.000Z'
 template: 'post'
 draft: false
 slug: '/blog/automating-my-job-search-with-python/'
-#img: "https://zhiachong.com/media/xkcd-290.png"
+img: './media-link/5-things-you-need-to-know.png'
 isML: false
 isWeb: true
 isSeries: false

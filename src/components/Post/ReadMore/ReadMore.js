@@ -75,7 +75,9 @@ export const fragment = graphql`
     }
     frontmatter {
       description
-      img
+      img {
+        publicURL
+      }
       slug
       title
     }

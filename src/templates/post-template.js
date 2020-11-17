@@ -163,7 +163,9 @@ export const fragment = graphql`
             category
             description
             descriptionLong
-            img
+            img {
+              publicURL
+            }
             isSeries
             seriesSlugs
             tags
@@ -190,7 +192,9 @@ export const fragment = graphql`
           frontmatter {
             date
             description
-            img
+            img {
+              publicURL
+            }
             slug
             title
           }
