@@ -28,11 +28,9 @@ discussLinkReddit: ''
 popularity: 1004
 ---
 
-# Is This The Best Book for Coding Interview Preparation?
-
 ![](./media-link/book-for-coding.png)
 
-## Who is this for?
+# Who is this for?
 
 Technical coding interviews are notoriously difficult — almost borderline quiz-like for those unprepared. It can sometimes be a daunting task to navigate all the technical coding preparation resources available online, and one might ask: _is there a single book/resource that best prepares for technical coding interviews?_
 
@@ -40,7 +38,7 @@ _Best_, is relative of course in this case. If you’re looking for a book that 
 
 In today’s book review, I go over in _detail_ the **good** and the **bad** of one of the top-selling books on Amazon for technical coding interviews: [Elements of Programming Interviews ](https://amzn.to/2Q6m9xB)(a.k.a _EPI_, and it’ll be referred to as such in the rest of this article).
 
-## What is this book about?
+# What is this book about?
 
 ![](./media-link/EPI.png)
 
@@ -50,7 +48,7 @@ EPI was written by 3 folks who’ve worked across some of the best-known tech co
 
 The book itself is highly technical in nature and deep dives into fundamental computer science. The types of technical coding questions vary widely from string manipulation to graph traversals. The book also offers concrete tips and tricks for solving specific types of coding problems, and includes a cheatsheet to help ace technical questions.
 
-### The Good
+# The Good
 
 In short: EPI is a highly technical book that is well suited for anyone looking to prepare for technical coding questions that revolve around data structures and algorithms.
 
@@ -62,15 +60,19 @@ The things that I particularly enjoyed:
 - covers in detail every single data structure you need, algorithms you should know, techniques you should know in a simple, understandable format
 - covers relevant technical topics you might get asked in a coding interview, like what is TCP/IP, how Internet works, how to capture relationships between different entities in schema design
 
-Those are some of the top-level points I enjoyed about the book. What I _really_ enjoy is that the answers are very, _very_ well constructed. The answers often take a brute force/simplistic approach to the problems. The authors then provide concrete examples of how you can improve on the brute force approach. With each iteration, the authors point out where the limitations are and how you can solve them with incremental optimizations.
+## Well constructed answers
+
+> What I _really_ enjoy is that the answers are very, _very_ well constructed. The answers often take a brute force/simplistic approach to the problems. The authors then provide concrete examples of how you can improve on the brute force approach. With each iteration, the authors point out where the limitations are and how you can solve them with incremental optimizations.
 
 For example, EPI explains how to detect a cycle in a linked list. The first approach: use a hash map to store every node you traverse, and then check against the hash map to see if you’ve seen it. This does the job, albeit it takes additional space (so-called O(N) space complexity and O(N) time complexity). EPI points out that the additional space is not required, and suggests that detecting cycles in a linked list can be done without additional space by manipulating the pointers instead. EPI takes that same approach in explaining almost all the questions, so everyone can understand how to get from a rough solution to an optimized one.
+
+## Notes suitable for everyone
 
 For someone who’s rusty and looking to start preparing for interviews, EPI does a great job — every chapter starts off with a summary of the data structure or algorithm that you will learn, why the data structure is special, what are the strengths/weaknesses of said data structure and what you need to take note of.
 
 In short, EPI is the notebook I wished I had when I was preparing for technical interviews. This is the book I’d give a friend who’s looking to prepare for technical interviews — aside from my best-selling [interviewing course](https://docs.google.com/document/d/1ppHix7p9knzaal-Edn3GHQMcx1MM_USY6zPcsbBpR3U/edit) (Acing The Tech Interview), which prepares any candidate for the entire interview experience from resume preparation, behavioral questions to how to solve coding problems creatively. Classes fill up fast, so book your slot [here](https://zhiachong.com/courses/) today.
 
-### The Bad
+# The Bad
 
 EPI has its downsides as well. Being a highly technical book, this means the book has its focus set on coding questions.
 
@@ -78,11 +80,13 @@ This, inadvertently, means that the book falls short in terms of other aspects o
 
 > This, inadvertently, means that the book falls short in terms of other aspects of the technical interview process which are, arguably, just as important.
 
+## Not beginner-friendly
+
 In addition, the book goes into deep detail with data structures and algorithms, but only provides a high-level overview, to the point of being confusing due to lack of context, of various other important concepts like SQL, NoSQL, how to design a proper schema for a simple application and more. The book sort of covers SQL design by explaining how to structure tables to capture entity relationships, but it does not explain more about JOINs or how to query the tables properly. I think understanding the _what_ (SQL tables) is just as important as the _how_ (queries).
 
 EPI also has a chapter on systems designs, but the chapter does not cover distributed designs. I would’ve liked it better if the book had described in more details what distributed systems are or where to find more information about these.
 
-## Is this a good book for me?
+# Is this a good book for me?
 
 If you have ~\$40 to spare and a big appetite to learn, I’d say so.
 
@@ -90,7 +94,7 @@ The book sells for \$36 on average (there are 3 versions). This book is highly r
 
 On [Amazon.com](https://amzn.to/2Q6m9xB):
 
-![](./media-link/amazon-prime.png)L
+![](./media-link/amazon-prime.png)
 
 - Python: 169 ratings 4.3 ave
 - Java: 203 ratings 4.6 ave
@@ -106,7 +110,7 @@ Some of the reviews:
 
 > “this is a must-have book”
 
-## Now, should you buy it?
+# Now, should you buy it?
 
 I think that **EPI is one of the best resources to prepare for technical coding interviews, bar none.** Regardless of your experience level, there’s something in there for you. I particularly enjoy reading the book for its clear and concise explanations, and I use this book as a reference in my programming course.
 
@@ -118,7 +122,9 @@ For distributed systems designs, I recommend looking elsewhere. A good start is 
 
 I love it for the depth and insights, and I recommend it to many students who are taking my [courses](http://bit.ly/interviewcourses) as well.
 
-## Resources I Recommend
+---
+
+# Resources I Recommend
 
 [Designing Data Intensive Applications](https://amzn.to/33fcvOp) — great resource for learning about distributed systems and how large-scale systems work.
 

@@ -15,7 +15,7 @@ tags:
   - 'Resume'
   - 'Python'
   - 'Job Search'
-description: 'My story about how I got a job at Twitter after years of trying.'
+description: 'My personal story about how I got a job at Twitter after years of trying and failing.'
 guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
@@ -48,7 +48,7 @@ Fury took over me because I couldn’t reverse a linked list, which was rated Ea
 
 ---
 
-### How I got here
+# How I got here
 
 A week ago, a recruiter from Twitter had reached out to me asking if I would like to schedule an initial phone screen with an engineer.
 
@@ -66,37 +66,39 @@ If I were starting out preparing from scratch today, I **would try to seek out a
 
 ---
 
-### My Background
+# My Background
 
-#### Startup Experience
+## Startup Experience
 
 I had 3 years of experience as a full-stack engineer at a startup, mostly on building micro services and API development on AWS stack. The stack was heavily focused on PHP, NodeJS, AWS SQS as a message queue, Postgres for our database, and AWS S3 for long-term storage.
 
 I had neither prior professional experience nor internship experience and the job at the startup was my first “real” software engineering position.
 
-#### College
+## College
 
 I had a formal education in computer science — I graduated from a small, private Jesuit college in Washington state in 4 years with a bachelor’s degree in computer science.
 
 Looking back, I think it was a valuable experience to go to college, and if I were to do it again, I would still opt for a formal education over a coding bootcamp. You can watch my video here ([link](https://www.youtube.com/watch?v=FAWTELDDPbg&t=2s)) for a breakdown of a 4-year degree in computer science vs a coding bootcamp.
 
-I applied to over 30 different companies, interviewed with 15, rejected by 6, received offers from 6, declined 5 and accepted 1. Read [here](https://zhiachong.com/2018/12/19/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree/) if you’re interested in how I landed offers from top-tier FAANG companies without an Ivy League Degree.
+I applied to over 30 different companies, interviewed with 15, rejected by 6, received offers from 6, declined 5 and accepted 1.
 
-If you’re counting, the math doesn’t line up perfectly because some companies ghosted after the onsite.
+Read [here](https://zhiachong.com/2018/12/19/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree/) if you’re interested in how I landed offers from top-tier FAANG companies without an Ivy League Degree.
 
 ---
 
-### How I Prepared For Interviews
+# How I Prepared For Interviews
 
-#### Elements of Programming Interviews - a real treasure
+## Elements of Programming Interviews - a real treasure
 
-I spent the majority of my time on leetcode.com and a book called Elements of Programming Interviews. I also around 10% of my time browsing Youtube for systems design interviews, like Jack Gabbard ([link](https://www.youtube.com/watch?v=ZgdS0EUmn70&list=PL73KFetZlkJSZ9vTDSJ1swZhe6CIYkqTL)) and Gauran Sen ([link](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw)). Another I liked was DailyCodingProblem.com, which sends a question a day to my email.
+I spent the majority of my time on leetcode.com and a book called Elements of Programming Interviews. I also around 10% of my time browsing Youtube for systems design interviews, like Jack Gabbard ([link](https://www.youtube.com/watch?v=ZgdS0EUmn70&list=PL73KFetZlkJSZ9vTDSJ1swZhe6CIYkqTL)) and Gauran Sen ([link](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw)).
 
-#### Time allocation
+Another I liked was [Daily Coding Problem.com](https://www.dailycodingproblem.com/zhiachong), which sends a question a day to my email with programming questions from top-tier tech companies. Use my coupon code [\_zhiachong](https://www.dailycodingproblem.com/zhiachong) for a discount!
+
+## Time allocation
 
 My preparation time was around a month of _consistent, uninterrupted_ practice. It’s critical to have a consistent schedule. I used to go on coding spurts: 3 hours of hardcore coding and followed by a week of rest. I found that to be ineffective and I paid the heavy price of context switching multiple times.
 
-In total, I spent **about _3 hours a day on weekdays due to work, and 4 to 6 hours on weekends for a total of about ~20 hours a week_ for a month**.
+> In total, I spent **about _3 hours a day on weekdays due to work, and 4 to 6 hours on weekends for a total of about ~20 hours a week_ for a month**.
 
 I applied to Twitter through their job careers page. In hindsight, it might have been more effective to find a referral or recruiter on LinkedIn because that would most likely expedite the application process.
 
@@ -106,7 +108,7 @@ A few weeks later, a recruiter finally reached out to me and would like to sched
 
 ---
 
-### Timeline
+# Timeline
 
 - Feb 10 2017 — Recruiter reached out to schedule a TPS
 - March 8 2017 — Initial TPS
@@ -125,7 +127,7 @@ I took about a day to go through the code, printed it out on paper (about 5 page
 
 ---
 
-### Onsite
+# Onsite Experience
 
 The onsite had 3 rounds in total:
 
@@ -136,9 +138,11 @@ The onsite had 3 rounds in total:
 
 One thing to call out is that Twitter’s onsite rounds had 2 interviewers each round. It felt intimidating at first, being stared down by two interviewers who were judging me by my every move. But in reality, I liked it as it felt much more collaborative
 
-#### My Experience
+---
 
-#### Breadth (System Design)
+# My Experience
+
+## Breadth (System Design)
 
 The Breadth interview focuses on a wide range of topics to understand how much you know about designing a system from scratch. The goal is to stretch the candidate to their limits and see how far they can go.
 
@@ -148,7 +152,7 @@ These are the types of questions asked. I enjoyed the conversation because I alw
 
 We ended with a coding question at the end. I honestly can’t recall what it was, but it wasn’t anything out of the ordinary.
 
-#### Depth (Resume)
+## Depth (Resume)
 
 The Depth interview focused much more on my past projects and expertise. This was, in all honesty, much more intense and challenging because the interviewer dove deep into every single aspect of the projects I built and challenged the design decisions.
 
@@ -156,7 +160,7 @@ Coming from a startup background, I was responsible for building many things fro
 
 No coding questions for this round.
 
-#### Cultural
+## Cultural
 
 The Cultural (Top Grading) round was a 90-minute interview with the hiring manager and senior leadership. I found out later that if you make it into this round, that means you have done well enough technically and they’re looking for a cultural fit both ways — whether you fit into their culture and would they have the right opportunities for you.
 
@@ -164,7 +168,7 @@ No coding questions for this round.
 
 ---
 
-### Retrospective
+# Retrospective
 
 - Interviews at Twitter **focus heavily on fundamentals of computer science**, so making sure that you know your data structures from top to bottom left to right and also all the basic algorithms that you would have learned in your CS101 class.
 - Understanding **how time complexity and space complexity trade-offs work**.
@@ -173,7 +177,9 @@ No coding questions for this round.
 - **Have discipline in your preparation**. Figure out upfront the areas you’re lacking and set up a schedule to practice. It’s important to get consistent, uninterrupted practice. I started on the wrong foot, and wished that I had known this earlier so that I wouldn’t waste time on the wrong things.
 - **Think about systems you interact with day-to-day**. Figure out the trade-offs, alternatives, pros and cons, and how you can build a better system. This skill will carry you very far in software engineering.
 
-### Resources
+---
+
+# Resources
 
 - [Rooftop Slushie](https://www.rooftopslushie.com:443/invite/zhia) — Rooftop Slushie helps you connect with employees at top tech companies like Google and Facebook. Get job interview tips, career advice, insights, and more.
 - [Elements of Programming Interviews](http://amzn.to/2Dcs6Qd): Great for solving coding problems.

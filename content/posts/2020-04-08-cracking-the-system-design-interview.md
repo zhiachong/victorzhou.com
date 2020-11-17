@@ -27,8 +27,6 @@ discussLinkReddit: ''
 popularity: 1003
 ---
 
-## My Background
-
 I recently wrote about [how I landed offers from multiple top-tier tech companies](/blog/how-i-landed-offers). During my interview preparation process, I read up on a lot of material and prepared a set of notes on how to tackle system design interviews.
 
 In this article, I’d like to share my learnings and tips with you all on how to crack the system design interview.
@@ -211,4 +209,4 @@ Mock Interviews – A simulated environment that mimics the actual interview is 
 
 [Grokking the System Design Interview](https://www.educative.io/collection/5668639101419520/5649050225344512) — This one comes as a recommendation from friends. It’s an online course that teaches how to design distributed system in detail. It’s a \$79 course, however. There’s a team-pricing. If there’s any interest, I’ll check with them to see if it’s possible to form a group for group-discount.
 
-This post was also cross-posted to [Medium](https://medium.com/@zhiachong/how-to-system-design-dda63ed27e26), where Zhia is a frequent contributor.
+_This post was also cross-posted to [Medium](https://medium.com/@zhiachong/how-to-system-design-dda63ed27e26), where Zhia is a frequent contributor._

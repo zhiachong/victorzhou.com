@@ -203,6 +203,8 @@ Unless performance is a real concern, **always opt for the simpler, cleaner appr
 
 I believe that simplicity extends to life outside of work as well. **Keep your life free of distractions.** Reduce the number of unnecessary belongings you have in your life. Focus on things that matter to you. Optimize your life for experiences and not for possessions. These are some of the things to keep in mind as you move through life.
 
+---
+
 # Resources I Recommend
 
 - [Principles by Ray Dalio ](https://amzn.to/2GMEI6C)— 🔥 One of the best books I’ve read in a while. The author talks about principles we can apply both in life and at work. I incorporated his framework for solving problems into my daily life
