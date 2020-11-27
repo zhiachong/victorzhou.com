@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://zhiachong.com',
   title: 'zhiachong.com',
   subtitle:
-    'SWE @ Facebook, ex-Twitter. I blog about web development, software engineering, career growth and more topics.',
+    'SWE @ Facebook, ex-Twitter. I blog about web development, software engineering, interview prep and more topics.',
   copyright: '© Zhia Chong 2020',
   postsPerPage: 8,
   googleAnalyticsId: 'UA-58664433-1', //TODO: needs to be replaced
@@ -16,6 +16,10 @@ module.exports = {
     {
       label: 'About',
       path: '/about/',
+    },
+    {
+      label: 'Gears',
+      path: '/gears/',
     },
     {
       label: 'Contact',
@@ -31,7 +35,7 @@ module.exports = {
     photo: '/photo.png',
     photoLarge: '/photoLarge.png',
     bio:
-      'SWE @ Facebook, ex-Twitter. I blog about <a href="/tag/web-development/">web development</a>, <a href="/tag/software-engineering/">software engineering</a>, <a href="/tag/career-growth/">career growth</a> and <a href="/tags/">more topics</a>.',
+      'SWE @ Facebook, ex-Twitter. I blog about <a href="/tag/web-scraping/">web scraping</a>, <a href="/tag/interview-prep/">software interview prep</a>, <a href="/tag/job-search/">job search</a> and <a href="/tags/">more topics</a>.',
     contacts: {
       email: 'zhiachong@gmail.com',
       twitter: 'zhiachong',

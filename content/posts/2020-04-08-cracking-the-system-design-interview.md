@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/how-to-system-design/'
 img: './media-link/2020-04-08/how-to-system-design.png'
-isML: false
+isInterviewPrep: true
 isWeb: true
 isSeries: false
 category: 'Job Search'
@@ -20,11 +20,11 @@ guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/@zhiachong/how-to-system-design-dda63ed27e26
 prev: '/blog/how-to-write-a-great-resume/'
-next: '/blog/how-to-write-a-great-resume/'
+next: '/blog/how-i-landed-offers/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 1003
+popularity: 4999
 ---
 
 I recently wrote about [how I landed offers from multiple top-tier tech companies](/blog/how-i-landed-offers). During my interview preparation process, I read up on a lot of material and prepared a set of notes on how to tackle system design interviews.

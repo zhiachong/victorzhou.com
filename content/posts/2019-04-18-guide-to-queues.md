@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/guide-to-distributed-queues/'
 img: './media-link/queue.jpeg'
-isML: false
+isInterviewPrep: false
 isWeb: true
 isSeries: false
 category: 'Technology'
@@ -23,7 +23,7 @@ next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 1004
+popularity: 5
 ---
 
 If you’ve ever wondered what _Kafka, Heron, real-time streaming, SQS or RabbitMQ_ are all about, then this article is for you. I’ll discuss in detail why we need a queue for today’s modern software architecture, what are some common technologies used, and how queues are commonly used in the industry. If you enjoy this article, I have [a course](https://docs.google.com/document/d/1PeK69h4H82rwKjhactiE_sAIorCcZgXgXTY7k-nXpnE/edit#heading=h.hs0b333nsxch) on scaling distributed systems where I discuss these topics in more detail.

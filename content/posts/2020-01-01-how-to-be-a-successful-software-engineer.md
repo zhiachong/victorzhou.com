@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/how-to-be-successful-software-engineer/'
 img: './media-link/2020-01-01/how-to-be-successful.png'
-isML: false
+isInterviewPrep: false
 isWeb: true
 isSeries: false
 category: 'How To'
@@ -20,12 +20,12 @@ guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/@zhiachong/how-to-become-a-rockstar-engineer-e785b09cc104
-prev: '/blog/how-to-write-a-great-resume/'
-next: '/blog/how-to-write-a-great-resume/'
+prev: '/blog/how-i-landed-offers/'
+next: '/blog/how-to-i-landed-a-job/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 1004
+popularity: 2000
 ---
 
 ![](./media-link/2020-01-01/how-to-be-successful.png)

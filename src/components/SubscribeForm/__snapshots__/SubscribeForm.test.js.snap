@@ -34,7 +34,7 @@ exports[`SubscribeForm renders default correctly 1`] = `
   </p>
   <form
     acceptCharset="utf-8"
-    action="https://sendy.zhiachong.com/subscribe"
+    action="https://zhiachong.com/sendy/subscribe"
     method="post"
     onFocus={[Function]}
     onSubmit={[Function]}
@@ -145,7 +145,7 @@ exports[`SubscribeForm renders large correctly 1`] = `
   </p>
   <form
     acceptCharset="utf-8"
-    action="https://sendy.zhiachong.com/subscribe"
+    action="https://zhiachong.com/sendy/subscribe"
     method="post"
     onFocus={[Function]}
     onSubmit={[Function]}
@@ -159,7 +159,7 @@ exports[`SubscribeForm renders large correctly 1`] = `
     <input
       name="list"
       type="hidden"
-      value="CWC7638hEb6mfk1RqUbJ763snA"
+      value="8qYhkFS763XrqGuDnKmb6763jQ"
     />
     <input
       name="subform"

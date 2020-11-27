@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/what-i-learned-at-twitter/'
 img: './media-link/zhiachong-with-team.jpeg'
-isML: false
+isInterviewPrep: false
 isWeb: true
 isSeries: false
 category: 'Experience'
@@ -17,8 +17,8 @@ guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/@zhiachong/what-ive-learned-in-1-year-at-twitter-65150f5d4af2
-prev: '/blog/how-to-write-a-great-resume/'
-next: '/blog/how-to-write-a-great-resume/'
+prev: '/blog/how-to-i-landed-a-job/'
+next: '/blog/why-i-left-twitter/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''

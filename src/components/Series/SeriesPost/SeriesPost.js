@@ -9,7 +9,7 @@ type Props = {|
   +dateFormatted: string,
   +dateModifiedFormatted?: string,
   +description: string,
-  +img: string,
+  +img: Object,
   +n: number,
   +slug: string,
   +title: string,
@@ -27,7 +27,7 @@ const SeriesPost = ({
   <div className={styles['series-post']}>
     <div className={styles['series-post-content']}>
       <Link to={slug}>
-        <img src={img} alt={title} loading="lazy" />
+        <img src={img.publicURL} alt={title} loading="lazy" />
       </Link>
       <div>
         <h3>

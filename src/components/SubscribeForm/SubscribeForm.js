@@ -15,7 +15,7 @@ import styles from './SubscribeForm.module.scss';
 
 type Props = {
   +signupSource: string,
-  +isML?: boolean,
+  +isInterviewPrep?: boolean,
   +isWeb?: boolean,
   +showAllOptions?: boolean,
   +large?: boolean,
@@ -114,7 +114,7 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
     const {
       context: { recaptchaToken },
       signupSource,
-      isML,
+      isInterviewPrep,
       isWeb,
       showAllOptions,
       large,
@@ -139,7 +139,7 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
           </p>
         )}
         <form
-          action="https://sendy.zhiachong.com/subscribe"
+          action="https://zhiachong.com/sendy/subscribe"
           method="post"
           acceptCharset="utf-8"
           target="_self"
@@ -148,7 +148,7 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
           ref={this._formRef}
         >
           <input type="hidden" name="Source" value={signupSource} />
-          <input type="hidden" name="list" value="CWC7638hEb6mfk1RqUbJ763snA" />
+          <input type="hidden" name="list" value="8qYhkFS763XrqGuDnKmb6763jQ" />
           <input type="hidden" name="subform" value="yes" />
           {recaptchaToken && (
             <input type="hidden" name="g-recaptcha-response" value={recaptchaToken} />
@@ -186,16 +186,16 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
             </label>
           )}
           {showAllOptions && <br />}
-          {(isML || showAllOptions) && (
+          {(isInterviewPrep || showAllOptions) && (
             <label>
               <input
                 type={inputType}
                 name="Restrictions"
-                value={checked.ml ? 'ML' : ''}
-                checked={checked.ml}
-                onChange={this.onCheckboxClick.bind(this, 'ml')}
+                value={checked.interview_prep ? 'Interview Prep' : ''}
+                checked={checked.interview_prep}
+                onChange={this.onCheckboxClick.bind(this, 'interview_prep')}
               />
-              Send me <i>only</i> ML posts
+              Send me <i>only</i> interview prep posts
             </label>
           )}
           {showAllOptions && <br />}
@@ -211,7 +211,7 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
               Send me <i>only</i> Web Dev posts
             </label>
           )}
-          {(isML || isWeb || showAllOptions) && <br />}
+          {showAllOptions && <br />}
           <input className={loading ? styles['loading'] : ''} type="submit" value="SUBMIT" />
         </form>
         <div
@@ -238,7 +238,6 @@ const SubscribeFormWrapper = (props: Props) => (
 
 export const query = graphql`
   fragment SubscribeFormFragment on MarkdownRemarkFrontmatter {
-    isML
     isWeb
   }
 `;

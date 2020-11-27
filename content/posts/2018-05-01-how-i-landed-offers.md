@@ -5,6 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/how-i-landed-offers/'
 img: './media-link/microsoft-google-amazon.png'
+isInterviewPrep: true
 isML: false
 isWeb: true
 isSeries: false
@@ -20,8 +21,8 @@ guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/swlh/how-i-landed-offers-from-microsoft-amazon-and-twitter-without-an-ivy-league-degree-d62cfe286eb8
-prev: '/blog/how-to-write-a-great-resume/'
-next: '/blog/how-to-write-a-great-resume/'
+prev: '/blog/how-to-get-an-interview/'
+next: '/blog/things-you-must-know-in-interview/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''

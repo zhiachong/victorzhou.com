@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/coding-or-bootcamp/'
 img: './media-link/should-you-go-for-college.jpeg'
-isML: false
+isInterviewPrep: false
 isWeb: true
 isSeries: false
 category: 'How To'
@@ -21,7 +21,7 @@ guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/swlh/should-you-go-to-college-or-coding-bootcamp-to-be-a-software-engineer-612e676f9440
 prev: '/blog/how-to-write-a-great-resume/'
-next: '/blog/how-to-write-a-great-resume/'
+next: '/blog/how-to-i-landed-a-job/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''

@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/best-book-for-coding/'
 img: './media-link/book-for-coding.png'
-isML: false
+isInterviewPrep: true
 isWeb: true
 isSeries: false
 category: 'Interview Prep'
@@ -20,7 +20,7 @@ guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/@zhiachong/is-this-the-best-book-for-coding-interview-preparation-33264fa82b72
-prev: '/blog/how-to-write-a-great-resume/'
+prev: '/blog/how-to-get-an-interview/'
 next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''
 discussLinkHN: ''

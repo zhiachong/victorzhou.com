@@ -37,7 +37,7 @@ const PostTemplate = ({ data, pageContext }: Props) => {
     dateModified,
     img: imgUrl,
     isSeries,
-    isML,
+    isInterviewPrep,
     isWeb,
     title: postTitle,
     description,
@@ -81,46 +81,49 @@ const PostTemplate = ({ data, pageContext }: Props) => {
           {/* {asyncScript && <script async src={asyncScript} />} */}
           <script type="application/ld+json">
             {`{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "image": "${imgUrl}",
-  "url": "${siteUrl + slug}",
-  "headline": "${postTitle}",
-  "description": "${descriptionLong || description}",
-  "wordcount": "${wordCount}",
-  "dateCreated": "${date}",
-  "datePublished": "${date}",
-  "dateModified": "${dateModified || date}",
-  "inLanguage": "en-US",
-  "mainEntityOfPage": "True",
-  "articleBody": "${slugNode.excerpt}",
-  "articleSection": "${category}",
-  "author": {
-    "@type": "Person",
-    "name": "${author.name}",
-    "url": "${siteUrl}"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "${author.name}",
-    "url": "${siteUrl}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "${siteUrl}${author.photoLarge}",
-      "width": "1024",
-      "height": "1024"
-    }
-  }
-}`}
+                "@context": "https://schema.org",
+                "@type": "BlogPosting",
+                "image": "${imgUrl}",
+                "url": "${siteUrl + slug}",
+                "headline": "${postTitle}",
+                "description": "${descriptionLong || description}",
+                "wordcount": "${wordCount}",
+                "dateCreated": "${date}",
+                "datePublished": "${date}",
+                "dateModified": "${dateModified || date}",
+                "inLanguage": "en-US",
+                "mainEntityOfPage": "True",
+                "articleBody": "${slugNode.excerpt}",
+                "articleSection": "${category}",
+                "author": {
+                  "@type": "Person",
+                  "name": "${author.name}",
+                  "url": "${siteUrl}"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "${author.name}",
+                  "url": "${siteUrl}",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "${siteUrl}${author.photoLarge}",
+                    "width": "1024",
+                    "height": "1024"
+                  }
+                }
+              }`}
           </script>
         </Helmet>
+
         {isSeries ? (
           <Series htmlEnd={data.seriesEnd.html} series={slugNode} seriesPosts={data.seriesPosts} />
         ) : (
           <Post post={slugNode} prevPost={prevNode} nextPost={nextNode} />
         )}
       </Layout>
-      {!isSeries && <SubscribePopup postSlug={slug} isML={isML} isWeb={isWeb} />}
+      {!isSeries && (
+        <SubscribePopup postSlug={slug} isInterviewPrep={isInterviewPrep} isWeb={isWeb} />
+      )}
       {hasScrolled && (
         <>
           <ShareIcons url={slug} title={postTitle} />

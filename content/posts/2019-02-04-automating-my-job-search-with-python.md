@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/automating-my-job-search-with-python/'
 img: './media-link/5-things-you-need-to-know.png'
-isML: false
+isInterviewPrep: false
 isWeb: true
 isSeries: false
 category: 'Web Scraping'
@@ -19,12 +19,12 @@ guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/@zhiachong/how-i-built-a-web-crawler-to-automate-my-job-search-f825fb5af718
-prev: '/blog/how-to-write-a-great-resume/'
-next: '/blog/how-to-write-a-great-resume/'
+prev: '/blog/how-i-landed-offers/'
+next: '/blog/how-to-i-landed-a-job/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 1000
+popularity: 2999
 ---
 
 # How it all started

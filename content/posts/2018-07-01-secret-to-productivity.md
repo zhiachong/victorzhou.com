@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/secret-to-productivity/'
 img: './media-link/my-secrets-to-productivity.png'
-isML: false
+isInterviewPrep: false
 isWeb: true
 isSeries: false
 category: 'How To'
@@ -21,11 +21,11 @@ guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/effai-me/my-secret-to-productivity-8d4d461d1fea
 prev: '/blog/how-to-write-a-great-resume/'
-next: '/blog/how-to-write-a-great-resume/'
+next: '/blog/how-i-landed-offers/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 1001
+popularity: 10
 ---
 
 # My Secret to Productivity 🤫

@@ -22,10 +22,8 @@ type PostType = {
     +guestAuthor?: ?string,
     +guestCoAuthor?: ?boolean,
     +guestAuthorLink?: ?string,
-    +img: {
-      publicURL: string,
-    },
-    +isML: boolean,
+    +img: Object,
+    +isInterviewPrep: boolean,
     +isWeb: boolean,
     +slug: string,
     +tags?: string,
@@ -47,7 +45,7 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
     tags,
     title,
     description,
-    isML,
+    isInterviewPrep,
     isWeb,
     slug,
     discussLinkTwitter,
@@ -76,7 +74,7 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
       />
 
       <div className={styles['post__subscribeForm']}>
-        <SubscribeForm signupSource={`Post:${slug}`} isML={isML} isWeb={isWeb} large />
+        <SubscribeForm signupSource={`Post:${slug}`} isInterviewPrep={isInterviewPrep} isWeb={isWeb} large />
       </div>
 
       <div className={styles['post__viewSource']}>

@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/things-you-must-know-in-interview/'
 img: './media-link/5-things-you-need-to-know.png'
-isML: false
+isInterviewPrep: false
 isWeb: true
 isSeries: false
 category: 'Interview Prep'
@@ -20,12 +20,12 @@ guestAuthor: ''
 guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/swlh/the-most-important-things-you-need-to-know-for-a-programming-interview-3429ac2454b
-prev: '/blog/how-to-write-a-great-resume/'
+prev: '/blog/how-i-landed-offers/'
 next: '/blog/how-to-write-a-great-resume/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 1004
+popularity: 1000
 ---
 
 ![](./media-link/5-things-you-need-to-know.png)

@@ -11,7 +11,7 @@ const hideDateKey = 'SubscribePopup-hide-date';
 const HIDE_DURATION = 1000 * 60 * 60 * 24; // 24 hours
 
 type Props = $ReadOnly<{|
-  isML: boolean,
+  isInterviewPrep: boolean,
   isWeb: boolean,
   postSlug: string,
 |}>;
@@ -69,19 +69,20 @@ class SubscribePopup extends React.Component<Props, State> {
       return null;
     }
     const { visible } = this.state;
-    const { isML, isWeb, postSlug } = this.props;
+    const { isInterviewPrep, isWeb, postSlug } = this.props;
 
     return (
       <div className={`${styles['container']} ${visible ? '' : styles['hidden']}`}>
         <h4 className={styles['title']}>At least this isn't a full screen popup</h4>
         <p className={styles['description']}>
           That'd be more annoying. Anyways, subscribe to my newsletter to{' '}
-          <b>get new posts by email!</b> I write about <Link to="/tag/machine-learning/">ML</Link>,{' '}
+          <b>get new posts by email!</b> I write about{' '}
+          <Link to="/tag/interviews/">Coding Interviews</Link>,{' '}
           <Link to="/tag/web-development/">Web Dev</Link>, and <Link to="/tags/">more topics</Link>.
         </p>
         <SubscribeForm
           signupSource={`Popup:${postSlug}`}
-          isML={isML}
+          isInterviewPrep={isInterviewPrep}
           isWeb={isWeb}
           noDescription
           noSpacing

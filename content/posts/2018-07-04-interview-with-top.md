@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/how-to-get-an-interview/'
 img: './media-link/interview-with-top.png'
-isML: false
+isInterviewPrep: true
 isWeb: true
 isSeries: false
 category: 'How To'
@@ -21,7 +21,7 @@ guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/@zhiachong/how-to-get-an-interview-with-top-tech-companies-c27f18e9d157
 prev: '/blog/how-to-write-a-great-resume/'
-next: '/blog/how-to-write-a-great-resume/'
+next: '/blog/how-i-landed-offers/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''

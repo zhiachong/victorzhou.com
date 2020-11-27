@@ -29,10 +29,9 @@ const SubscribeTemplate = ({ data, pageContext }: Object) => {
             <p>Update your subscription preferences to my newsletter below.</p>
           ) : (
             <p>
-              Hey, I'm Victor. I write about <Link to="/tag/web-development/">web development</Link>
-              , <Link to="/tag/machine-learning/">machine learning</Link>, and{' '}
-              <Link to="/tags/">more</Link> on this blog. You can subscribe to my newsletter to{' '}
-              <b>get new blog posts by email</b>.
+              Hey, I'm Zhia. I write about <Link to="/tag/web-development/">web development</Link>,{' '}
+              <Link to="/tag/job-search/">job search</Link>, and <Link to="/tags/">more</Link> on
+              this blog. You can subscribe to my newsletter to <b>get new blog posts by email</b>.
             </p>
           )}
           <SubscribeForm

@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/how-to-i-landed-a-job/'
 img: './media-link/2020-02-04/how-i-got-a-job.png'
-isML: false
+isInterviewPrep: true
 isWeb: true
 isSeries: false
 category: 'Job Search'
@@ -21,11 +21,11 @@ guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/@zhiachong/how-i-landed-a-job-at-twitter-as-a-software-engineer-c12dc9d85d40
 prev: '/blog/how-to-write-a-great-resume/'
-next: '/blog/how-to-write-a-great-resume/'
+next: '/blog/why-i-left-twitter/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 1000
+popularity: 2999
 ---
 
 ![How I landed a job at Twitter](./media-link/2020-02-04/how-i-got-a-job.png)

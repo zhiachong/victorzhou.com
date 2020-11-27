@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/guide-to-amazing-resume/'
 img: './media-link/simple-guide-to-build-resume.png'
-isML: false
+isInterviewPrep: true
 isWeb: true
 isSeries: false
 category: 'How To'
@@ -21,11 +21,11 @@ guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/@zhiachong/a-simple-guide-to-building-an-amazing-technical-r%C3%A9sum%C3%A9-39cba7420fd5
 prev: '/blog/how-to-write-a-great-resume/'
-next: '/blog/how-to-write-a-great-resume/'
+next: '/blog/why-i-left-twitter/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 1004
+popularity: 3100
 ---
 
 ![](./media-link/simple-guide-to-build-resume.png)

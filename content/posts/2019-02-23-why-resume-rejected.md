@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/why-resume-rejected/'
 img: './media-link/resume-rejected.png'
-isML: false
+isInterviewPrep: true
 isWeb: true
 isSeries: false
 category: 'Resume'
@@ -21,11 +21,11 @@ guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/@zhiachong/why-your-resume-is-being-rejected-240f36a7476b
 prev: '/blog/how-to-write-a-great-resume/'
-next: '/blog/how-to-write-a-great-resume/'
+next: '/blog/things-you-must-know-in-interview/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 1004
+popularity: 2910
 ---
 
 If you are a new grad looking for an internship or full-time position at a top-tier tech company, or you know someone who’s currently in the process of looking for a new job, then this article is for you. I summarize some of the top mistakes I see as a career coach and as someone who’s been on both sides of the metaphorical interviewing “table”.

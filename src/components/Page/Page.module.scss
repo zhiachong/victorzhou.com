@@ -42,6 +42,25 @@
     border-bottom: 1px solid $color-gray-border;
   }
 
+  // Pulled this from Content.module.scss becuz i couldn't figure out how to pull Content into Page :(
+  blockquote {
+    border-left: 2px solid $color-gray;
+    margin: 0;
+    margin-left: -$layout-mobile-padding;
+    padding: 0 0 0 ($layout-mobile-padding - 2px);
+    font-style: italic;
+    font-size: $typographic-base-font-size;
+    font-weight: 300;
+
+    strong {
+      font-weight: 600;
+    }
+
+    a {
+      font-weight: normal;
+    }
+  }
+
   &__body {
     font-size: $typographic-base-font-size;
     @include line-height(1);

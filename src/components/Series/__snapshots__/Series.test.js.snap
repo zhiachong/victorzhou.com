@@ -105,7 +105,7 @@ exports[`Series renders correctly 1`] = `
       </p>
       <form
         acceptCharset="utf-8"
-        action="https://sendy.zhiachong.com/subscribe"
+        action="https://zhiachong.com/sendy/subscribe"
         method="post"
         onFocus={[Function]}
         onSubmit={[Function]}
@@ -119,7 +119,7 @@ exports[`Series renders correctly 1`] = `
         <input
           name="list"
           type="hidden"
-          value="CWC7638hEb6mfk1RqUbJ763snA"
+          value="8qYhkFS763XrqGuDnKmb6763jQ"
         />
         <input
           name="subform"
@@ -189,7 +189,7 @@ exports[`Series renders correctly 1`] = `
         This blog is
          
         <a
-          href="https://github.com/vzhou842/zhiachong.com"
+          href="https://github.com/zhiachong/zhiachong.com"
           rel="noopener noreferrer"
           target="_blank"
         >

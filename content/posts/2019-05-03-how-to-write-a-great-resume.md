@@ -5,7 +5,7 @@ template: 'post'
 draft: false
 slug: '/blog/how-to-write-a-great-resume/'
 img: './media-link/how-to-write-a-resume.png'
-isML: false
+isInterviewPrep: true
 isWeb: true
 isSeries: false
 category: 'Job Search'
@@ -19,11 +19,11 @@ guestCoAuthor: ''
 guestAuthorLink: ''
 canonical: https://medium.com/swlh/how-to-write-a-great-resume-for-software-engineers-75d514dd8322
 prev: '/blog/how-i-landed-offers/'
-next: '/blog/how-i-landed-offers/'
+next: '/blog/things-you-must-know-in-interview/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 500
+popularity: 2991
 ---
 
 ![How to write a great resume](./media-link/how-to-write-a-resume.png)
