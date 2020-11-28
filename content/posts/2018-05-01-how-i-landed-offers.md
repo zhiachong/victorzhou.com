@@ -6,7 +6,6 @@ draft: false
 slug: '/blog/how-i-landed-offers/'
 img: './media-link/microsoft-google-amazon.png'
 isInterviewPrep: true
-isML: false
 isWeb: true
 isSeries: false
 category: 'How To'

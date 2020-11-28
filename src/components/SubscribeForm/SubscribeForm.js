@@ -216,7 +216,7 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
         </form>
         <div
           className="g-recaptcha"
-          data-sitekey="6Le4B78UAAAAAFAdZM2PCW_N0fewzkoQSkv9odSY"
+          data-sitekey="6Lf7cvAZAAAAAONthnaWZMHvjFe6dM73_cwh8DR8"
           data-callback="onSubscribeFormSubmit"
           data-size="invisible"
         ></div>
