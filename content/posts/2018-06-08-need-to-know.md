@@ -15,6 +15,7 @@ tags:
   - 'Resume'
   - 'Python'
   - 'Job Search'
+  - 'Web Dev'
 description: 'Simple tips to ace your technical interview.'
 guestAuthor: ''
 guestCoAuthor: ''

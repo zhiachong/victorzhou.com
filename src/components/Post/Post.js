@@ -57,6 +57,8 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
   } = post.frontmatter;
   const { dateFormatted, dateModifiedFormatted } = post.fields;
 
+  const readingTimeText = post.fields.readingTime.text;
+
   const { htmlAst } = post;
 
   return (
@@ -67,16 +69,20 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
         subtitle={hideDescription ? null : description}
         dateFormatted={dateFormatted}
         dateModifiedFormatted={dateModifiedFormatted}
+        readingTimeText={readingTimeText}
         footer={contentFooter}
         guestAuthor={guestAuthor}
         guestCoAuthor={guestCoAuthor}
         guestAuthorLink={guestAuthorLink}
       />
-
       <div className={styles['post__subscribeForm']}>
-        <SubscribeForm signupSource={`Post:${slug}`} isInterviewPrep={isInterviewPrep} isWeb={isWeb} large />
+        <SubscribeForm
+          signupSource={`Post:${slug}`}
+          isInterviewPrep={isInterviewPrep}
+          isWeb={isWeb}
+          large
+        />
       </div>
-
       <div className={styles['post__viewSource']}>
         <p>
           <i>
@@ -92,7 +98,6 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
           </i>
         </p>
       </div>
-
       <div className={styles['post__footer']}>
         {tags && <Tags tags={tags} tagSlugs={post.fields.tagSlugs} />}
         {prevPost && nextPost && <ReadMore prevPost={prevPost} nextPost={nextPost} />}
@@ -102,7 +107,6 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
         <Share url={slug} title={title} />
         <Discuss twitter={discussLinkTwitter} hn={discussLinkHN} reddit={discussLinkReddit} />
       </div>
-
       <div className={styles['post__comments']}>
         <Comments />
       </div>
@@ -114,6 +118,11 @@ export const fragment = graphql`
   fragment PostFragment on MarkdownRemark {
     ...ContentFragment
     ...ReadMoreFragment
+    fields {
+      readingTime {
+        text
+      }
+    }
     frontmatter {
       ...DiscussFragment
       ...SubscribeFormFragment

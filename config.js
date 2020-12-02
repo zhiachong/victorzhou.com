@@ -7,7 +7,7 @@ module.exports = {
     'SWE @ Facebook, ex-Twitter. I blog about web development, software engineering, interview prep and more topics.',
   copyright: '© Zhia Chong 2020',
   postsPerPage: 8,
-  googleAnalyticsId: 'UA-58664433-1', //TODO: needs to be replaced
+  googleAnalyticsId: 'UA-52539324-1',
   menu: [
     {
       label: 'Blog',
@@ -35,7 +35,7 @@ module.exports = {
     photo: '/photo.png',
     photoLarge: '/photoLarge.png',
     bio:
-      'SWE @ Facebook, ex-Twitter. I blog about <a href="/tag/web-scraping/">web scraping</a>, <a href="/tag/interview-prep/">software interview prep</a>, <a href="/tag/job-search/">job search</a> and <a href="/tags/">more topics</a>.',
+      'SWE @ Facebook, ex-Twitter. I blog about <a href="/tag/web-dev/">web dev</a>, <a href="/tag/interview-prep/">software interview prep</a>, <a href="/tag/job-search/">job search</a> and <a href="/tags/">more topics</a>.',
     contacts: {
       email: 'zhiachong@gmail.com',
       twitter: 'zhiachong',

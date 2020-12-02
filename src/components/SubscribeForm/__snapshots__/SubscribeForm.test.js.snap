@@ -16,7 +16,7 @@ exports[`SubscribeForm renders default correctly 1`] = `
     ,
      
     <Link
-      to="/tag/web-development/"
+      to="/tag/web-dev/"
     >
       Web Dev
     </Link>

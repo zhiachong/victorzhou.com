@@ -32,14 +32,14 @@ type InnerProps = {
 type State = {|
   +checked: {|
     +none: boolean,
-    +ml: boolean,
+    +interview_prep: boolean,
     +web: boolean,
   |},
   +loading: boolean,
 |};
 
 class SubscribeForm extends React.PureComponent<InnerProps, State> {
-  state = { checked: { none: true, ml: false, web: false }, loading: false };
+  state = { checked: { none: true, interview_prep: false, web: false }, loading: false };
 
   _formRef = new React.createRef<HTMLFormElement>();
   _timeoutReturn: TimeoutID;
@@ -67,10 +67,13 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
     cleanupRecaptcha();
   }
 
-  onCheckboxClick(id: 'ml' | 'web' | 'none') {
+  onCheckboxClick(id: 'interview_prep' | 'web' | 'none') {
     loadRecaptchaIfNeeded();
     this.setState({
-      checked: { ...{ none: false, ml: false, web: false }, [id]: !this.state.checked[id] },
+      checked: {
+        ...{ none: false, interview_prep: false, web: false },
+        [id]: !this.state.checked[id],
+      },
     });
   }
 
@@ -83,23 +86,29 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
     logEvent('SubscribeForm', 'submit');
     const { context } = this.props;
     if (context.recaptchaToken != null) {
+      logEvent('SubscribeForm', 'recaptchaToken available');
       this.submit();
     } else {
+      logEvent('SubscribeForm', 'recaptcha token is not available');
       this.setState({ loading: true });
       window.onSubscribeFormSubmit = (token: string) => {
         logEvent('SubscribeForm', 'token-generated');
         this._pendingSubmit = true;
         context.setRecaptchaToken(token);
       };
+      logEvent('SubscribeForm', 'detecting setup');
       await detectRecaptchaSetup();
       window.grecaptcha.execute();
+      logEvent('SubscribeForm', 'Window grecatcha executed');
     }
   };
 
   submit = () => {
+    logEvent('Submit function hit');
     this._pendingSubmit = false;
     const form = this._formRef.current;
     if (form) {
+      logEvent('Submitting form');
       form.submit();
       this.setState({ loading: false });
     } else {
@@ -134,10 +143,11 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
       >
         {!noDescription && (
           <p className={styles['description']}>
-            I write about <Link to="/tag/web-development/">Web Dev</Link>, and{' '}
+            I write about <Link to="/tag/web-dev/">Web Dev</Link>, and{' '}
             <Link to="/tags/">more topics</Link>. <b>Subscribe to get new posts by email!</b>
           </p>
         )}
+
         <form
           action="https://zhiachong.com/sendy/subscribe"
           method="post"
@@ -147,7 +157,6 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
           onSubmit={this.onSubmit}
           ref={this._formRef}
         >
-          <input type="hidden" name="Source" value={signupSource} />
           <input type="hidden" name="list" value="8qYhkFS763XrqGuDnKmb6763jQ" />
           <input type="hidden" name="subform" value="yes" />
           {recaptchaToken && (
@@ -196,6 +205,7 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
                 onChange={this.onCheckboxClick.bind(this, 'interview_prep')}
               />
               Send me <i>only</i> interview prep posts
+              <br></br>
             </label>
           )}
           {showAllOptions && <br />}
@@ -209,6 +219,7 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
                 onChange={this.onCheckboxClick.bind(this, 'web')}
               />
               Send me <i>only</i> Web Dev posts
+              <br></br>
             </label>
           )}
           {showAllOptions && <br />}
@@ -216,7 +227,7 @@ class SubscribeForm extends React.PureComponent<InnerProps, State> {
         </form>
         <div
           className="g-recaptcha"
-          data-sitekey="6Lf7cvAZAAAAAONthnaWZMHvjFe6dM73_cwh8DR8"
+          data-sitekey="6LeihPAZAAAAAJL_iNurZmCZIz7bsZspK6UKgb_h"
           data-callback="onSubscribeFormSubmit"
           data-size="invisible"
         ></div>
@@ -238,6 +249,7 @@ const SubscribeFormWrapper = (props: Props) => (
 
 export const query = graphql`
   fragment SubscribeFormFragment on MarkdownRemarkFrontmatter {
+    isInterviewPrep
     isWeb
   }
 `;

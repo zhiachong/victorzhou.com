@@ -8,6 +8,7 @@ export function loadRecaptchaIfNeeded() {
   if (!hasPlacedStyle) {
     hasPlacedStyle = true;
     if (document.head) {
+      logEvent('Recaptcha', 'document head is found, placing recaptcha style');
       const style = document.createElement('style');
       style.innerHTML = '.grecaptcha-badge { visibility: hidden; }';
       document.head.appendChild(style);

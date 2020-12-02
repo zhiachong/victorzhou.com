@@ -77,8 +77,8 @@ class SubscribePopup extends React.Component<Props, State> {
         <p className={styles['description']}>
           That'd be more annoying. Anyways, subscribe to my newsletter to{' '}
           <b>get new posts by email!</b> I write about{' '}
-          <Link to="/tag/interviews/">Coding Interviews</Link>,{' '}
-          <Link to="/tag/web-development/">Web Dev</Link>, and <Link to="/tags/">more topics</Link>.
+          <Link to="/tag/interview-prep/">Interview Prep</Link>,{' '}
+          <Link to="/tag/web-dev/">Web Dev</Link>, and <Link to="/tags/">more topics</Link>.
         </p>
         <SubscribeForm
           signupSource={`Popup:${postSlug}`}
