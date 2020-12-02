@@ -94,6 +94,10 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
             >
               open-source on Github
             </a>
+            , made from @vzhou's{' '}
+            <a href="https://victorzhou.com/" target="_blank" rel="noopener noreferrer">
+              open-source blog template
+            </a>
             .
           </i>
         </p>
