@@ -26,6 +26,10 @@ module.exports = {
       path: '/contact/',
     },
     {
+      label: 'Coaching',
+      path: '/coaching/',
+    },
+    {
       label: 'Tags',
       path: '/tags/',
     },
