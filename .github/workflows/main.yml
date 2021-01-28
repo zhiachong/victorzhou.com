@@ -15,6 +15,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
         server: ftp.zhiachong.com 
+        server-dir: ${{ secrets.server_dir }}
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
 
