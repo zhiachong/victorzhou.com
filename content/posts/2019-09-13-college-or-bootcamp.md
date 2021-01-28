@@ -25,7 +25,7 @@ next: '/blog/how-to-i-landed-a-job/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 400
+popularity: 500
 ---
 
 ![](./media-link/should-you-go-for-college.jpeg)
@@ -36,7 +36,7 @@ We will dive into 3 things today:
 
 - **What are the different approaches to being a software engineer today**
 - **Pros and cons of each approach**
-- **and finally, My recommendation**
+- **and finally, my recommendation for the aspiring software engineer**
 
 # Approach 1: Go to college and get your degree in Computer Science
 
@@ -103,5 +103,4 @@ I hope you’ve learned a thing or two from this article, and my experience of c
 - Check out the tools 🛠 I recommend for every aspiring software engineer on my website here: [zhiachong.com/resources](http://zhiachong.com/resources)
 - My interview-prep courses are available NOW! Go [here](http://bit.ly/interviewcourses) to read more about the courses available! New courses are released all the time, so stay tuned!
 - [InterviewCake](https://www.interviewcake.com/?utm_source=zhiachong): InterviewCake is an online learning platform for learning how to ace programming interviews. Suitable for beginners and seasoned programmers alike! I relied on this quite a bit to prepare for my software engineering interviews.
-- [AlgoExpert](http://algoexpert.io/zhiachong): AlgoExpert is an online coding learning platform that has videos and courses for learning how to ace programming interviews. Use my code “zhiachong” to get 30% OFF!
 - [DailyCodingProblem](http://dailycodingproblem.com/zhiachong): A daily mailing list of coding problems sent to your mailbox. Started by a friend of mine, and very useful for jumpstarting your interview preparation and getting daily coding problems. It’s fun!
