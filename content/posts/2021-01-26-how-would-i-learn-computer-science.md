@@ -26,7 +26,7 @@ next: '/blog/automating-my-job-search-with-python/'
 discussLinkTwitter: ''
 discussLinkHN: ''
 discussLinkReddit: ''
-popularity: 5000
+popularity: 8000
 ---
 
 ![How Would I Learn Computer Science Today](./media-link/how-would-i-learn.png)
